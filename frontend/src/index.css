@@ -1,0 +1,14 @@
+/* Global Styles for Body, Root Elements, and more */
+@font-face {
+  font-family: 'Exo-2';
+  src: url('../public/font/Exo2-VariableFont_wght.ttf');
+ 
+}
+
+body {
+  font-family: 'Exo-2';
+}
+
+code {
+  font-family: 'Exo-2';
+}

@@ -1,0 +1,150 @@
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding-top: 5px;
+    
+}
+.footer #contect{
+    font-size: 20px;
+}
+
+.footer, .footer_text_1 p{
+    font-size:8px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer, .footer_text_2 p{
+    
+    font-size: 15px;
+   align-items: center;
+   line-height: 19px;
+}
+ .foot_1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tags img{
+    
+    height:8% ;
+    width: 8%;
+}
+.foot_1 .middle_element{
+    display: flex;
+    flex-direction: column;
+}
+ .tags{
+   
+    display: flex;
+    justify-content:space-around;
+}
+
+.middle_element{
+    margin:0.5%;
+}
+.foot_1, .middle_element,.middle_element_text{
+    display: flex;
+    align-items: center;
+}
+
+.foot_text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.middle_element_text{
+   
+}
+.middle_element_text p{
+    font-size: 14px;
+}
+
+.footer_last_part
+{
+    background-color: var(--color);
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+
+}
+
+.footer_last_part p{
+    font-size: 0.8em;
+    word-spacing: 0.2em;
+}
+.footer_line{
+    width: 70%;
+    transform: translateX(24%);
+    /* margin: 2%; */
+}
+.footer_line, p{
+      /* margin-top: 3%; */
+      font-size: 1.0em;
+      align-items: center;
+      line-height: 1.5em;
+     
+     
+}
+.ma_part{
+    /* margin: 2% 0% 2% 0%; */
+
+}
+@media only screen and (max-width: 768px)  {
+
+ 
+    /* Footer Styles */
+    .footer {
+        padding-top: 5%; 
+    }
+
+    .footer_text_2 p {
+        font-size: 0.7em; 
+    }
+
+    .foot_1 {
+        flex-direction: column; 
+        align-items: center;
+        margin: 10px 0;
+    }
+    .foot_1 img{
+        width: 30%;
+        height: 30%;
+    }
+    .tags img {
+        width: 10%; 
+        margin-left: 5%;
+    }
+
+    .middle_element {
+        margin: 3%;
+    }
+
+    .footer_line, .footer_last_part p {
+        font-size: 0.8em; 
+    }
+
+    .footer_last_part {
+        padding: 10px;
+    }
+
+}
+

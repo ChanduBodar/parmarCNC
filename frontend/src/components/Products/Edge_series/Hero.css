@@ -1,0 +1,40 @@
+.first_part{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+
+}
+.first_part img{
+    height:40% ;
+    width: 40%;
+}
+.logo_buttons{
+   
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 20px;
+    gap: 10px;
+    margin-bottom:10px
+}
+.logo_buttons img{
+    cursor: pointer;
+}
+
+.many_images{
+    background-color: #A5C847;
+    display: flex;
+    flex-direction: column;
+    
+}
+.many_images .cnc_press_img{
+    width: 70%;
+    height: 30%;
+    transform: translate(45%,10%);
+  
+}
+.many_images .download_fet{
+    width: 50%;
+    height: 50%;
+    transform: translate(70%,20%);
+}

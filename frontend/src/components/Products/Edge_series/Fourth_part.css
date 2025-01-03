@@ -1,0 +1,29 @@
+.fourth_part{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+.image_part{
+    display: flex;
+    flex-direction: column;
+    align-items:st;
+}
+.image_part img{
+    width: 100%;
+    height: 85%;
+}
+.image_data_part{
+    margin-left: 5%;
+}
+.image_data_part img{
+    width: 100%;
+    height: 90%;
+}
+.image_data_part p{
+    text-align: left;
+    color: var(--color);
+    font-size: 1.8em;
+    font-weight: 400;
+    text-align: justify;
+    word-spacing: 0.2em;
+}

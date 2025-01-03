@@ -1,0 +1,25 @@
+@media screen and (max-width:991px){
+   
+    .hero_text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    
+    }
+    
+    .hero_text h3 {
+        font-size: 21px;
+        font-weight: 400;
+    
+    
+    }
+    .hero_button {
+        
+        top: 80%;
+        left:40%;
+    
+    }
+    
+}
+@media screen  and (max-width:767px) {
+    
+}

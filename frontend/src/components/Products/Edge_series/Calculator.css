@@ -1,0 +1,26 @@
+/* second part */
+.second_part{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 1% 2% 2%;
+
+}
+.second_part img{
+    width:55% ;
+    height: 100%;
+    transform: translateY(2%);
+}
+
+
+.border_line{
+    height:2px;
+    width: 98%;
+   
+   transform: translate(1%,10%);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+
+}

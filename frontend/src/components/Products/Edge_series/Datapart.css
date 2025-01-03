@@ -1,0 +1,27 @@
+.data_of_machine_1 p{
+    text-align: left;
+        width: 90%; /* Or set to a fixed width like 500px */
+        max-width: 100%; /* Maximum width of the line */
+        
+        font-size: 1.0em; /* Font size */
+        text-align: justify; /* Justify text to spread it */
+        word-spacing: 0.6em; /* Space between words */
+        line-height: 1.3em;
+
+}
+.data_of_machine_1 p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.data_of_machine_2{
+    margin-left: 2%;
+    transform: translateY(-15%);
+}
+.data_of_machine_2 p{
+    text-align: left;
+    font-size: 1.0em;
+    color: var(--color);
+    transform: translateX(-2%);
+
+}

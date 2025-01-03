@@ -1,0 +1,37 @@
+.cnc_header{
+    height:3em ;
+    width: 100%;
+    background-color: #A5C847;
+
+}
+.cnc_header p{
+    font-weight: 400;
+    max-width: 100%; /* Maximum width of the line */
+    
+    font-size: 1.5em; /* Font size */
+    text-align: center; /* Justify text to spread it */
+    word-spacing: 0.10em; /* Space between words */
+    line-height: 1.3em;
+    transform: translate(0%,14%);
+    color: white;
+
+} 
+.delem{
+    background-color:#4D4F48;
+    height:3em ;
+    width: 96%;
+    transform: translate(2%,-15%);
+    
+}
+.delem p{
+   
+    font-weight: 400;
+    max-width: 100%; /* Maximum width of the line */
+    
+    font-size: 1.6em; /* Font size */
+    text-align: center; /* Justify text to spread it */
+    word-spacing: 0.10em; /* Space between words */
+    line-height: 1.3em;
+    color: white;
+    transform: translate(0%,20%);
+}

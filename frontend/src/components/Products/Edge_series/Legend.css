@@ -1,0 +1,43 @@
+/* fifth part */
+.fifth_part{
+    background-color: #A5C847;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 2% 2% 3%;
+}
+.legend{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content: space-around;
+    padding: 0% 5% 0% 5%;
+    
+}
+.legend_data{
+    width: 100%;
+    transform: translate(5%,10%);
+}
+
+.legend_data p{
+    text-align: left;
+    width: 70%;
+    
+   
+    max-width: 100%; /* Maximum width of the line */
+    
+    font-size: 1.5em; /* Font size */
+    text-align: justify; /* Justify text to spread it */
+    word-spacing: 0.10em; /* Space between words */
+    line-height: 1.3em;
+
+}
+.legend img{
+    width: 35%;
+    height: 40%;
+    transform: translate(-20%,-10%);
+}
+.legend_image img{
+    height: 100% ;
+    width: 80%;
+    transform: translate(10%,-30%);
+}

@@ -1,0 +1,49 @@
+.wila_tool_holder{
+    margin: 2% 2% 0.4% 2%;
+    width: 96%;
+    border: 1px solid #9D9E9E;
+    transform: translate();
+}
+.tag_name{
+    background-color: var(--color);
+    height: 50px;
+    width: 20%;
+    transform: translate(200%,30%);
+}
+.tag_name p{
+    font-weight: 400;
+    max-width: 100%; /* Maximum width of the line */
+    
+    font-size: 1.6em; /* Font size */
+    text-align: center; /* Justify text to spread it */
+    word-spacing: 0.10em; /* Space between words */
+    line-height: 1.3em;
+    color: white;
+    transform: translate(0%,15%);
+    
+
+}
+.will_imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 2% 2% 0% 2%;
+    transform: translate(2%);
+    padding: 2%;
+    transform: translate(10%, 3%);
+}
+.im-1 img{
+    height:70% ;
+    width: 70%;
+}
+.im-1 p{
+    font-weight: 400;
+    max-width: 80%; /* Maximum width of the line */
+    
+    font-size: 1.0em; /* Font size */
+    text-align: center; /* Justify text to spread it */
+    word-spacing: 0.10em; /* Space between words */
+    line-height: 1.3em;
+
+}

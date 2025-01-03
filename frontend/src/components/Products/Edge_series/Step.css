@@ -1,0 +1,27 @@
+/* step start */
+.step{
+
+    background-color:var(--color);
+    height:3em ;
+    width: 96%;
+    transform: translate(2%,20%);
+}
+.step p {
+    font-weight: 400;
+    max-width: 100%; /* Maximum width of the line */
+    
+    font-size: 1.6em; /* Font size */
+    text-align: center; /* Justify text to spread it */
+    word-spacing: 0.10em; /* Space between words */
+    line-height: 1.3em;
+    color: white;
+    transform: translate(0%,20%);
+
+}
+.step_container{
+    background-color: #4D4F48;
+    width: 96%;
+    margin: 20px 0px 10px 25px;
+    
+
+}
