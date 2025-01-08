@@ -1,0 +1,18 @@
+.hero_container img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+  
+.des_text{
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    
+   
+    font-weight: 800;
+    font-size: 60px;
+    word-spacing: 0.5em;
+    letter-spacing: 0.5em;
+}

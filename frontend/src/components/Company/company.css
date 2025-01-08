@@ -3,12 +3,115 @@
     
     --yellow:rgba(217, 224, 205,0.8);
     --padding-boxes:2%;
-    --text-size:25px;
+    --text-size:1.5rem;
 }
 .company-section{
     margin-top: 1%;
 }
- 
+
+ /* responsivr site  */
+
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+    :root{
+        --text-size:1.7rem;
+    }
+	
+}
+@media screen and (max-width: 1024px){
+    :root{
+        --text-size:1.2rem;
+    }
+}
+
+@media screen and (max-width:912px){
+    :root{
+        --text-size:1.1rem;
+    }
+}
+@media screen and (max-width:853px){
+    :root{
+        --text-size:1.0rem;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    :root{
+        --text-size:0.9rem;
+    }
+}
+@media screen and (max-width:540px){
+    :root{
+        --text-size:0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 575px)
+{
+    :root{
+        --text-size:0.7rem;
+    }
+    .text_header h1{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    :root{
+        --text-size:0.58rem;
+    }
+}
+
+
+@media screen and (max-width: 430px)
+{
+    :root{
+        --text-size:0.5rem;
+        line-height: 0.5rem;
+    }
+}
+@media screen and (max-width: 390px)
+{
+    :root{
+        --text-size:0.46rem;
+    }
+}
+
+@media screen and (max-width: 375px)
+{
+    :root{
+        --text-size:0.44rem;
+    }
+    .forword_div_1{
+        height:88%;
+    }
+
+}@media screen and (max-width: 344px)
+{
+    :root{
+        --text-size:0.4rem;
+    }
+    .forword_div_1{
+        height:88%;
+    }
+
+}
+@media screen and (max-width: 320px)
+{
+    :root{
+        --text-size:0.37rem;
+    }
+    .text_header h1{
+        font-size: 1.0em;
+    }
+}
+
   
   
   

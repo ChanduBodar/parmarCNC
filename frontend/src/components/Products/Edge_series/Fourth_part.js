@@ -10,12 +10,12 @@ const Fourth_part = () => {
        <div className="fourth_part">
       {/* Image part */}
       <div className="image_part">
-        <div className="img_1">
+        
           <img src={image1} alt="Image 1" />
-        </div>
-        <div className="img_2">
+        
+        
           <img src={image2} alt="Image 2" />
-        </div>
+      
       </div>
 
       {/* Image data part */}

@@ -1,0 +1,28 @@
+.std_com{
+    display: flex;
+    flex-direction: row;
+    background-color: #4D4F48;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    margin:2%;
+    
+}
+.std_com_1{
+  
+    
+}
+.std_label p{
+    color:#A5C847;
+    font-size:1.5rem ;
+}
+.std_label_data ul li{
+    color: white;
+} 
+.std_label_data_2 ul li{
+    color: white;
+    
+}
+.std_label_data_2 {
+    transform: translate(0%,50%);
+    
+}

@@ -1,0 +1,38 @@
+.tech_part{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-bottom: 1px solid black;
+    
+
+}
+.tech_part img{
+    height:40%;
+    width: 40%;
+}
+.tech_data{
+    
+
+}
+.tech_data p{
+    font-weight: 600;
+    text-align: justify;
+}
+.Tech_images{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin: 3% 10%;
+}
+.Tech_images img{
+   
+}
+#im_1{
+    height:50%;
+    width: 50%;
+}
+#im_2{
+ height:30%;
+ width:30% ;
+}

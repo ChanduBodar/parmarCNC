@@ -20,6 +20,12 @@ function HomePage() {
         </div>
       </div>
 
+      <div className="two_name_container">
+          <img src={require("./images_for_main_page/image_box_2.png")} alt="img"/>
+          <img src={require("./images_for_main_page/image_box_1.png")} alt="img"/>
+
+      </div>
+
     
 
       {/* Text Section */}

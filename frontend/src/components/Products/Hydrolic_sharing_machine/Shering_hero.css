@@ -1,0 +1,39 @@
+.S_hero{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.S_hero img{
+    height: 40%;
+    width: 40%;
+}
+.S_hero_2{
+    display: flex;
+    flex-direction: column;
+    background-color: #A5C847;
+    position: relative;
+
+}
+.S_hero_2 img{
+    height: 30%;
+    width: 80%;
+    transform: translate(25%,10%);
+
+    
+
+}
+.m_buttons_shering{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    top: 35%;
+    left: 20%;
+    gap: 10px;
+
+}
+.m_buttons_shering img{
+    
+    height: 60%;
+    width:55% ;
+    cursor: pointer;
+}

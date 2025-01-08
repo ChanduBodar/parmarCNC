@@ -81,17 +81,8 @@
     color: white;
 
 }
-/* .b_r_l{
-    height:0.1em;
-    width: 98%;
-   
-    background-color: #FFFFFF;
-   
-    
-
-
-} */
-.hy_part{
+/* hydrolic Part */
+.hydro_part{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

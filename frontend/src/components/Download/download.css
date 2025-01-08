@@ -1,0 +1,64 @@
+.download_section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  gap: 20px;
+
+}
+
+
+.download_section img {
+
+  width: 70%;
+  height: 50%;
+  margin: 1% 0%;
+  border-radius: 10px;
+
+  filter: grayscale(60%);
+
+}
+
+
+.download_btn {
+  display: inline-block;
+  background-color: var(--color);
+  color: white;
+  padding: 15px 30px;
+ 
+
+  border-radius: 5px;
+  /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: sap;
+  gap: 10px;
+}
+
+.download_btn:hover {
+
+  transform: scale(1.1);
+  
+}
+
+
+.download_text {
+  text-decoration: none;
+  font-size: 1.7rem;
+  padding-top: 2px;
+  color: white;
+
+}
+#do_icon{
+  height:40px;
+  width: 40px;
+}
+
+/* Hover effect for the button */
+
+
+/* Focus effect for accessibility */

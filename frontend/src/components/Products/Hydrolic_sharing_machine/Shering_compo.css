@@ -1,0 +1,49 @@
+.sharig_images{
+    display: flex;
+    flex-direction: column;   
+    background-color: #4D4F48;
+    transform: translate(0%,-1.5%);
+
+}
+.image_div{
+    display: flex;
+    flex-direction: row;
+   
+  
+}
+.i_sharing{
+    width: 400px;
+    height: 300px;
+}
+.d_label{
+    background-color: #A5C847;
+    height:15% ;
+    transform: translate(0%,-60%);
+    
+}
+.d_label p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 0px;
+   
+
+}
+.shering_data{
+    padding:4% 0% ;
+}
+.shering_data ul li{
+    font-size: 1.3rem;
+    color: white;
+    width: 100%;
+}
+.controller_label{
+    background-color: #A5C847;
+    padding: 0px 0px;
+    
+}
+.controller_label p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}

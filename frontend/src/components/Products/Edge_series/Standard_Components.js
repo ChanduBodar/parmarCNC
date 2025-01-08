@@ -20,7 +20,7 @@ export const Standard_Components= () => {
           <p>Tool Holder</p>
         </div>
 
-        <div className="img_part">
+        <div className="img_pa">
           <div className="img_container">
             <img src={im_23}alt="" />
             <p>Single way quick clamp with manual anti deflection system</p>

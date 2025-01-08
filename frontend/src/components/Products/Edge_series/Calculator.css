@@ -1,11 +1,11 @@
-/* second part */
-.second_part{
+
+.Calculator_part{
     display: flex;
     flex-direction: row;
     margin: 2% 1% 2% 2%;
 
 }
-.second_part img{
+.Calculator_part img{
     width:55% ;
     height: 100%;
     transform: translateY(2%);

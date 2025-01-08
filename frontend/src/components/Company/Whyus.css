@@ -1,5 +1,13 @@
 
   /* part-3 image */
+  .text_header{
+    text-decoration: underline;        
+    text-decoration-color: var(--color);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+ 
   .two_image_2 {
     position: relative; 
     width: 100%;       
@@ -13,7 +21,6 @@
   .forword_div_2{
     position: absolute; 
     margin: 1% 30% 2% 0%;          
-    transform: translateY(0%); 
     width: 70%;        
     height: 65%;       
     background-color: var(--yellow); 
@@ -25,18 +32,12 @@
     width: 100%; 
     max-width: 100%; 
     text-align: justify;
-    line-height: 1.5em;
     padding: var(--padding-boxes); 
     font-size: var(--text-size);               
     line-height: 1.6;               
     margin-left: 15px;
     margin-right: 10px;  
     
-  }
-  .forword_div_2 p::after{
-    content: "";
-    display: inline-block;
-    width: 100%;
   }
   
 

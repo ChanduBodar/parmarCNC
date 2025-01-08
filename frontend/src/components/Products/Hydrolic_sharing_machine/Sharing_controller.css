@@ -1,0 +1,15 @@
+.tech_lable{
+    width: 100%;
+    
+    background-color: #4D4F48;
+}
+.tech_lable p{
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+
+}
+#table_data{
+    width: 100%;
+    
+}

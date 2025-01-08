@@ -4,39 +4,7 @@ import emailjs from 'emailjs-com';
 import { useState } from 'react';
 
 const Get_touch = () => {
-  // const [formData, setFormData] = useState({
-  //   name: '',
-  //   email: '',
-  //   phone: '',
-  //   message: ''
-  // });
-
-  // const handleChange = (e) => {
-  //   const { id, value } = e.target;
-  //   setFormData({
-  //     ...formData,
-  //     [id]: value
-  //   });
-  // };
-
-  // const handleSubmit = () => {
-  //   // e.preventDefault();
-
-  //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-  //     .then((result) => {
-  //       console.log(result.text);
-  //       alert('Your message has been sent!');
-  //       setFormData({
-  //         name: '',
-  //         email: '',
-  //         phone: '',
-  //         message: ''
-  //       });
-  //     }, (error) => {
-  //       console.log(error.text);
-  //       alert('Oops! Something went wrong.');
-  //     });
-  //  };
+  
 
   return (
     <div>

@@ -35,10 +35,10 @@ const Hydrolic = () => {
             </div>
     
             {/* Break Line */}
-            <div className="b_r_l"></div>
+            
     
             {/* Hydraulic Part */}
-            <div className="hy_part">
+            <div className="hydro_part">
               <div className="hy_img_part">
                 <div className="hy_1">
                   <div className="hy_img_p_1">

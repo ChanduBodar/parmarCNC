@@ -22,40 +22,28 @@
     align-items: center;
  }
  
-.left_part {
+.CNC_part {
     
     background-color: #4D4F48;
-     width: 30%;
-    height: 25%;
+     
     position: absolute;
     top: -10%;
     left: -10%;
-     
-     
-      color: white; 
-      padding: 0%;   
+      color: white;  
 }
-.left_part p{
-    transform: translate(10%,50%);
-}
-.left_part button {
+
+.CNC_part p {
     font-weight: 600;
     font-size: 1.8em;
     word-spacing: 0.2em;
-   
+   padding: 0px 30px;
     text-align: center;
     color: white; 
     
-    color: white;
-    text-decoration: none;
-    background-color: #4D4F48;
-    border: none;
-    outline: none;
+   
+   
 }
-.left_part button:hover
-{
-    cursor: pointer;
-}
+
 
 .right_part{
     display: flex;

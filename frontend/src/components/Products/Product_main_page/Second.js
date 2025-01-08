@@ -14,12 +14,10 @@ const Second = () => {
           <div className="back_img">
         <img src={require("./images_for_main_page/istockphoto-1243283657-612x612.png")} alt="CNC Press Brake" />
           <div className="img_text_part">
-            <div className="left_part">
-              
-              <p>
+            
+            <div className="CNC_button">
               <button  onClick={handleRedirect}>CNC PRESS BRAKE</button>
             
-              </p>
             </div>
             <div className="right_part">
               <img src={require("./images_for_main_page/Group 117.png")} alt="Catalog" id="big_img" />

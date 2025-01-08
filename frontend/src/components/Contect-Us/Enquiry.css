@@ -1,0 +1,70 @@
+/* inquiry sectio  start */
+.Enquiry_part
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    
+}
+.Enquiry_division{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#s_img{
+    height:400px;
+    width: 600px;
+
+}
+
+.info_div{
+    display: flex;
+    flex-direction: row;
+    
+}
+#pho_img{
+    height:60px ;
+    width: 60px;
+    transform: translate(10%,10%);
+}
+.data_1{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 3%;
+}
+.data_1 .d1{
+    color: var(--color);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.contect_info{
+    
+    
+   
+   
+}
+.contect_info p{
+    font-size: 1.3rem;
+}
+
+.header_text{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.line_border{
+
+    height:2px;
+    width: 95%;
+   position: absolute;
+   transform: translateX(3%);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
