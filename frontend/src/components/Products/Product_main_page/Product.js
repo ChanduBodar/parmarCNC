@@ -9,7 +9,7 @@ const Company = () => {
   
  
   return (
-    <div className="">
+    <div className="hero_part">
       <First_part/>
       <Second/>
       <Third/>

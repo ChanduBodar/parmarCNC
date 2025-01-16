@@ -2,6 +2,7 @@
 .back_img{
     position: relative;
     display: inline-block;
+    /* background-image: './images_for_main_page/d6rSHlYkT9c-SD 1.png'; */
 
 }
 
@@ -36,7 +37,6 @@
 .CNC_button button {
     
     width: 100%;
-    height: 100%;
     padding: 30px;
     font-weight: 600;
     font-size: 1.8em;
@@ -66,4 +66,114 @@
     width:50%;
     height: 50%;
 
+}
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+    
+}
+
+@media screen and (max-width:912px){
+    
+    
+
+   
+}
+@media screen and (max-width:853px){
+    .CNC_button button{
+        font-size: 1.5em
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .CNC_button button{
+        font-size: 1.5em;
+        padding: 25px;
+    }
+}
+@media screen and (max-width:600px){
+    .CNC_button button{
+        font-size: 1.1em;
+        padding: 20px;
+    }
+}
+
+ @media screen and (max-width: 575px)
+{
+    .CNC_button button{
+        font-size: 0.8em;
+        padding: 18px;
+    }
+   
+}
+@media screen and (max-width:540px){
+    
+    
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .CNC_button button{
+        font-size: 0.6em;
+        padding: 18px;
+       
+    }
+}
+
+
+@media screen and (max-width: 430px)
+{
+}
+@media screen and (max-width: 390px)
+{
+    .CNC_button button{
+        font-size: 0.6em;
+        padding: 15px;
+       
+    }
+}
+
+@media screen and (max-width: 376px)
+{
+    
+}
+@media screen and (max-width: 344px)
+{
+    .CNC_button button{
+        font-size: 0.5em;
+        padding: 12px;
+       
+    }    
+
+}
+@media screen and (max-width: 336px)
+{
+    
+} 
+@media screen and (max-width: 294px)
+{
+    .CNC_button button{
+        font-size: 0.4em;
+        padding: 11px;
+       
+    }
+
+}
+@media screen and (max-width: 256px)
+{
+    .CNC_button button{
+        
+        padding: 8px;
+       
+    }
 }

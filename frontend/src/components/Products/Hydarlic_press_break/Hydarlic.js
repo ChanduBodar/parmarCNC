@@ -7,9 +7,6 @@ import img_74 from './Frame_26_images/Group 74.png'
 import img_75 from './Frame_26_images/Group 75.png'
 import im_13 from './Frame_26_images/parmar_13 1.png'
 import G_80 from './Frame_26_images/Group 80.png'
-import third_img from './Frame_26_images/Group 121.png'
-import first_logo from './Frame_26_images/Group 119.png';
-import second_logo from './Frame_26_images/Group 120.png';
 import Media_buttons from '../Media_buttons/Media_buttons'
 
 const Hydarlic = () => {
@@ -17,15 +14,25 @@ const Hydarlic = () => {
         <div>
             <div className="Hyralic_part">
                 {/* part-1 */}
-                <div className="Hyralic_1">
-                    <div className="Hyralic_1_img">
-                        <img src={img_1} alt="" />
-                    </div>
-                    <div className="Hyralic_1_part">
-                        
-                      <img src={img_2} alt="" />
-                    
-                        <Media_buttons/>
+                <div className="hero_section">
+                    <img src={img_1} alt="First Image" />
+
+                    {/* Right part */}
+                    <div className='hero_text_section'>
+                        <div className='hero_img_section'>
+                            <div className='machine_description'>
+                                <p id='main_text'>
+                                    REAR CYLINDER HYDRAULIC PRESS BRAKE
+                                </p>
+                                <p id='sub_text'>
+                                   Capacity : 1270mm X 20 TON TO 6000mm x 600 TON
+                                </p>
+                            </div>
+
+                            <Media_buttons />
+
+
+                        </div>
                     </div>
                 </div>
 

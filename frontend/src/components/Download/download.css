@@ -1,24 +1,60 @@
+.download_section{
+  margin: 6% 0% 0% 0% ;
+}
 .download_section {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   align-items: center;
-  padding: 5%;
-  gap: 20px;
+  
+  
 
 }
-
-
+.Down_part{
+  margin: 3% 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.download_section{
+  position: relative;
+}
 .download_section img {
 
-  width: 70%;
-  height: 50%;
-  margin: 1% 0%;
-  border-radius: 10px;
+  width: 100%;
+  height: auto;
 
-  filter: grayscale(60%);
 
+}
+#Download_tag{
+  position: absolute;
+  top: 5%;
+  left:25%;
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 3rem;;
+}
+.Download_tag {
+  color: white;
+  
+}
+.download_img_part{
+  display: flex;
+  flex-direction: column;
+  transform: translate(23%,0%);
+  
+}
+.download_img_part img{
+  height: 40%;
+    width: 40%;
+    transform: translate(27%,0%);
+    
+  
 }
 
 
@@ -26,39 +62,205 @@
   display: inline-block;
   background-color: var(--color);
   color: white;
-  padding: 15px 30px;
- 
-
-  border-radius: 5px;
-  /* Rounded corners */
-  transition: background-color 0.3s, transform 0.3s;
- 
+  width: 60%;
   display: flex;
   flex-direction: row;
-  justify-content: sap;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px 0px;
+  margin-top: 2%;
+  cursor: pointer;
+  gap: 10%;
 }
 
-.download_btn:hover {
 
-  transform: scale(1.1);
-  
-}
 
 
 .download_text {
   text-decoration: none;
-  font-size: 1.7rem;
-  padding-top: 2px;
+  font-size: 1.8rem;
+  font-weight: 500;
+ 
   color: white;
 
 }
 #do_icon{
-  height:40px;
-  width: 40px;
+  /* padding-top: 1px; */
+  height:7%;
+  width: 7%;
+}
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+    
+}
+@media screen and (max-width: 987px){
+  #Download_tag{
+    font-size: 2.8rem;
+  }
+    
+}
+@media screen and (max-width: 895px){
+    
+  #Download_tag{
+    font-size: 2.5rem;
+  }
+    
+    .download_text {
+      font-size: 1.6rem;
+
+    }
+    #do_icon{
+      
+      height:6%;
+      width: 6%;
+    }
+    .download_btn {
+      gap: 8%;
+    }
+
+}
+@media screen and (max-width: 861px){
+    
+  #Download_tag{
+    font-size: 2.2rem;
+    left:20%;
+  }
+   
+    .download_text {
+      font-size: 1.4rem;
+
+    }
+    #do_icon{
+      
+      height:5%;
+      width: 5%;
+    }
+    .download_btn {
+      gap: 6%;
+    }
+
+}
+@media screen and (max-width: 766px){
+    
+  #Download_tag{
+    font-size: 2.0rem;
+    left:18%;
+  }
+    
+    .download_text {
+      font-size: 1.2rem;
+
+    }
+    #do_icon{
+      
+      height:5%;
+      width: 5%;
+    }
+    .download_btn {
+      gap: 5%;
+    }
+
+}
+@media screen and (max-width: 681px){
+    
+  #Download_tag{
+    font-size: 1.8rem;
+    left:16%;
+  }
+    
+    .download_text {
+      font-size: 1.0rem;
+
+   
+}
+}
+@media screen and (max-width: 616px){
+    
+  #Download_tag{
+    font-size: 1.5rem;
+    left:16%;
+    letter-spacing: 2.8rem;;
+
+  }
+    
+    .download_text {
+      font-size: 1.0rem;
+
+   
+}
+}
+@media screen and (max-width: 616px){
+    
+  #Download_tag{
+    font-size: 1.3rem;
+    left:16%;
+    letter-spacing: 2.5rem;;
+
+  }
+  
+}
+@media screen and (max-width: 521px){
+    
+  #Download_tag{
+    font-size: 1.2rem;
+    left:15%;
+    letter-spacing: 2.3rem;;
+
+  }
+}
+@media screen and (max-width: 457px){
+    
+  #Download_tag{
+    font-size: 1.0rem;
+    left:15%;
+    letter-spacing: 2.1rem;;
+
+  }
+
 }
 
-/* Hover effect for the button */
+@media screen and (max-width: 387px){
+    
+  #Download_tag{
+    font-size: 0.8rem;
+    left:15%;
+    letter-spacing: 1.8rem;;
 
+  }
+  .Down_part{
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+}
+@media screen and (max-width: 341px){
+    
+  #Download_tag{
+    font-size: 0.6rem;
+    left:15%;
+    letter-spacing: 1.5rem;;
 
-/* Focus effect for accessibility */
+  }
+  
+}
+@media screen and (max-width: 276px){
+    
+  #Download_tag{
+    font-size: 0.5rem;
+    left:15%;
+    top: 10%;
+    letter-spacing: 1.3rem;;
+
+  }
+
+}
+

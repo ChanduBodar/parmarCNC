@@ -15,9 +15,9 @@ function HomePage() {
           <h1>WELCOME TO</h1>
           <h3>PARMAR CNC MACHINES (INDIA) LLP</h3>
         </div>
-        <div className="hero_button">
-          <button>LEARN MORE</button>
-        </div>
+        
+          <button className="hero_button">LEARN MORE</button>
+       
       </div>
 
       <div className="two_name_container">
@@ -42,7 +42,10 @@ function HomePage() {
           We have been in this field for over a decade and devote all our efforts to provide superior
           quality products at reasonable prices, innovative designs, and professional after-sales services.
         </p>
+        <button id="backToTopBtn" class="back-to-top">↑buttom to top</button>
       </div>
+ 
+
 
       {/* Overlap Image Section */}
       <div className="over_lap_class">

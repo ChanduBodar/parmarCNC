@@ -6,6 +6,7 @@ const Footer = () => {
 
             <p id="contect">
                 CONTACT US
+               
             </p>
 
             <div className="ma_part">
@@ -18,7 +19,7 @@ const Footer = () => {
                 </div>
 
                 <div className="foot_1">
-                    <img src={require("./Footer_images/iso 2.png")} height="10%" width="10%" alt="Hero" />
+                    <img id='iso_img' src={require("./Footer_images/iso 2.png")}  alt="Hero" />
 
                     <div className="middle_element">
                         <div className="tags">
@@ -33,7 +34,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <img src={require("./Footer_images/certificate 2.png")} height="130px" width="110px" />
+                    <img  id='certificate_img' src={require("./Footer_images/certificate 2.png")}  />
                 </div>
 
                 <div className="footer_line">
@@ -50,6 +51,7 @@ const Footer = () => {
                     Developed by ELVIS Software Private Limited
                 </p>
             </div>
+
 
         </div>
     );

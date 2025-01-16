@@ -10,7 +10,7 @@ const Hero_container = () => {
                 </div>
 
                 <div className="des_text">
-                    <p>CONTACT US</p>
+                    <p  id='des_text' >CONTACT US</p>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Third.css'
+import './Prouct.css'
 import { useNavigate } from 'react-router-dom';
 const Third = () => {
   const navigate = useNavigate();

@@ -52,10 +52,9 @@
 .tag_part button{
 
     width: 100%;
-    height: 100%;
-    padding: 30px;
+    padding: 20px;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.8em;
     word-spacing: 0.2em;
    
     text-align: center;
@@ -67,4 +66,117 @@
     cursor: pointer;
     
 }
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+    
+}
+
+@media screen and (max-width:912px){
+    
+    .tag_part button{
+        padding: 18px;
+        
+        font-size: 1.5em;
+    }
+
+   
+}
+@media screen and (max-width:853px){
+   
+}
+
+
+@media screen and (max-width:768px){
+    
+}
+@media screen and (max-width:729px){
+    .tag_part button{
+        padding: 16px;
+        
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width:677px){
+    .tag_part button{
+        padding: 14px;
+        
+        font-size: 1.3em;
+    }
+}
+
+ @media screen and (max-width: 624px)
+{
+    .tag_part button{
+        padding: 12px;
+        
+        font-size: 1.2em;
+    }
+   
+}
+@media screen and (max-width:571px){
+    
+    .tag_part button{
+        padding: 10px;
+        
+        font-size: 1.1em;
+    }
+   
+}
+
+
+
+@media screen and (max-width: 518px)
+{
+    .tag_part button{
+        padding: 8px;
+        
+        font-size: 1.0em;
+    }
+   
+}
+
+
+@media screen and (max-width: 466px)
+{
+    .tag_part button{
+        padding: 6px;
+        
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 413px)
+{
+    .tag_part button{
+        padding: 6px;
+        
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 286px)
+{
+    .tag_part button{
+        padding: 6px;
+        
+        font-size: 0.5em;
+    }
+}
+@media screen and (max-width: 344px)
+{
+    .CNC_button button{
+        font-size: 0.5em;
+        padding: 12px;
+       
+    }    
+
+}
+
 

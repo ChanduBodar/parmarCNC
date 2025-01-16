@@ -15,7 +15,14 @@ const Hero = () => {
         <img src={firstImage}/>
         <div className='hero_text_section'>
             <div className='hero_img_section'>
-                <img src={cncPressImg}/>
+              <div className='machine_description'>
+                <p id='main_text'>
+                  CNC PRESS BRAKE MACHINE EDGE SERIES
+                </p>
+                <p id='sub_text'>
+                     Capacity : 40 Ton x 1000mm to 400 Ton x 4000mm
+                </p>
+              </div>
                 
                   <Media_buttons/>
                 

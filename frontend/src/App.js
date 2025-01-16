@@ -19,6 +19,7 @@ import Edge_H_series from './components/Products/Edge_H_series/Edge_H_series';
 import Snchro_hydrlic_press_break from './components/Products/Snchro_hydrlic_press_break/Snchro_hydrlic_press_break';
 import Shering from './components/Products/Shering_machine/Shering';
 import Hydrolic_Sharing from './components/Products/Hydrolic_sharing_machine/Hydrolic_Sharing';
+import BToT from './components/Bottom _to_top/BToT'
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
       </div>
 
       <Footer/>
+      <BToT/>
 
     </Router>
     </div>

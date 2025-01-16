@@ -3,22 +3,31 @@ import './Shering_hero.css'
 import first_logo from '../Edge_series/images_for_main_page/Group 121.png';
 import second_logo from '../Edge_series/images_for_main_page/Group 119.png';
 import third_img from '../Edge_series/images_for_main_page/Group 120.png';
+import Media_buttons from '../Media_buttons/Media_buttons';
+import firstImage from './Frame27_images/parmar_14 1.png'
 
 const Shering_hero = () => {
   return (
     <div>
-      <div className="S_hero">
+      <div className="hero_section">
+        <img src={firstImage} alt="First Image" />
 
-        <img src={require('./Frame27_images/parmar_14 1.png')} alt="" />
-        <div className="S_hero_2">
-          <img src={require('./Frame27_images/Group 18.png')} alt="" />
+        {/* Right part */}
+        <div className='hero_text_section'>
+            <div className='hero_img_section'>
+              <div className='machine_description'>
+                <p id='head_text'>
+                VARIABLE RACK ANGLE HYDRAULIC SHEARING MACHINE
+                </p>
+                <p id='sub_text'>
+                    CNC SERIES
+                </p>
+              </div>
+                
+                  <Media_buttons/>
+                
 
-          <div className='m_buttons_shering'>
-            <img src={second_logo} alt="CNC Press" />
-            <img src={third_img} alt="CNC Press" />
-            <img src={first_logo} alt="CNC Press" />
-          </div>
-
+            </div>
         </div>
       </div>
       <div className='border_part'>

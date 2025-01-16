@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { NavLink,Link } from 'react-router-dom';
  import logo from './navbar_images/Group 25.svg';
 import './Navbar.css'; // Link to your CSS file for navbar styles
+import './Navbar_media.css'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,12 +13,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar">
+    <div className="nav_bar">
       
       <img src={logo} alt="Logo" />
 
-      <div className={`nav_elements ${menuOpen ? 'open' : ''}`}>
-        <ul>
+    
+        <ul className={`nav__elements ${menuOpen ? 'open' : ''}`}>
           <li>
             <NavLink to="/" className="active" >HOME</NavLink>
           </li>
@@ -36,11 +37,11 @@ const Navbar = () => {
           <li>
             <Link to="/videos">VIDEOS</Link>
           </li>
-          <li>
-            <Link to="/contact">CONTACT-US</Link>
+          <li id='contect-me'>
+            <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
-      </div>
+      
       <div className="menu-icon" onClick={toggleMenu}>
           &#9776; {}
         </div>
