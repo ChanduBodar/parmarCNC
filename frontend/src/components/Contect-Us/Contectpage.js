@@ -4,6 +4,7 @@ import './contect_us.css'
 import Get_touch from './Get_touch';
 import Hero_container from './Hero_container';
 import Enquiry from './Enquiry';
+import CountryInfo from './CountryInfo';
 const Contectpage = () => {
     
   return (
@@ -11,6 +12,7 @@ const Contectpage = () => {
 
       <Hero_container/>
       <Enquiry/>
+      <CountryInfo/>
       <Get_touch/>    
     
   </div>

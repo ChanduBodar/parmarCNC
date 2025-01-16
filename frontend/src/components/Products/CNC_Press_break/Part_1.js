@@ -1,5 +1,6 @@
 import React from 'react'
 import './Part_1.css'
+import './CNC_press_break.css'
 const Part_1 = () => {
     return (
         <div>
@@ -7,13 +8,13 @@ const Part_1 = () => {
             <div className="back_img">
                 <img src={require("./images/istockphoto-1243283657-612x612.png")} alt="CNC Press Brake" />
                 <div className="img_text_part">
-                    <div className="CNC_part">
-                        <p>CNC PRESS BRAKE</p>
-                    </div>
-                    <div className="right_part">
-                        <img src={require("./images/Group 117.png")} alt="Catalog" id="big_img" />
 
-                    </div>
+                    <p className="CNC_part">CNC PRESS BRAKE</p>
+
+
+                    <img src={require("./images/Group 117.png")} alt="Catalog" id="big_img" />
+
+
                 </div>
             </div>
         </div>

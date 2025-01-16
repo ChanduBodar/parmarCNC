@@ -8,7 +8,6 @@ const Footer = () => {
                 CONTACT US
                
             </p>
-
             <div className="ma_part">
                 <div className="footer_text_2">
                     <p>
@@ -37,10 +36,11 @@ const Footer = () => {
                     <img  id='certificate_img' src={require("./Footer_images/certificate 2.png")}  />
                 </div>
 
-                <div className="footer_line">
+                <div className="footer_text_2">
                     <p>
                         We are an ISO 9001:2015 certified company established in 2009 engaged in manufacturing of All
-                        type of Hydraulic Press Machine in Rajkot- Gujarat -India.
+                        type of Hydraulic Press
+                        <br/> Machine in Rajkot- Gujarat -India.
                     </p>
                 </div>
             </div>

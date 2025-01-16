@@ -17,15 +17,8 @@ const Part_2 = () => {
           <img src={require("./images/Group 98.png")} alt="CNC Press Brake Machine" />
           <div className="img_text_part_1">
             <div className="left_part_1">
-
-              <div className='cnc_tag_name'>
-                <p>CNC Press Brake Machine Edge Series</p>
-              </div>
-
-
+              <p className='cnc_tag_name'>CNC Press Brake Machine Edge Series</p>
               <button onClick={handleRedirect}>VIEW</button>
-
-
             </div>
             <div className="right_part_1">
               <img src={require("./images/parmar_catalog[1]222 2.png")} alt="Catalog" id="big_img_1" />

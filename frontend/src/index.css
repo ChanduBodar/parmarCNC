@@ -12,3 +12,8 @@ body {
 code {
   font-family: 'Exo-2';
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

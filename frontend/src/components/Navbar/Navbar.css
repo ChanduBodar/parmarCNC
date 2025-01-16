@@ -50,6 +50,13 @@
   text-decoration-thickness: 2px; 
   text-underline-offset: 4px;
 }
+.nav__elements li a:active {
+  text-decoration: underline;
+  color: #A5C847;
+  text-decoration-color: black;
+  text-decoration-thickness: 2px; 
+  text-underline-offset: 4px;
+}
 
 
 /* .nav__elements li .active {

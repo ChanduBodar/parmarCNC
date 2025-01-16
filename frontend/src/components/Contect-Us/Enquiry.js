@@ -39,7 +39,7 @@ const Enquiry = () => {
                 <img id='s_img' src={require("./images_for_main_page/parmar_catalog[1]004 1.png")} alt="Catalog" />
             </div>
 
-            {/* <div className="line_border"></div> */}
+            <div className="line_border"></div>
         </div>
     )
 }

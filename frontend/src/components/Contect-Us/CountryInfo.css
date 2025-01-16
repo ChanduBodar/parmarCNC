@@ -1,0 +1,260 @@
+.country{
+    margin: 5% 1% 1% 1%;
+
+}
+.header_text{
+    text-decoration: underline;
+    text-underline-offset: 20%;
+    text-decoration-thickness: 4%;
+     
+
+}
+.header_text p{
+    font-size: 3.5rem;
+}
+.country_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.country_divs{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 3%;
+   
+}
+.divs_1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #C5C5C5;
+    border-radius: 12px;
+    align-items: center;
+    /* justify-content: space-around; */
+    height:40% ;
+    width: 40%;
+
+    
+    
+    
+}
+.divs_1 img{
+    height:70% ;
+    width: 22%;
+    
+    margin:2% 0% 2% 4%;
+
+}
+
+ .c_name p{
+    font-weight: 500;
+    font-size: 1.2em;
+    
+}
+
+
+
+.divs_2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #C5C5C5;
+    border-radius: 12px;
+    align-items: center;
+    height:40% ;
+    width: 40%;
+   
+    gap: 10%;
+    
+
+}
+.divs_2 img{
+    height:70% ;
+    width: 22%;
+    font-size: 2.0em;
+    margin:2% 0% 2% 4%;
+}
+.c_name_2  {
+
+
+}
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+
+    .c_name p{
+        
+        font-size: 1.1em;
+        
+    }
+    .header_text p{
+        font-size: 3.4rem;
+    }
+   
+}
+
+@media screen and (max-width:912px){
+    
+    .c_name p{
+        
+        font-size: 1.0em;
+        
+    }
+    .header_text p{
+        font-size: 3.2rem;
+    }
+   
+}
+@media screen and (max-width:820px){
+    .c_name p{
+        
+        font-size: 0.9em;
+        
+    }
+    .header_text p{
+        font-size: 3.0rem;
+    }
+   
+   
+}
+
+
+@media screen and (max-width:732px){
+    .c_name p{
+        
+        font-size: 0.8em;
+        
+    }
+    .header_text p{
+        font-size: 2.8rem;
+    }
+   
+  
+}
+
+ @media screen and (max-width: 650px)
+{
+    .c_name p{
+        
+        font-size: 0.7em;
+        
+    }
+    .header_text p{
+        font-size: 2.4rem;
+    }
+}
+@media screen and (max-width:560px){
+    .c_name p{
+        
+        font-size: 0.6em;
+        
+    }.header_text p{
+        font-size: 2.3rem;
+    }
+   
+}
+    
+@media screen and (max-width: 520px)
+{
+    .c_name p{
+        
+        font-size: 0.5em;
+        
+    }
+    .header_text p{
+        font-size: 2.0rem;
+    }
+   
+}
+
+
+@media screen and (max-width: 442px)
+{
+    .c_name p{
+        
+        font-size: 0.45em;
+        
+    }
+    .header_text p{
+        font-size: 1.8rem;
+    }
+   
+}
+@media screen and (max-width: 378px)
+{
+    .c_name p{
+        font-weight: 400;
+        font-size: 0.40em;
+        
+    }
+    .header_text p{
+        font-size: 1.5rem;
+    }
+   
+}
+
+@media screen and (max-width: 326px)
+{
+    
+   
+    .c_name p{
+        font-weight: 400;
+        font-size: 0.35em;
+        
+    }
+    .header_text p{
+        font-size: 1.2rem;
+    }
+   
+
+}
+@media screen and (max-width: 300px)
+{
+   
+    
+    .c_name p{
+        
+        font-size: 0.5em;
+        
+    }
+    .header_text p{
+        font-size: 1.0rem;
+    }
+    
+
+}
+@media screen and (max-width: 273px)
+{
+    .c_name p{
+        
+        font-size: 0.5em;
+        
+    }
+    .header_text p{
+        font-size: 0.8rem;
+    }
+    
+    
+    
+} 
+@media screen and (max-width: 221px)
+{
+   
+    .c_name p{
+        
+        font-size: 0.4em;
+        
+    }
+    .header_text p{
+        font-size: 0.6rem;
+    }
+    
+   
+    
+} 

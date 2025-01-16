@@ -103,6 +103,9 @@
     .hero_text h3 {
         font-size: 1.3rem;
     }
+    .hero_text{
+        line-height: 2.3rem; 
+    }
 
    
 
@@ -115,6 +118,10 @@
         font-size: 1.0rem;
 
     }
+    .hero_text{
+        line-height: 2.2rem;
+    }
+
     
      
 
@@ -132,7 +139,9 @@
     .hero_button{
         left: 43%;
     }
-  
+    .hero_text{
+        line-height: 1.8rem;
+    }
     
 
     
@@ -147,6 +156,7 @@
     .hero_text {
         top: 0%;
         left: 0%;
+        line-height: 1.5rem;
     }
 
     .hero_text h1 {
@@ -188,7 +198,8 @@
         position: absolute;
         top: 0%;
         left: -3%;
-        line-height: 5px;
+        line-height: 1.1rem;
+
 
     }
 
@@ -244,7 +255,7 @@
         top: 0%;
         left: 0%;
         padding-left: 10px;
-        line-height: 5px;
+        line-height: 1.0rem;;
     }
 
     .hero_text h1 {

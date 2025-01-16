@@ -38,19 +38,6 @@ const Get_touch = () => {
       <div className='contact-form-container'>
         <h2>GET IN TOUCH</h2>
 
-        {/* <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="from_name" />
-                <label>Email</label>
-                <input type="email" name="from_email" />
-                <label>Message</label>
-                <textarea name="message" />
-                <label>Mobile_number</label>
-                <textarea name="mobile" />
-                <input type="submit" value="Send" />
-        </form> */}
-
-
         <form onSubmit={onSubmit} className='my_form' >
           <div className="form-group">
             <label htmlFor="name">Name:</label>

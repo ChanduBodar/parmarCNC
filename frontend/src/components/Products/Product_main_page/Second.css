@@ -1,13 +1,13 @@
 /* main-part-2 */
-.back_img{
+.ba_img{
     position: relative;
     display: inline-block;
-    /* background-image: './images_for_main_page/d6rSHlYkT9c-SD 1.png'; */
+    
 
 }
 
 
-.back_img img {
+.ba_img img {
     width:100%;
      height: 50%; 
      position: relative;
@@ -15,56 +15,40 @@
       
     
  }
- .img_text_part{
+ .img_t_part{
     display: flex;
     flex-direction: row;
     position: absolute;
-    
-    justify-content:flex-end;
+    top: 10%;
+    justify-content:flex-start;
     align-items: center;
+   
  }
  
-.CNC_button {
-    
-
-    top:-10%;
-    left:-10%;
-
+.CNC_b_t_n {
     position: absolute;
-         
-}
-
-.CNC_button button {
-    
-    width: 100%;
     padding: 30px;
     font-weight: 600;
     font-size: 1.8em;
     word-spacing: 0.2em;
-   
-    text-align: center;
     color: white; 
     text-decoration: none;
     border: none;
     outline: none;
-    background-color:  #4D4F48;
+    background-color:#4D4F48;
     cursor: pointer;
+    top: 35%;
+         
 }
 
 
-.right_part{
 
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 0%;
- 
-    
 
-}
+
 #big_img{
     width:50%;
     height: 50%;
+    transform: translateX(100%);
 
 }
 @media screen and (max-width:2500px){}

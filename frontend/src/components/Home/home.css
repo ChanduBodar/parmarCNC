@@ -19,7 +19,7 @@
     color: var(--color);
     padding: 20px;
     text-align: start;
-    line-height: 1rem;
+    line-height: 2.5rem;
   
 
 
@@ -88,31 +88,7 @@
     line-height: 2rem;
     font-weight: 400;
 }
-/* Style for the "Back to Top" button */
-.back-to-top {
-    position: fixed;
-    bottom: 20px; /* Distance from the bottom of the page */
-    right: 20px; /* Distance from the right side of the page */
-    background-color: #333; /* Button background color */
-    color: #fff; /* Text color */
-    border: none; /* Remove the border */
-    border-radius: 50%; /* Make the button round */
-    padding: 15px;
-    font-size: 20px;
-    cursor: pointer;
-    display: none; /* Hide the button initially */
-    z-index: 1000; /* Ensure the button is above other content */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-    transition: opacity 0.3s ease-in-out; /* Smooth transition */
-  }
-  
-  .back-to-top:hover {
-    background-color: #555; /* Darken button color on hover */
-  }
-  
-  .back-to-top:focus {
-    outline: none; /* Remove focus outline */
-  }
+
   
 
 
@@ -133,7 +109,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 12px;
-    gap: 0px;
+    gap:25px;
 }
 
 .overlap_1 {

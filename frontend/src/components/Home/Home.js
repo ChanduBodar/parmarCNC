@@ -1,9 +1,20 @@
 import React from "react";
 import './home.css'
 import './Home_media.css'
+import { useNavigate } from 'react-router-dom';
 
 
 function HomePage() {
+  const navigate = useNavigate();
+  const contectnevigate = useNavigate();
+
+  const countryHandler =() =>{
+    contectnevigate('/contact');
+  }
+
+  const handleRedirect = () => {
+    navigate('/products'); // Navigate to '/child' page
+  };
   return (
     <div>
       {/* Hero Section */}
@@ -16,7 +27,7 @@ function HomePage() {
           <h3>PARMAR CNC MACHINES (INDIA) LLP</h3>
         </div>
         
-          <button className="hero_button">LEARN MORE</button>
+          <button className="hero_button" onClick={handleRedirect}>LEARN MORE</button>
        
       </div>
 
@@ -42,7 +53,7 @@ function HomePage() {
           We have been in this field for over a decade and devote all our efforts to provide superior
           quality products at reasonable prices, innovative designs, and professional after-sales services.
         </p>
-        <button id="backToTopBtn" class="back-to-top">↑buttom to top</button>
+      
       </div>
  
 
@@ -54,7 +65,7 @@ function HomePage() {
           <div className="side_of_text">
             <p>20+ PRODUCTS</p>
             <div className="more_text">
-              <button>LEARN MORE</button>
+              <button  onClick={handleRedirect}>LEARN MORE</button>
             </div>
           </div>
         </div>
@@ -64,7 +75,7 @@ function HomePage() {
           <div className="side_of_text">
             <p>ALL INDIA PRESENCE</p>
             <div className="more_text">
-             <button>LEARN MORE</button>
+             <button onClick={countryHandler}>LEARN MORE</button>
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@
    
     color: white;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     transform: translate();
     margin: 0;
     padding: 0% 0% 0% 10%;
@@ -59,10 +59,10 @@
 @media screen and (max-width: 1024px){
     .prodct_part #label_1
     {
-        font-size: 2.0rem;
+        font-size: 1.85rem;
     }
     .prodct_part #label_2{
-        font-size: 1.0rem;
+        font-size: 0.9rem;
     }
     
     
@@ -71,10 +71,10 @@
 @media screen and (max-width:912px){
     .prodct_part #label_1
     {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .prodct_part #label_2{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
 
@@ -88,10 +88,10 @@
 @media screen and (max-width:768px){
     .prodct_part #label_1
     {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .prodct_part #label_2{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -103,16 +103,18 @@
     }
     .prodct_part #label_2{
         font-size: 0.5rem;
+        word-spacing: 0.3rem;
     }
    
 }
 @media screen and (max-width:540px){
     .prodct_part #label_1
     {
-        font-size: 1.0rem;
+        font-size: 0.9rem;
     }
     .prodct_part #label_2{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
+        word-spacing: 0.25rem;
     }
     
 }
@@ -123,10 +125,11 @@
 {
     .prodct_part #label_1
     {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
     }
     .prodct_part #label_2{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
+        word-spacing: 0.2rem;
     }
 }
 
@@ -135,17 +138,18 @@
 {
     .prodct_part #label_1
     {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .prodct_part #label_2{
-        font-size: 0.4rem;
+        font-size: 0.35rem;
+        word-spacing: 0.15rem;
     }
 }
 @media screen and (max-width: 390px)
 {
     .prodct_part #label_2{
-        font-size: 0.4rem;
-        word-spacing: 4px
+        font-size: 0.35rem;
+        word-spacing: 0.1rem;
     }
 }
 
@@ -153,10 +157,10 @@
 {
     .prodct_part #label_1
     {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .prodct_part #label_2{
-        font-size: 0.35rem;
+        font-size: 0.3rem;
         
     }
 }
@@ -173,7 +177,7 @@
     }
     .prodct_part #label_1
     {
-        font-size: 0.6rem;
+        font-size: 0.55rem;
     }
 } 
 @media screen and (max-width: 294px)
@@ -196,7 +200,7 @@
     }
     .prodct_part #label_1
     {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 
 }

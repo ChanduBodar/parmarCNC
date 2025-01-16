@@ -27,31 +27,22 @@
  }
  
 .left_part_1 {
-    
-    
-   
     position: absolute;
     left: 0;
-   
- 
         
 }
 .cnc_tag_name{
     background-color: #4D4F48;
-
-}
-
-.cnc_tag_name p {
     font-weight: 500;
     font-size: 1.5em;
     word-spacing: 0.2em;
     
     color: white; 
    padding: 16px 20px;
-   
-   
-    
+
 }
+
+
 
 .left_part_1 button {
     background-color: var(--color);
