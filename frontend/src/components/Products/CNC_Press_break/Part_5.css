@@ -1,17 +1,6 @@
-#my_btn{
-    background-color: var(--color);
-    color: white;
-    border: none;
-    padding: 13px 40px;
-    font-size:25px;
-    font-weight: 400;
-    position: relative;
-    top: 110%;
-    left:30%;
-    cursor: pointer;
-}
+
 #big_img_5{
-    width:50%;
+    width:100%;
     height: 50%;
 }
 .left_p{
@@ -21,23 +10,6 @@
   
    
     
-    
-}
-
-.cnc_tag_name{
-    background-color: #4D4F48;
-
-}
-
-.cnc_tag_name p {
-    font-weight: 500;
-    font-size: 1.5em;
-    word-spacing: 0.2em;
-    
-    color: white; 
-   padding: 16px 20px;
-   
-   
     
 }
 .right_oo{

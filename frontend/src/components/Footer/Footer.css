@@ -86,7 +86,7 @@
     background-color: var(--color);
     display: flex;
     width: 100%;
-    height: 40px;
+    padding: 0.5% 0%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -354,7 +354,60 @@
 }
 
 @media screen and (max-width:430px) {
-   
+    .footer #contect{
+        padding: 3px 0px;
+        font-size: 0.85rem;
+    }
+    .footer_text_2 p{
+    
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+       
+       
+    }
+    .tags{
+        gap: 9%;
+        margin-top: 4%;
+
+    }
+    .tags img{
+    
+        height:5% ;
+        width: 5%;
+    }
+    
+    .footer_last_part p{
+        font-size: 0.60em;
+        word-spacing: 0.3em;
+    }
+    #iso_img{
+        height: 7%;
+        width: 7%;
+    }
+    .middle_element{
+
+        gap: 6px;
+        line-height: 1;
+        
+      
+    }
+    .middle_element_text p{
+        font-size: 0.5rem;
+    }
+    
+    #certificate_img{
+        height:7%;
+        width:7%;
+    }
+    .foot_1{
+        margin:5px 20px;
+
+    }
+    .footer_last_part p{
+        font-size: 0.5em;
+        word-spacing: 0.1em;
+        line-height: 1.3;
+    }
 
 }
 
@@ -370,6 +423,3 @@
   
 
 }
-
-
-

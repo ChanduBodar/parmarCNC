@@ -13,11 +13,11 @@
   }
   .forword_div_1{
     position: absolute; 
-    margin: 2% 1%;  
-    width: 65%;        
-    height: 90%;     
-    top: 5px;
-    right: -15px;  
+     
+    width: 75%;        
+    height:85%;     
+    top: 8%;
+    right:0%;  
     background-color: var(--yellow); 
     color: black ;     
     display: flex; 
@@ -29,15 +29,13 @@
     text-align: justify;
     padding: var(--padding-boxes); 
     font-size: var(--text-size);               
-    line-height: 1.6;               
-    margin-left: 15px;
-    margin-right: 10px;  
+    line-height: 1.6;  
     
   }
 
   
   .backword_div_1 img {
-    width: 60%;     
-    height: 50%;      
+    width: 70%;     
+    height: auto;     
     object-fit: cover;  
   }

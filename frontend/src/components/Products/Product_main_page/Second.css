@@ -9,7 +9,7 @@
 
 .ba_img img {
     width:100%;
-     height: 50%; 
+     height: auto; 
      position: relative;
 
       
@@ -27,7 +27,7 @@
  
 .CNC_b_t_n {
     position: absolute;
-    padding: 30px;
+    padding: 18px;
     font-weight: 600;
     font-size: 1.8em;
     word-spacing: 0.2em;
@@ -65,99 +65,100 @@
 }
 
 @media screen and (max-width:912px){
-    
+    .CNC_b_t_n{
+        padding: 18px;
+        
+        font-size: 1.5em;
+    }
     
 
    
 }
 @media screen and (max-width:853px){
-    .CNC_button button{
-        font-size: 1.5em
-    }
+   
 }
 
 
-@media screen and (max-width:768px){
-    .CNC_button button{
-        font-size: 1.5em;
-        padding: 25px;
+@media screen and (max-width:729px){
+    .CNC_b_t_n{
+        padding: 16px;
+        
+        font-size: 1.3em;
     }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:677px){
     .CNC_button button{
-        font-size: 1.1em;
-        padding: 20px;
+        padding: 14px;
+        
+        font-size: 1.3em;
     }
 }
 
- @media screen and (max-width: 575px)
+ @media screen and (max-width: 624px)
 {
-    .CNC_button button{
-        font-size: 0.8em;
-        padding: 18px;
+    .CNC_b_t_n{
+        padding: 12px;
+        
+        font-size: 1.2em;
     }
    
 }
-@media screen and (max-width:540px){
-    
+@media screen and (max-width:571px){
+    .CNC_b_t_n{
+        padding: 10px;
+        
+        font-size: 1.1em;
+    }
     
 }
 
 
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 518px)
 {
-    .CNC_button button{
-        font-size: 0.6em;
-        padding: 18px;
+    .CNC_b_t_n{
+        padding: 8px;
+        
+        font-size: 1.0em;
        
     }
 }
 
 
-@media screen and (max-width: 430px)
+@media screen and (max-width: 466px)
 {
+    .CNC_b_t_n{
+        padding: 6px;
+        
+        font-size: 0.9em;
+       
+    }
 }
-@media screen and (max-width: 390px)
+@media screen and (max-width: 413px)
 {
-    .CNC_button button{
+    .CNC_b_t_n{
+        padding: 6px;
+        
         font-size: 0.6em;
-        padding: 15px;
        
     }
 }
 
-@media screen and (max-width: 376px)
+@media screen and (max-width: 286px)
 {
-    
+    .CNC_b_t_n{
+        padding: 6px;
+        
+        font-size: 0.5em;
+       
+    }
 }
 @media screen and (max-width: 344px)
 {
-    .CNC_button button{
+    .CNC_b_t_n{
         font-size: 0.5em;
         padding: 12px;
        
     }    
 
-}
-@media screen and (max-width: 336px)
-{
-    
-} 
-@media screen and (max-width: 294px)
-{
-    .CNC_button button{
-        font-size: 0.4em;
-        padding: 11px;
-       
-    }
-
-}
-@media screen and (max-width: 256px)
-{
-    .CNC_button button{
-        
-        padding: 8px;
-       
-    }
 }

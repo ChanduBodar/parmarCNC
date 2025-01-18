@@ -3,7 +3,7 @@
     
     --yellow:rgba(217, 224, 205,0.8);
     --padding-boxes:2%;
-    --text-size:1.5rem;
+    --text-size:1.85rem;
 }
 .company-section{
     margin-top: 12%;
@@ -17,46 +17,48 @@
 @media screen and (max-width:1199px){}
 @media screen and (min-width: 1366px){
     :root{
-        --text-size:1.7rem;
+        --text-size:1.85rem;
     }
 	
 }
 @media screen and (max-width: 1024px){
     :root{
-        --text-size:1.2rem;
+        --text-size:1.5rem;
     }
 }
 
 @media screen and (max-width:912px){
     :root{
-        --text-size:1.1rem;
+        --text-size:1.35rem;
     }
 }
 @media screen and (max-width:853px){
     :root{
-        --text-size:1.0rem;
+        --text-size:1.25rem;
     }
 }
 
 
 @media screen and (max-width:768px){
     :root{
-        --text-size:0.9rem;
+        --text-size:1.15rem;
+        line-height: 1rem;
     }
 }
 
  @media screen and (max-width: 575px)
 {
     :root{
-        --text-size:0.7rem;
+        --text-size:0.85rem;
     }
     .text_header h1{
-        font-size: 1.3em;
+        font-size: 1.5rem;
+        
     }
 }
 @media screen and (max-width:540px){
     :root{
-        --text-size:0.65rem;
+        --text-size:0.80rem;
     }
 }
 
@@ -65,7 +67,11 @@
 @media screen and (max-width: 480px)
 {
     :root{
-        --text-size:0.58rem;
+        --text-size:0.70rem;    
+    }
+    .text_header h1{
+        font-size: 1.4rem;
+        
     }
 }
 
@@ -73,44 +79,51 @@
 @media screen and (max-width: 430px)
 {
     :root{
-        --text-size:0.5rem;
+        --text-size:0.65rem;
         
     }
 }
 @media screen and (max-width: 390px)
 {
     :root{
-        --text-size:0.46rem;
+        --text-size:0.58rem;
+        line-height: 0.9rem;
     }
 }
 
 @media screen and (max-width: 375px)
 {
     :root{
-        --text-size:0.44rem;
+        
+            --text-size:0.55rem;
+            line-height: 0.9rem;
+        
     }
-    .forword_div_1{
-        height:88%;
-    }
+    
 
 }
 @media screen and (max-width: 344px)
 {
     :root{
-        --text-size:0.4rem;
-    }
-    .forword_div_1{
-        height:88%;
-    }
+        
+        --text-size:0.5rem;
+        line-height: 0.8rem;
+    
+}
+
 
 }
 @media screen and (max-width: 320px)
 {
     :root{
-        --text-size:0.37rem;
+        
+        --text-size:0.47rem;
+        line-height: 0.7rem;
+    
     }
     .text_header h1{
-        font-size: 1.0em;
+        font-size: 1.3rem;
+        
     }
 } 
 

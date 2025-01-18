@@ -17,17 +17,15 @@ const Part_4 = () => {
           <div className="img_text_part_1">
             <div className="left_part_4">
 
-              <div className='cnc_tag_name'>
-                <p>CNC PRESS BRAKE MACHINE EDGE H SERIES </p>
-              </div>
-
-
-              <button id='view_btn' onClick={handleRedirect}>VIEW</button>
+              
+              <p  className='cnc_tag_name'>CNC PRESS BRAKE MACHINE EDGE H SERIES  </p>
+          
+              <button id='btn_view' onClick={handleRedirect}>VIEW</button>
 
 
             </div>
             <div className="right_part_4">
-              <img src={require("./images/CNC_Press_Brake_6000x800tone-removebg-preview 1.png")} alt="Catalog" id="big_img_3" />
+              <img id="big_img_1"src={require("./images/CNC_Press_Brake_6000x800tone-removebg-preview 1.png")} alt="Catalog"  />
 
             </div>
           </div>

@@ -17,18 +17,16 @@ const Part_5 = () => {
           <div className="img_text_part_2">
 
             <div className="right_oo">
-              <img src={require("./images/3200x160_tone__6+1axis__at_Ms.Bobst_India_Pune-removebg-preview 1.png")} alt="Catalog" id="big_img_5" />
+              <img src={require("./images/3200x160_tone__6+1axis__at_Ms.Bobst_India_Pune-removebg-preview 1.png")} alt="Catalog" id="big_img_1" />
 
             </div>
             <div className="left_p">
 
-              <div className='cnc_tag_name'>
-                <p>EDGE SERIES SYNCHRO HYDRAULIC PRESS BRAKE</p>
-              </div>
+              
+                <p className= 'cnc_tag_name'>EDGE SERIES SYNCHRO HYDRAULIC PRESS BRAKE</p>
+              
 
-
-
-              <button onClick={handleRedirect} id='my_btn'>VIEW</button>
+              <button id='btn_view' onClick={handleRedirect} >VIEW</button>
 
             </div>
 
