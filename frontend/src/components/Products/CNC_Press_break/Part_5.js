@@ -11,29 +11,21 @@ const Part_5 = () => {
   };
   return (
     <div>
-      <div className="last_part">
-        <div className="back_img">
-          <img src={require("./images/Group 98.png")} alt="CNC Press Brake Machine" />
-          <div className="img_text_part_2">
-
-            <div className="right_oo">
-              <img src={require("./images/3200x160_tone__6+1axis__at_Ms.Bobst_India_Pune-removebg-preview 1.png")} alt="Catalog" id="big_img_1" />
-
+      <div className="part_3_main_div">
+        <div className="img_and_tag_div">
+          <img id='front_img' src={require("./images/Group 98.png")} alt="CNC Press Brake Machine" />
+          <div className="tag_division">
+             
+            <img src={require("./images/3200x160_tone__6+1axis__at_Ms.Bobst_India_Pune-removebg-preview 1.png")} alt="Catalog" id="big_img_5" />
+            <div className="my_data_part">
+              <p className='cnc_tag_name'>EDGE SERIES SYNCHRO HYDRAULIC PRESS BRAKE</p>
+              <button id='btn_view_3' onClick={handleRedirect}>VIEW</button>
             </div>
-            <div className="left_p">
-
-              
-                <p className= 'cnc_tag_name'>EDGE SERIES SYNCHRO HYDRAULIC PRESS BRAKE</p>
-              
-
-              <button id='btn_view' onClick={handleRedirect} >VIEW</button>
-
-            </div>
-
           </div>
         </div>
       </div>
-    </div>
+      </div>
+  
   )
 }
 

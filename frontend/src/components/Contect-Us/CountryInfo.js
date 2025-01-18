@@ -14,7 +14,7 @@ const CountryInfo = () => {
                 <div className="country_divs">
                     <div className="divs_1">
                         <img src={Arab} alt="United Arab Emirates" />
-                        <div className="c_name">
+                        <div className="c_name" id='my_name'>
                             <p>United Arab Emirates</p>
                         </div>
                     </div>

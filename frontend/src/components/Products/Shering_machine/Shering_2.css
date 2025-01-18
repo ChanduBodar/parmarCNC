@@ -1,87 +1,198 @@
-.last_part{
-    margin: 2% 1% 0% 1% ;
+#big_5{
+    height: 50%;
+    width: 50%;
+    transform: translateX(80%);
 }
-.back_img{
-    position: relative;
-    display: inline-block;
-
-}
-
-
-.back_img img {
-    width:100%;
-     height:20%; 
-     position: relative;
-
-      
-    
- }
- .img_text_part_1{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 10%;
-   
-    justify-content:flex-end;
-    align-items: center;
- }
- 
-.width_part {
-    
+.cnc_tag_name_5{
     background-color: #4D4F48;
-    
-    height: 20%;
-    padding-right: 2%;
-    position: absolute;
-    padding-left: 1%;
-    left: 0%;
-    background-color: #4D4F48;
-      color: white; 
-        
-}
-
-.width_part p {
     font-weight: 500;
     font-size: 1.5em;
     word-spacing: 0.2em;
     
     color: white; 
+   padding: 16px 20px;
+}@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
    
-   transform: translateY(-50%);
+	
+}
+@media screen and (max-width: 1024px){
+    .cnc_tag_name_5{
+        padding: 14px 12px;
+        font-size: 1.1em;
+    }
+    #big_5{
+      
+        transform: translateX(25%);
+    }
+   
+    
     
 }
 
-.width_part button {
-    background-color: var(--color);
-    color: white;
-    border: none;
-    padding: 13px 40px;
-    font-size:25px;
-    font-weight: 400;
-    position: relative;
-    top: 10%;
-    left:30%;
-    cursor: pointer;
+@media screen and (max-width:912px){
+   
+    .cnc_tag_name_5{
+        padding: 12px 10px;
+        font-size: 1.1em;
+    }
+    #big_5{
+      
+        transform: translateX(4%);
+        height: 40%;
+        width: 40%
+    }
+
    
 }
-
-.width_part button:hover
-{   
-    cursor: pointer;
-}
-
-.rg_part{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 0%;
-    right: -90%;
+@media screen and (max-width:853px){
+    .cnc_tag_name_5{
+        padding: 11px 8px;
+        font-size: 1.0em;
+    }
+    #big_5{
+      
+        transform: translateX(-5%);
+        height: 35%;
+        width: 35%
+        
+    }
+   
     
-    
-
 }
-#b_img{
-    width:50%;
-    height: 50%;
-
+@media screen and (max-width:768px){
+    .cnc_tag_name_5{
+        padding: 11px 8px;
+        font-size: 1.1em;
+    }
+    .cnc_tag_name_5{
+        padding: 11px 8px;
+        font-size: 0.9em;
+    }
+  
 }
+
+
+@media screen and (max-width:729px){
+    .cnc_tag_name_5{
+        padding: 10px 6px;
+        font-size: 1.0em;
+    }
+    #btn_view{
+        padding: 12px 32px;
+       font-size:1.0rem;
+    }
+}
+@media screen and (max-width:677px){
+    .cnc_tag_name_5{
+        padding: 8px 4px;
+        font-size: 0.9em;
+    }
+    #btn_view{
+        padding: 10px 28px;
+       font-size:0.8rem;
+    }
+}
+
+ @media screen and (max-width: 624px)
+{
+    .cnc_tag_name_5{
+        padding: 8px 4px;
+        font-size: 0.8em;
+    }
+   
+}
+@media screen and (max-width:571px){
+   
+    .cnc_tag_name_5{
+        padding: 6px 4px;
+        font-size: 0.7em;
+    }
+    #btn_view{
+        padding: 8px 26px;
+       font-size:0.7rem;
+    }
+    .left_part_1{
+        top: 30%;
+    }
+}
+
+
+
+@media screen and (max-width: 518px)
+{
+    .cnc_tag_name_5{
+        padding: 6px 4px;
+        font-size: 0.7em;
+    }
+    #btn_view{
+        padding: 8px 26px;
+       font-size:0.7rem;
+    }
+    .left_part_1{
+        top: 28%;
+    }
+}
+
+
+@media screen and (max-width: 466px)
+{
+    .cnc_tag_name_5{
+        padding: 4px 4px;
+        font-size: 0.6em;
+    }
+    #btn_view{
+        padding: 6px 24px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 26%;
+    }
+}
+@media screen and (max-width: 430px)
+{
+    .cnc_tag_name_5{
+        padding: 2px 4px;
+        font-size: 0.5em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+@media screen and (max-width: 390px)
+{
+    .cnc_tag_name_5{
+        padding: 2px 4px;
+        font-size: 0.5em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+@media screen and (max-width: 375px)
+{
+    .cnc_tag_name_5{
+        padding: 2px 4px;
+        font-size: 0.5em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+
+

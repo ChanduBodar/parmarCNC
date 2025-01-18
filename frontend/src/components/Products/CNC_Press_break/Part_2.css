@@ -103,6 +103,13 @@
        font-size:1.0rem;
     }
 }
+@media screen and (max-width:768px){
+    .cnc_tag_name{
+        padding: 11px 8px;
+        font-size: 1.1em;
+    }
+  
+}
 
 
 @media screen and (max-width:729px){
@@ -178,11 +185,39 @@
         top: 26%;
     }
 }
-@media screen and (max-width: 413px)
+@media screen and (max-width: 430px)
 {
     .cnc_tag_name{
         padding: 2px 4px;
         font-size: 0.6em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+@media screen and (max-width: 390px)
+{
+    .cnc_tag_name{
+        padding: 2px 4px;
+        font-size: 0.5em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+@media screen and (max-width: 375px)
+{
+    .cnc_tag_name{
+        padding: 2px 4px;
+        font-size: 0.5em;
     }
     #btn_view{
         padding: 5px 20px;

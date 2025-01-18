@@ -5,7 +5,7 @@ import Shering_2 from './Shering_2'
 
 const Shering = () => {
   return (
-    <div>
+    <div className='sharing_ingo'>
       <Shering_1/>
       <Shering_2/>
     </div>

@@ -11,6 +11,12 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Toggle function to change the sidebar width
+  const toggleMen = () => {
+    setIsOpen(!isOpen); // Toggle between true and false
+  };
 
   return (
     <div className="nav_bar">
@@ -19,6 +25,7 @@ const Navbar = () => {
 
     
         <ul className={`nav__elements ${menuOpen ? 'open' : ''}`}>
+        <a href="javascript:void(0)" class="close-btn" onclick={toggleMen}>×</a>
           <li>
             <NavLink to="/" className="active" >HOME</NavLink>
           </li>

@@ -10,7 +10,7 @@ import Excellernce from './Excellernce'
 
 const Hydrolic_Sharing = () => {
   return (
-    <div className='main_container'>
+    <div className='main_div'>
       <Shering_hero/>
       <Technical_specification_sahring/>
       <Sharing_controller/>

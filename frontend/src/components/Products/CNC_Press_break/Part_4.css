@@ -1,20 +1,16 @@
-.left_part_4{
-    
-    position: absolute;
-    left: 0;
 
+#big_img_2{
+    width: 50%;
+    height: 50%;
+    transform: translateX(65%);
+}
+@media screen and (max-width: 1024px){
     
-   
+    #big_img_2{
+        width: 50%;
+        height: 50%;
+        transform: translateX(0%);
+    }
     
-        
 }
 
-
-.right_part_4{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 0%;
-    right: -83%;
-
-}
