@@ -3,6 +3,13 @@
     width: 100%;
     max-width: 70%;
 }
-.general_hader p{
-    color: #4C7D3C;
+
+.data_main_part{
+    display: flex;
+    flex-direction: column;
+}
+.general_hader{
+    display: flex;
+    flex-direction: column;
+
 }

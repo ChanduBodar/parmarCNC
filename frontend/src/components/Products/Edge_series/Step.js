@@ -11,8 +11,8 @@ const Step = () => {
 
          <div>
            {/* STEP part */}
-           <div className="step">
-             <p>STEP</p>
+           <div  id='sy'className="delem">
+             <p >STEP</p>
            </div>
      
            <div className="step_container">

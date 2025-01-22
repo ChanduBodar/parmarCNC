@@ -18,7 +18,7 @@ const Weel_Tool = () => {
                     </div>
                     <div className="im-1">
                         <img src={i_28}alt="Wila Tool Holder 2" />
-                        <p>Wila style hydraulic/Pneumatic/Manual with anti deflection system</p>
+                        <p>Wila style hydraulic/Pneumatic/Manual die hold</p>
                     </div>
                 </div>
             </div>

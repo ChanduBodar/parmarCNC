@@ -1,13 +1,14 @@
 import React from 'react'
 import './Datapart.css'
 import Datalist from './Datalist'
+import './Datalist.css'
 
 const Datapart = () => {
   return (
     <div>
-      <div className="">
+      <div className="data_main_part">
         <div className="Datapart_data">
-          <p>
+          <p id='datapart_font'>
             Edge Series Press Brake Heavy Duty Frame is Designed to minimize
             welding structures to the highest possible uniformity in the press brake
             frame structure. In addition to high quality, we achieve a cost-effective

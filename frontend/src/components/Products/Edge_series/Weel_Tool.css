@@ -6,7 +6,7 @@
 }
 .tag_name{
     background-color: var(--color);
-    height: 50px;
+    
     width: 20%;
     transform: translate(200%,30%);
 }
@@ -17,21 +17,26 @@
     font-size: 1.6em; /* Font size */
     text-align: center; /* Justify text to spread it */
     word-spacing: 0.10em; /* Space between words */
-    line-height: 1.3em;
+
     color: white;
-    transform: translate(0%,15%);
+    padding: 2% 0%;
+    
     
 
 }
 .will_imgs{
     display: flex;
     flex-direction: row;
-    justify-content:center ;
+    justify-content:space-between;
     align-items: center;
-    margin-top: 2% 2% 0% 2%;
-    transform: translate(2%);
+   
+  
     padding: 2%;
-    transform: translate(10%, 3%);
+    transform: translate(7%, 3%);
+}
+.im-1{
+    display: flex;
+    flex-direction: column;
 }
 .im-1 img{
     height:70% ;
@@ -39,7 +44,7 @@
 }
 .im-1 p{
     font-weight: 400;
-    max-width: 80%; /* Maximum width of the line */
+    max-width: 70%; /* Maximum width of the line */
     
     font-size: 1.0em; /* Font size */
     text-align: center; /* Justify text to spread it */
@@ -47,3 +52,195 @@
     line-height: 1.3em;
 
 }
+@media screen and (max-width:2500px){
+
+}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    .tag_name p{
+        font-size: 1.4em;
+    }
+    
+}
+
+@media screen and (max-width:912px){
+  
+    .tag_name p{
+        font-size: 1.2em;
+    }
+    .im-1 p{
+        font-size: 0.9em
+    }
+    
+   
+}
+@media screen and (max-width:833px){
+    
+    .tag_name p{
+        font-size: 1.1em;
+    }
+    .im-1 p{
+        font-size: 0.8em
+    }
+    
+}
+
+
+@media screen and (max-width:768px){
+    .tag_name p{
+        font-size: 1.0em;
+    }
+    .im-1 p{
+        font-size: 0.8em
+    }
+   
+
+}
+@media screen and (max-width:600px){
+    .tag_name p{
+        font-size: 1.0em;
+    }
+    .im-1 p{
+        font-size: 0.7em
+    }
+}
+
+ @media screen and (max-width: 575px)
+{
+    .tag_name p{
+        font-size: 0.8em;
+    }
+    .im-1 p{
+        font-size: 0.6em
+    }
+    
+   
+}
+@media screen and (max-width:540px){
+    
+    .tag_name p{
+        font-size: 0.7em;
+    }
+    .im-1 p{
+        font-size: 0.6em
+    }
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    
+   
+}
+
+
+@media screen and (max-width: 430px)
+{
+    .tag_name p{
+        font-size: 0.6em;
+    }
+    .im-1 p{
+        font-size: 0.6em
+    }
+   
+}
+@media screen and (max-width: 390px)
+{
+    .will_imgs{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 2%;
+    }
+    .im-1 img{
+        height:40%;
+        width: 40%;
+    }
+    .im-1{
+        flex-direction: row;
+        gap: 4%;
+        
+    }
+    .tag_name p{
+        font-size: 0.55em;
+    }
+    .im-1 p{
+        font-size: 0.7em; 
+        max-width: 45%;
+        text-align: center;
+        margin-top: 7%; 
+         
+    }
+    
+}
+
+@media screen and (max-width: 376px)
+{
+    
+    .tag_name p{
+        font-size: 0.5em;
+    }
+    .im-1 p{
+        font-size: 0.6em; 
+        max-width: 45%;
+        text-align: center;
+        
+         
+    }
+    
+}
+@media screen and (max-width: 344px)
+{
+    
+    .tag_name p{
+        font-size: 0.45em;
+    }
+    .im-1 p{
+        font-size: 0.55em; 
+        max-width: 45%;
+        
+        
+         
+    }
+   
+    
+}
+@media screen and (max-width: 336px)
+{
+    
+    
+} 
+@media screen and (max-width: 294px)
+{
+    .tag_name p{
+        font-size: 0.40em;
+    }
+    .im-1 p{
+        font-size: 0.45em; 
+        max-width: 45%;
+        
+        
+         
+    }
+}
+@media screen and (max-width: 256px)
+{
+    .tag_name p{
+        font-size: 0.3em;
+    }
+    .im-1 p{
+        font-size: 0.4em; 
+        max-width: 45%;
+        
+        
+         
+    }
+}
+    
+

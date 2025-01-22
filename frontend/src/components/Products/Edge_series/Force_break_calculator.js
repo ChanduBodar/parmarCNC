@@ -1,6 +1,7 @@
 import React from 'react'
 import './Force_break_calculator.css';
 import thirdPartImage from "./images_for_main_page/Group 27.png";
+import './Datalist.css'
 
 const Force_break_calculator = () => {
   return (

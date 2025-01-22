@@ -1,5 +1,5 @@
 .cnc_header{
-    height:3em ;
+    padding: 0.2% 0%;
     width: 100%;
     background-color: #A5C847;
 
@@ -12,15 +12,16 @@
     text-align: center; /* Justify text to spread it */
     word-spacing: 0.10em; /* Space between words */
     line-height: 1.3em;
-    transform: translate(0%,14%);
+    
     color: white;
 
 } 
 .delem{
     background-color:#4D4F48;
-    height:3em ;
+    padding: 0.8% 0%;
     width: 96%;
-    transform: translate(2%,-15%);
+    transform: translate(2%,10%);
+    margin-top: 1%;
     
 }
 .delem p{
@@ -31,7 +32,124 @@
     font-size: 1.6em; /* Font size */
     text-align: center; /* Justify text to spread it */
     word-spacing: 0.10em; /* Space between words */
-    line-height: 1.3em;
+    
     color: white;
-    transform: translate(0%,20%);
+    
+}
+@media screen and (max-width:2500px){
+
+}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+
+   
+    
+}
+
+@media screen and (max-width:912px){
+   
+}
+@media screen and (max-width:853px){
+    .delem{
+        transform: translate(2%,0%);
+    }
+    .delem p{
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .delem p{
+        font-size: 1.2em;
+    }
+
+}
+@media screen and (max-width:600px){
+    .delem p{
+        font-size: 1.4em;
+    }
+}
+
+ @media screen and (max-width: 575px)
+{
+   
+    .delem p{
+        font-size: 1.3em;
+    }
+   
+}
+@media screen and (max-width:540px){
+     
+
+
+
+}
+@media screen and (max-width: 480px)
+{
+    
+    
+    .delem p{
+        font-size: 1.2em;
+    }
+
+}
+
+
+@media screen and (max-width: 430px)
+{
+  
+   
+}
+@media screen and (max-width: 390px)
+{
+    
+    .cnc_header p{
+        font-size: 1.2em
+    }
+   
+    
+}
+
+@media screen and (max-width: 376px)
+{
+    .delem p{
+        font-size: 1.1em;
+    }
+    
+}
+@media screen and (max-width: 344px)
+{
+    
+}
+@media screen and (max-width: 336px)
+{
+    
+} 
+@media screen and (max-width: 294px)
+{
+    .cnc_header p{
+        font-size: 0.8em
+    }
+    .delem p{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 256px)
+{
+    .cnc_header p{
+        font-size: 0.7em
+    }
+    .delem p{
+        font-size: 0.7sem;
+    }
+
+    
 }

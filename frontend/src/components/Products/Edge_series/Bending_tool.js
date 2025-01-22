@@ -44,7 +44,7 @@ const Bending_tool = () => {
         {/* Punch Part */}
         <div className="punch_part">
           <div className="punch_div">
-            <p>PUNCH</p>
+            <p id='label_header'>PUNCH</p>
           </div>
           <div className="imgs">
             <div className="im">
@@ -77,7 +77,7 @@ const Bending_tool = () => {
         {/* Die Part */}
         <div className="die_part">
           <div className="die_div">
-            <p>DIE</p>
+            <p id='label_header'>DIE</p>
           </div>
           <div className="die_img">
             <div className="die">

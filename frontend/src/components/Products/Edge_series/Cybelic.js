@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cybelic.css'
+import './CNC_controller.css'
 import img_17 from './images_for_main_page/image 17.png';
 import img_18 from './images_for_main_page/image 18.png'
 import img_19 from './images_for_main_page/image 19.png'
@@ -9,8 +10,8 @@ const Cybelic = () => {
   return (
     
       <div>
-        <div className="cybelec">
-          <p>CYBELEC</p>
+        <div  className="delem" id='sy'>
+          <p >CYBELEC</p>
         </div>
 
         {/* CYBELEC part */}

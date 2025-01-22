@@ -19,9 +19,11 @@
 
 }
 .step_container{
-    background-color: #4D4F48;
+    background-color:#4D4F48;
+    height:100% ;
     width: 96%;
-    margin: 20px 0px 10px 25px;
+    margin-left: 2%;
+    margin-top: 0.5%;
     
 
 }

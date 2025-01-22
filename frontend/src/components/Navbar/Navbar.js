@@ -25,7 +25,7 @@ const Navbar = () => {
 
     
         <ul className={`nav__elements ${menuOpen ? 'open' : ''}`}>
-        <a href="javascript:void(0)" class="close-btn" onclick={toggleMen}>×</a>
+       
           <li>
             <NavLink to="/" className="active" >HOME</NavLink>
           </li>

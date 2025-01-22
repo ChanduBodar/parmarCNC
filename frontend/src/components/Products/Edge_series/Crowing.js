@@ -49,7 +49,7 @@ export const Crowing = () => {
               <p id="edge_b">Bending Tools</p>
             </div>
             <div className="h_desc_part">
-              <p>
+              <p  id='frout_text'>
                 <b>Parmar</b> has a wide range of bending tool solutions, such as 1V and multi-V lower tools and different upper tool solutions. All tools are manufactured from high-class materials. They are hardened, so the durability and accuracy are top quality. Our own production ensures that we always deliver exactly what our customers truly need. We even design the right tool for a customer's needs from the very beginning if needed.
               </p>
             </div>
@@ -86,7 +86,7 @@ export const Crowing = () => {
         {/* H Series 1 */}
         <div className="h_series_1">
           <div className="h_desc_part_1">
-            <p>
+            <p id='frout_text'>
               The CNC Crowning automatically compensates the deflection of the lower frame. It regulates the wedges/hydraulic cylinder of the lower table automatically in order to create a perfect crowning for each single bend, according to the different lengths and bending forces.
               <br />
               <br />

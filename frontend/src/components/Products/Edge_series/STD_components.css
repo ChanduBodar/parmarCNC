@@ -29,3 +29,167 @@ table{
 .std_part{
     width: 94%;
 }
+@media screen and (max-width:2500px){
+
+}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+ 
+    
+}
+
+@media screen and (max-width:912px){
+    
+   
+   .standard p{
+      font-size: 1.5em
+   }
+    
+   
+}
+@media screen and (max-width:833px){
+    
+    
+    
+}
+
+
+@media screen and (max-width:768px){
+   
+   .de_text p{
+      font-size: 1.4em
+   }
+
+}
+@media screen and (max-width:600px){
+   .de_text p{
+      font-size: 1.2em
+   }
+   .img_container p{
+      font-size: 0.8em
+   }
+
+}
+
+ @media screen and (max-width: 575px)
+{
+    
+   .de_text p{
+      font-size: 1.1em
+   }
+   .img_container p{
+      font-size: 0.7em
+   }
+
+}
+@media screen and (max-width:540px){
+   .standard p{
+      font-size: 1.3em
+   }
+    
+   
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+   .de_text p{
+      font-size: 1.0em
+   }
+   .img_container p{
+      font-size: 0.6em
+   }
+}
+
+
+@media screen and (max-width: 430px)
+{
+   .de_text p{
+      font-size: 0.9em
+   }
+   .img_container p{
+      font-size: 0.4em
+   }
+   
+}
+@media screen and (max-width: 390px)
+{
+   .standard p{
+      font-size: 1.0em
+   }
+   .de_text p{
+      font-size: 0.8em
+   }
+   .img_pa{
+   
+     flex-direction: column;
+     justify-content:center ;
+    align-items: center;
+    
+     gap: 5px;
+   }
+   .img_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .img_container img{
+      height:30% ;
+    width: 30%;
+   }
+   .img_container p{
+      font-size: 0.7em;
+   }
+    
+}
+
+@media screen and (max-width: 376px)
+{
+   .standard p{
+      font-size: 0.9em
+   }
+   .img_container p{
+      font-size: 0.7em;
+   }
+}
+@media screen and (max-width: 344px)
+{
+   
+}
+   
+    
+
+@media screen and (max-width: 336px)
+{
+   .img_container p{
+      font-size: 0.6em;
+   }
+   .standard p{
+      font-size: 0.8em
+   }
+} 
+@media screen and (max-width: 294px)
+{
+   .img_container p{
+      font-size: 0.55em;
+   }
+   .standard p{
+      font-size: 0.7em
+   }
+}
+@media screen and (max-width: 256px)
+{
+   .img_container p{
+      font-size: 0.50em;
+   }
+   .standard p{
+      font-size: 0.6em
+   }
+}
