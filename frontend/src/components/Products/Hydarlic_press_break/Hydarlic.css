@@ -1,8 +1,13 @@
 :root{
     --color:#A5C847;
 }
-
-
+.Hyralic_part{
+    margin-top: 12%;
+}
+.hero_section img{
+    height:50% ;
+    width: 50%
+}
 /* part-2  */
 .Hyralic_2{
     margin: 2%;

@@ -43,8 +43,10 @@ export const Standard_Components= () => {
         </div>
 
         {/* Border lines */}
-        <div className="main_border"></div>
-        <div className="second_border"></div>
+      
+        <div className="second_border">
+            
+        </div>
       </div>
     </div>
     </div>

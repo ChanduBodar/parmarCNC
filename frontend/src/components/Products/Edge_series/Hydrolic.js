@@ -2,8 +2,8 @@ import React from 'react'
 import './Hydrolic.css'
 import im_64 from './images_for_main_page/Group 64.png'
 import im_63 from './images_for_main_page/Group 63.png'
-import p_1 from  './images_for_main_page/parmar_3 1.png'
-import p_4 from  './images_for_main_page/parmar_4 1.png'
+// import p_1 from  './images_for_main_page/'
+// import p_4 from  './images_for_main_page/'
 import p_5 from './images_for_main_page/parmar_5 1.png'
 
 
@@ -38,7 +38,7 @@ const Hydrolic = () => {
             
     
             {/* Hydraulic Part */}
-            <div className="hydro_part">
+            {/* <div className="hydro_part">
               <div className="hy_img_part">
                 <div className="hy_1">
                   <div className="hy_img_p_1">
@@ -74,7 +74,7 @@ const Hydrolic = () => {
                 </div>
                 <p id="jj">Edge Hybrid Series Press Brake with AC Servo Motor and Drive with Standard Servo Pump for less noise with 40% more productivity and 30% energy saving</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div></div>
   )

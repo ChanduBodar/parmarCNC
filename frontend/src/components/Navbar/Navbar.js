@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 
 import { NavLink,Link } from 'react-router-dom';
  import logo from './navbar_images/Group 25.svg';
 import './Navbar.css'; // Link to your CSS file for navbar styles
-import './Navbar_media.css'
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,6 +17,23 @@ const Navbar = () => {
   const toggleMen = () => {
     setIsOpen(!isOpen); // Toggle between true and false
   };
+  useEffect(() => {
+    // Get the current URL
+    const currentURL = window.location.href;
+
+    // Select all the nav links
+    const navLinks = document.querySelectorAll('.nav_bar nav_elements li a');
+
+    // Loop through each link and add the 'active' class if the href matches the current URL
+    navLinks.forEach((link) => {
+      if (link.href === currentURL) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  }, []); // Empty dependency array ensures this runs only once after the component mounts
+
 
   return (
     <div className="nav_bar">
@@ -27,25 +44,25 @@ const Navbar = () => {
         <ul className={`nav__elements ${menuOpen ? 'open' : ''}`}>
        
           <li>
-            <NavLink to="/" className="active" >HOME</NavLink>
+            <NavLink to="/" >HOME</NavLink>
           </li>
           <li>
-            <Link to="/company">COMPANY</Link>
+            <NavLink to="/company" >COMPANY</NavLink>
           </li>
           <li>
-            <Link to="/products">PRODUCTS</Link>
+            <NavLink to="/products"  >PRODUCTS</NavLink>
           </li>
           <li>
-            <Link to="/event">EVENT</Link>
+            <NavLink to="/event" >EVENT</NavLink>
           </li>
           <li>
-            <Link to="/download">DOWNLOAD</Link>
+            <NavLink to="/download" >DOWNLOAD</NavLink>
           </li>
           <li>
-            <Link to="/videos">VIDEOS</Link>
+            <NavLink to="/videos" >VIDEOS</NavLink>
           </li>
           <li id='contect-me'>
-            <Link to="/contact">CONTACT</Link>
+            <NavLink to="/contact">CONTACT</NavLink>
           </li>
         </ul>
       

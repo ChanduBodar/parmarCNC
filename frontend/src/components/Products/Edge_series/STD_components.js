@@ -11,59 +11,48 @@ import i_10_1 from './images_for_main_page/parmar_10 1.png'
 const STD_components = () => {
   return (
     <div>
-        <div>
+      <div>
       <div className="hydraulic_c">
         <p>STANDARD COMPONENTS</p>
       </div>
 
-      <div className="std_part">
-        <table>
-          <tr className="std_1">
-            <td className="img_std_1">
-              <img src={p_6_1} alt="" />
-              <div className="tag_1">
-                <p>Back Guard</p>
-              </div>
-            </td>
-            <td className="img_std_1">
-              <img src={p_7_1} alt="" />
-              <div className="tag_1">
-                <p>Side Guard</p>
-              </div>
-            </td>
-            <td className="img_std_1">
-              <img src={p_8_1} alt="" />
-              <div className="tag_1">
-                <p>Linear Scale</p>
-              </div>
-            </td>
-          </tr>
-          <tr className="std_1">
-            <td className="img_std_1">
-              <img src={i_33} alt="" />
-              <div className="tag_1">
-                <p>Fingers</p>
-              </div>
-            </td>
-            <td className="img_std_1">
-              <img src={i_9_1} alt="" />
-              <div className="tag_1">
-                <p>Back Guage</p>
-              </div>
-            </td>
-            <td className="img_std_1">
-              <img src={i_10_1} alt="" />
-              <div className="tag_1">
-                <p>Back Guage</p>
-              </div>
-            </td>
-          </tr>
-        </table>
+      <div className='std_main_div'>
+        <div  className='item_div'>
+          <img src={p_6_1}/>
+          <p>Back Gauge</p>
+        </div>
+        
+        <div className='item_div'>
+          <img src={p_7_1}/>
+          <p>Back Gauge</p>
+        </div>
+        
+        
+        <div className='item_div'>
+          <img src={p_8_1}/>
+          <p>Back Gauge</p>
+        </div>
+        
+      
+        <div className='item_div'>
+          <img src={i_33}/>
+          <p>Back Gauge</p>
+        </div>
+        
+       
+        <div className='item_div'>
+          <img src={i_9_1}/>
+          <p>Back Gauge</p>
+        </div>
+        
+        
+        <div className='item_div'>
+          <img src={i_10_1}/>
+          <p>Back Gauge</p>
+        </div>
       </div>
 
-      <div className="hydraulic_c">
-        <p>ACCESSORIES</p>
-      </div>
+      
     </div>
     </div>
   )

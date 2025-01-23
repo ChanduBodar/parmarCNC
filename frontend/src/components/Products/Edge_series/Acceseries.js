@@ -8,6 +8,11 @@ import i_135 from './images_for_main_page/image 35.png'
 const Acceseries = () => {
   return (
     <div>
+      <div className='accessories_label'>
+          <p>
+          ACCESSORIES
+          </p>
+      </div>
       <div className="std_part_2">
       <table>
         <tr className="std_2">

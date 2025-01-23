@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hydarlic.css'
 import img_1 from './Frame_26_images/PNCPBR1030 Rear cylinder press brake 1.png'
-import img_2 from './Frame_26_images/Group 18.png'
+
 import v_7 from './Frame_26_images/Vector 7.png'
 import img_74 from './Frame_26_images/Group 74.png'
 import img_75 from './Frame_26_images/Group 75.png'
