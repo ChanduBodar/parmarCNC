@@ -21,7 +21,7 @@ import Acceseries from '../Edge_series/Acceseries';
 
 const Snchro_hydrlic_press_break = () => {
   return (
-    <div>
+    <div className='main_class'>
       <Sin_1/>
       <Sin_2/>
       

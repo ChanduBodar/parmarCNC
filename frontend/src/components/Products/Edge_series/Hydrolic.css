@@ -27,8 +27,8 @@
 
     background-color:var(--color);
 
-    width: 25%;
-    transform: translate(150%,10%);
+    width: 30%;
+    transform: translate(120%,10%);
 }
 .h_s_tag p{
 
@@ -76,76 +76,51 @@
     max-width: 80%; /* Maximum width of the line */
     background-color: var(--color);
     width:50%;
-    font-size: 0.9em; /* Font size */
+    font-size: 1.0em; /* Font size */
     text-align: center; /* Justify text to spread it */
     word-spacing: 0.10em; /* Space between words */
     line-height: 1.3em;
    
     color: white;
-    padding: 2% 0%;
+    padding: 2% 0.5%;
 
 }
 /* hydrolic Part */
 .hydro_part{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 3%;
-   
- }
- .hy_img_part{
+    margin-top: 4%;
+}
+.hy_img_part{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 
-    
- }
- .hy_img_p_1{
-   
-    
- }
- .hy_img_p_1 img{
-    height:80%;
-    width: 90%;
-    transform: translate(0%,10%);
- }
- .d_img_part{
-    background-color: var(--color);
-    height:12% ;
-    width: 71%;
- }
- .d_img_part p{
+}
+.hy_img_p_1 img{
+    height: 70%;
+    width: 80%;
+}
+#d_img_part {
+    background-color: #A5C847;
+    width: 80%;
+    transform: translate(15%,-12%);
+    padding: 3% 0.5%;
     color: white;
     text-align: center;
- }
- .hy_img_part #jj{
-    margin-top: 3%;
-    font-weight: 400;
-    max-width: 68%; /* Maximum width of the line */
-    
-    font-size: 0.7em; /* Font size */
-    text-align: center; /* Justify text to spread it */
-    word-spacing: 0.10em; /* Space between words */
-    line-height: 1.3em;
-    margin-top: 2.0%;
+    font-size: 1.0em
+}
+#jj{
+   margin-top: 2%;
+    width: 80%;
     color: white;
- }
- .std_part{
-    background-color: #4D4F48;
-    width: 96%;
-    margin: 2% 2% 0% 2%;
-    padding: 1%;
- }
- .std_1{
-    display: flex;
-    flex-direction: row;
-   
-    
- }
- .img_std_1 img{
-    width: 100%;
-    height: 100%;
- }
+    text-align: center;
+    font-size: 0.8rem;
+    padding-left: 3%;
+}
+
+ 
  @media screen and (max-width:2500px){
 
  }
@@ -157,12 +132,61 @@
      
  }
  @media screen and (max-width: 1024px){
-  
+    .hydraulic_c p{
+        
+        
+        font-size: 1.5em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 1.3em; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.9em; 
+
+    }
+    #d_img_part {
+        font-size: 0.9em
+    }
+    #jj{
+       
+        font-size: 0.7rem;
+      
+    }
+    
      
  }
  
  @media screen and (max-width:912px){
-     
+    .hydraulic_c p{
+        
+        
+        font-size: 1.4em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 1.2em; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.8em; 
+
+    }
+    #d_img_part {
+        font-size: 0.8em
+    }
+    #jj{
+       
+        font-size: 0.6rem;
+      
+    }
    
      
      
@@ -170,27 +194,166 @@
  }
  @media screen and (max-width:833px){
      
-     
+    .hydraulic_c p{
+        
+        
+        font-size: 1.3em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 1.1em; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.7em; 
+
+    }
+    #d_img_part {
+        font-size: 0.7em
+    }
+    #jj{
+       
+        font-size: 0.6rem;
+      
+    }
      
  }
  
  
  @media screen and (max-width:768px){
     
-     
+    .hydraulic_c p{
+        
+        
+        font-size: 1.2em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 1.0em; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.6em; 
+
+    }
+    #d_img_part {
+        font-size: 0.6em
+    }
+    #jj{
+       
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+      
+    }
  
  }
  @media screen and (max-width:600px){
-     
+    .hydraulic_c p{
+        
+        
+        font-size: 1.1em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 0.85em; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.5em; 
+
+    }
+    #d_img_part {
+        font-size: 0.6em
+    }
+    #jj{
+       
+        font-size: 0.4rem;
+        line-height: 0.6rem;
+      
+    }
  }
  
   @media screen and (max-width: 575px)
  {
-     
+    .h_images{
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 2%;
+    }
+    .hydraulic_c p{
+        
+        
+        font-size: 1.0em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 0.85em; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.9em; 
+
+    }
+
+    #d_img_part {
+        font-size: 0.9em
+    }
+    #jj{
+       
+        font-size: 0.8rem;
+        line-height: 1.0rem;
+        margin-top: 1%;
+      
+    }
+    .hydro_part{
+        flex-direction: column;
+        transform: translateX(10%);
+        gap: 20px;
+        padding-bottom: 3%;
+        
+    }
     
  }
  @media screen and (max-width:540px){
-     
+    .h_images{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .hydraulic_c p{
+        
+        
+        font-size: 0.9em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 0.8em;
+        padding: 3%; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.9em; 
+
+    }
+
+    #d_img_part {
+        font-size: 0.9em
+    }
+  
     
  }
  
@@ -198,19 +361,96 @@
  
  @media screen and (max-width: 480px)
  {
-  
+    
+    .hydraulic_c p{
+        
+        
+        font-size: 0.85em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 0.75em;
+        padding: 3%; 
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.8em; 
+
+    }
+
+    #d_img_part {
+        font-size: 0.8em
+    }
     
  }
  
  
  @media screen and (max-width: 430px)
  {
-     
-    
+    .hydraulic_c p{
+        
+        
+        font-size: 0.80em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 0.7em;
+       
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.7em; 
+
+    }
+
+    #d_img_part {
+        font-size: 0.7em
+    }
+    #jj{
+       
+        font-size: 0.7rem;
+        line-height: 1.0rem;
+
+      
+    }
  }
  @media screen and (max-width: 390px)
  {
-     
+    .hydraulic_c p{
+        
+        
+        font-size: 0.70em;
+        
+       
+    }
+    .h_s_tag p{
+        font-size: 0.6em;
+       
+
+       
+    }
+    .h_im_1 p{
+      
+        font-size: 0.6em; 
+
+    }
+
+    #d_img_part {
+        font-size: 0.7em
+    }
+    #jj{
+       
+        font-size: 0.6rem;
+        line-height: 1.0rem;
+
+      
+    }
      
  }
  

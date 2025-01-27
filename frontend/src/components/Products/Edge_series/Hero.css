@@ -1,46 +1,55 @@
-.hero_section{
+.cnc_hero_section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
-.hero_section img{
-    height: 50%;
+#cnc_logo_img{
     width: 50%;
-  
+    height: 50%;
 }
-.hero_img_section{
+
+.cnc_text_section{
     display: flex;
     flex-direction: column;
     background-color: #A5C847;
-    gap: 7%;
-    padding-bottom: 20px;
-    height:90%;
+    gap: 10px;
+    padding-bottom: 2%;
+    height:100%;
     width: 700px;
     
     
    
 }
-.machine_description{
+.cnc_description{
     background-color: #4D4F48;
     color: white;
-    padding: 20px;
-    width: 70%;
-    transform: translate(32%,10%);
+   padding: 3% 2%;
+    width: 90%;
+    line-height: 1.5;
+    transform: translate(12%,10%);
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 
 }
-#main_text{
-    font-size: 1.5rem;
-    
-    margin: 0;
+#CNC_label_text{
+    font-size: 1.8rem;
 }
-#sub_text{
-    padding: 0;
-    margin: 0;
-    font-size:0.7rem;
+#CNC_sub_label_text{
+    font-size: 0.8rem;
+}
+/* media part */
+.media_buttons{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: translate(30%,2%);
+    margin-top: 2%;
 
+}
+#md_btn{
+    height: 100%;
+    width: 50%;
 }
 @media screen and (max-width:2500px){
 
@@ -53,140 +62,78 @@
 	
 }
 @media screen and (max-width: 1024px){
-    
-    #main_text{
-        font-size: 1.3rem;
-        
-        margin: 0;
+    #CNC_label_text{
+        font-size: 1.45rem;
     }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.7rem;
+    #CNC_sub_label_text{
+        font-size: 0.55rem;
+    }
+    .media_buttons{
+        display:flex;
+        flex-direction: column;
+        gap: 8px;
+        transform: translate(30%,2%);
+        margin-top: 1.5%;
     
     }
-    .machine_description{
-        padding: 12px; 
-        transform: translate(20%,10%);
+    #md_btn{
+        height: 100%;
+        width: 45%;
     }
    
     
 }
 
 @media screen and (max-width:912px){
-    
-   
-    #main_text{
-        font-size: 1.1rem;
-        
-        margin: 0;
+    #CNC_label_text{
+        font-size: 1.30rem;
     }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.6rem;
-    
-    }
-    
-   
     
    
 }
+
 @media screen and (max-width:853px){
     
-    
-    #main_text{
-        font-size: 1.0rem;
-        
-        margin: 0;
+    #CNC_label_text{
+        font-size: 1.22rem;
     }
-   
-    
     
 }
 
 
 @media screen and (max-width:768px){
    
-    
-    #main_text{
-        font-size: 0.9rem;
-        
-        margin: 0;
-    }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.4rem;
-    
-    }
-    .machine_description{
-        padding: 8px; 
-        line-height:1.5;
-        transform: translate(18%,10%);
+    #CNC_label_text{
+        font-size: 1.1rem;
     }
 
 }
 @media screen and (max-width:600px){
-    
-    #main_text{
-        font-size: 0.7rem;
-        
-        margin: 0;
+    #CNC_label_text{
+        font-size: 0.85rem;
     }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.4rem;
-    
+    #CNC_sub_label_text{
+        font-size: 0.5rem;
     }
-    .machine_description{
-        padding: 8px; 
-        line-height:1.5;
-        transform: translate(10%,10%);
-    }
+  
 }
 
  @media screen and (max-width: 575px)
 {
-    #main_text{
-        font-size: 0.7rem;
-        
-        margin: 0;
+    #CNC_label_text{
+        font-size: 0.82rem;
     }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.4rem;
-    
+    #CNC_sub_label_text{
+        font-size: 0.4rem;
     }
-    .machine_description{
-        padding:px; 
-        line-height:1.4;
-        transform: translate(10%,10%);
-    }
-   
 }
 @media screen and (max-width:540px){
     
-    .machine_description{
-        
-        line-height:1.1;
-        transform: translate(8%,10%);
+    #CNC_label_text{
+        font-size: 0.77rem;
     }
-    #main_text{
-        font-size: 0.5rem;
-        
-        margin: 0;
-    }
-    .hero_section img{
-        width: 60%;
-    }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.3rem;
-    
+    #CNC_sub_label_text{
+        font-size: 0.45rem;
     }
 }
 
@@ -194,110 +141,53 @@
 
 @media screen and (max-width: 480px)
 {
-  
-    .machine_description{
-        padding:6px; 
-        line-height:1.1;
-        transform: translate(6%,10%);
+    #CNC_label_text{
+        font-size: 0.67rem;
     }
-    #main_text{
-        font-size: 0.5rem;
-        
-        margin: 0;
+    #CNC_sub_label_text{
+        font-size: 0.4rem;
     }
 }
-
 
 @media screen and (max-width: 430px)
 {
-    .machine_description{
-        padding:6px; 
-        line-height:1.1;
-        transform: translate(6%,10%);
+    
+    #CNC_label_text{
+        font-size: 0.61rem;
     }
-    #main_text{
+    #CNC_sub_label_text{
         font-size: 0.4rem;
-        
-        margin: 0;
     }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.25rem;
+    .media_buttons{
+        display:flex;
+        flex-direction: column;
+        gap: 8px;
+        transform: translate(30%,2%);
+        margin-top: 0.5%;
     
     }
    
 }
+@media screen and (max-width: 400px)
+{
+    #CNC_label_text{
+        font-size: 0.55rem;
+    }
+    #CNC_sub_label_text{
+        font-size: 0.3rem;
+    }
+
+    
+}
+
 @media screen and (max-width: 390px)
 {
-    
-   
-    
-}
+    #CNC_label_text{
+        font-size: 0.56rem;
+    }
+    #CNC_sub_label_text{
+        font-size: 0.3rem;
+    }
+  
 
-@media screen and (max-width: 376px)
-{
-    
-    
-}
-@media screen and (max-width: 344px)
-{
-    
-    .machine_description{
-        padding:6px; 
-        line-height:1.1;
-        transform: translate(4%,10%);
-    }
-    #main_text{
-        font-size: 0.35rem;
-        
-        margin: 0;
-    }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.2rem;
-    
-    }
-    
-    .hero_section{
-        margin-top: 2%;
-    }
-
-}
-@media screen and (max-width: 336px)
-{
-    
-} 
-@media screen and (max-width: 294px)
-{
-    .machine_description{
-        padding:5px; 
-        line-height:1.0;
-        transform: translate(2%,10%);
-    }
-    #main_text{
-        font-size: 0.30rem;
-        
-        margin: 0;
-    }
-    #sub_text{
-        padding: 0;
-        margin: 0;
-        font-size:0.2rem;
-    
-    }
-    
-    .hero_section{
-        margin-top: 3%;
-    }
-}
-@media screen and (max-width: 256px)
-{
-    #main_text{
-        font-size: 0.26rem;
-        
-        margin: 0;
-    }
-    
 }

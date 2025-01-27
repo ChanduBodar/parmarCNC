@@ -1,11 +1,19 @@
 import React from 'react'
-import './Edge_1.css'
+
 
 import firstImage from './images_for_main_page/CNC Press Brake 6000x800tone 3.png'
-import Media_buttons from '../Media_buttons/Media_buttons';
+import media_1 from '../Media_buttons/Media_images/Group 119.png'
+import media_2 from '../Media_buttons/Media_images/Group 120.png'
+import media_3 from '../Media_buttons/Media_images/Group 121.png'
+import { useNavigate } from 'react-router-dom'
 
 
 const Edge_1 = () => {
+  const navigate = useNavigate();
+
+    const handleRedirect = () => {
+      navigate('/download');
+    };
   return (
     <div>
       <div className="hero_section">
@@ -23,7 +31,14 @@ const Edge_1 = () => {
                 </p>
               </div>
                 
-                  <Media_buttons/>
+               <div>
+                <div className='media_section'>
+                                      <img src={media_1}></img>
+                                      <img src={media_2}></img>
+                                      <img src={media_3} onClick={handleRedirect}/>
+                                  
+                                </div>
+               </div>
                 
 
             </div>

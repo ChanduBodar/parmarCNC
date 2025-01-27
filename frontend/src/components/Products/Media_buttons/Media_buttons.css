@@ -29,11 +29,11 @@
     .media_section{
       
         gap:9px;
-        transform: translate(22%,0%);
+        transform: translate(20%,0%);
     }
     .media_section img{
-        width: 33%;
-        height: 60%;
+        width: 30%;
+        height: 10%;
         cursor: pointer;
         
     

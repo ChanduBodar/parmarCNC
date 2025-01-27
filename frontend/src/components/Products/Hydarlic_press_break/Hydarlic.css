@@ -6,7 +6,16 @@
 }
 .hero_section img{
     height:50% ;
-    width: 50%
+    width: 40%
+}
+.machine_description{
+    transform: translate(45%,10%);
+}
+#main_text{
+    font-size: 1.45rem;
+}
+#sub_text{
+    font-size: 1.0rem;
 }
 /* part-2  */
 .Hyralic_2{

@@ -20,6 +20,7 @@ import Snchro_hydrlic_press_break from './components/Products/Snchro_hydrlic_pre
 import Shering from './components/Products/Shering_machine/Shering';
 import Hydrolic_Sharing from './components/Products/Hydrolic_sharing_machine/Hydrolic_Sharing';
 import BToT from './components/Bottom _to_top/BToT'
+import ScrollTotop from './components/Bottom _to_top/locatoion/ScrollTotop';
 
 function App() {
   return (
@@ -30,10 +31,13 @@ function App() {
       
       
       <div>
+      <ScrollTotop/>
         <Routes>
+          
            <Route path="/" element={<HomePage />} />
            <Route path="/company" element={<CompanyPage />} />
-           <Route path="/products" element={<ProductsPage />} />
+           <Route path="/products" element={<ProductsPage />}
+            />
            <Route path="/event" element={<EventPage />} />
           <Route path="/download" element={<DownloadPage />} />
           <Route path="/videos" element={<VideosPage />} />

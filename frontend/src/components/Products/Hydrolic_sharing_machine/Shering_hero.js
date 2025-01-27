@@ -1,12 +1,17 @@
 import React from 'react'
 import './Shering_hero.css'
-import first_logo from '../Edge_series/images_for_main_page/Group 121.png';
-import second_logo from '../Edge_series/images_for_main_page/Group 119.png';
-import third_img from '../Edge_series/images_for_main_page/Group 120.png';
-import Media_buttons from '../Media_buttons/Media_buttons';
+import media_1 from '../Media_buttons/Media_images/Group 119.png'
+import media_2 from '../Media_buttons/Media_images/Group 120.png' 
+import media_3 from '../Media_buttons/Media_images/Group 121.png'
 import firstImage from './Frame27_images/parmar_14 1.png'
+import { useNavigate } from 'react-router-dom';
 
 const Shering_hero = () => {
+  const navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate('/download');
+  };
   return (
     <div>
       <div className="hero_section">
@@ -24,7 +29,12 @@ const Shering_hero = () => {
                 </p>
               </div>
                 
-                  <Media_buttons/>
+                <div className='media_section'>
+                                     <img src={media_1}></img>
+                                     <img src={media_2}></img>
+                                     <img src={media_3} onClick={handleRedirect}/>
+                                 
+                </div>   
                 
 
             </div>

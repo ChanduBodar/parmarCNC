@@ -7,9 +7,17 @@ import img_74 from './Frame_26_images/Group 74.png'
 import img_75 from './Frame_26_images/Group 75.png'
 import im_13 from './Frame_26_images/parmar_13 1.png'
 import G_80 from './Frame_26_images/Group 80.png'
-import Media_buttons from '../Media_buttons/Media_buttons'
+import media_1 from '../Media_buttons/Media_images/Group 119.png'
+import media_2 from '../Media_buttons/Media_images/Group 120.png'
+import media_3 from '../Media_buttons/Media_images/Group 121.png'
+import { useNavigate } from 'react-router-dom'
 
 const Hydarlic = () => {
+    const navigate = useNavigate();
+
+    const handleRedirect = () => {
+      navigate('/download');
+    };
     return (
         <div>
             <div className="Hyralic_part">
@@ -29,7 +37,12 @@ const Hydarlic = () => {
                                 </p>
                             </div>
 
-                            <Media_buttons />
+                            <div className='media_section'>
+                                <img src={media_1}></img>
+                                <img src={media_2}></img>
+                                <img src={media_3} onClick={handleRedirect}/>
+                                             
+                            </div>
 
 
                         </div>
