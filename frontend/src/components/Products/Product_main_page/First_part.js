@@ -1,18 +1,16 @@
-import React from 'react'
-import './First_part.css'
-import './Prouct.css'
+import React from 'react';
+import './First_part.css';
 
-
-export const First_part = () => {
+export const First_part = ({ imageSrc, label1, label2 }) => {
   return (
     <div>
       <div className="two_image">
-        <img id='first' src={require("./images_for_main_page/d6rSHlYkT9c-SD\ 1.png")} />
+        <img id='first' src={imageSrc} alt="Product" />
         <div className="prodct_part">
-          <p id='label_1'>Explore our products</p>
-          <p id='label_2'>WIDEST RANGE OF THE WORLD</p>
+          <p id='label_1'>{label1}</p>
+          <p id='label_2'>{label2}</p>
         </div>
-      </div>
+      </div>  
     </div>
-  )
-}
+  );
+};

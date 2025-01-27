@@ -1,84 +1,61 @@
-import React from "react";
-import './home.css'
-import './Home_media.css'
-import { useNavigate } from 'react-router-dom';
+// src/HomePage.js
 
+import React from "react";
+import { useNavigate } from 'react-router-dom';
+import { heroData, textContent1,textContent2,textContent3, images, overlapData } from '../../Data_Folders/Homedata'; // Import data
+
+import './home.css';
+import './Home_media.css';
 
 function HomePage() {
   const navigate = useNavigate();
-  const contectnevigate = useNavigate();
 
-  const countryHandler =() =>{
-    contectnevigate('/contact');
-  }
-
-  const handleRedirect = () => {
-    navigate('/products'); // Navigate to '/child' page
+  const handleRedirect = (path) => {
+    navigate(path);
   };
+
   return (
     <div>
       {/* Hero Section */}
       <div className="hero_box">
         <div className="hero_image">
-          <img src={require("./images_for_main_page/Hero_image.jpg")} alt="Hero" />
+          <img src={heroData.heroImage} alt="Hero" />
         </div>
         <div className="hero_text">
-          <h1>WELCOME TO</h1>
-          <h3>PARMAR CNC MACHINES (INDIA) LLP</h3>
+          <h1>{heroData.title}</h1>
+          <h3>{heroData.subtitle}</h3>
         </div>
-        
-          <button className="hero_button" onClick={handleRedirect}>LEARN MORE</button>
-       
+        <button className="hero_button" onClick={() => handleRedirect('/products')}>LEARN MORE</button>
       </div>
 
+      {/* Image Box Section */}
       <div className="two_name_container">
-          <img src={require("./images_for_main_page/image_box_2.png")} alt="img"/>
-          <img src={require("./images_for_main_page/image_box_1.png")} alt="img"/>
-
+        <img src={images.imageBox1} alt="img" />
+        <img src={images.imageBox2} alt="img" />
       </div>
-
-    
 
       {/* Text Section */}
       <div className="text_container">
-        <p>
-          We PARMAR CNC MACHINES (INDIA) LLP Established in the year 2009. Our products under
-          brand name "PARMAR". We manufacture and supply an exclusive range of Power Press Machines,
-          Mechanical Shearing Machines, Hydraulic Shearing Machines, and Hydraulic Press Brakes. <br /><br />
-          With 15 years of experience, our research and integration of modern technology have made
-          PARMAR a name renowned in sheet metal machinery. Our office is located in Rajkot, equipped
-          with state-of-the-art production facilities and upgraded machinery. <br /><br />
-          Our major objectives are providing quality, technology, innovations, and maintenance-free
-          machines, manufactured using tested plates for higher efficiency and lower maintenance.
-          We have been in this field for over a decade and devote all our efforts to provide superior
-          quality products at reasonable prices, innovative designs, and professional after-sales services.
-        </p>
-      
+        <p>{textContent1}</p> <br/>
+        <p>{textContent2}</p> <br/>
+        <p>{textContent3}</p>
       </div>
- 
-
 
       {/* Overlap Image Section */}
       <div className="over_lap_class">
-        <div className="overlap_1">
-          <img src={require("./images_for_main_page/PARMAR_CNC-removebg-preview 3.png")} alt="Parmar CNC" />
-          <div className="side_of_text">
-            <p>20+ PRODUCTS</p>
-            <div className="more_text">
-              <button  onClick={handleRedirect}>LEARN MORE</button>
-            </div>
-          </div>
-        </div>
 
-        <div className="overlap_1">
-          <img src={require("./images_for_main_page/map 2.png")}alt="Map" />
-          <div className="side_of_text">
-            <p>ALL INDIA PRESENCE</p>
-            <div className="more_text">
-             <button onClick={countryHandler}>LEARN MORE</button>
+        {overlapData.map((item, index) => (
+          <div className="overlap_1" key={index}>
+            <img src={item.image} alt={item.text} />
+            <div className="side_of_text">
+              <p>{item.text}</p>
+              <div className="more_text">
+                <button onClick={() => handleRedirect(item.redirectPath)}>{item.buttonText}</button>
+              </div>
             </div>
           </div>
-        </div>
+        ))}
+        
       </div>
     </div>
   );

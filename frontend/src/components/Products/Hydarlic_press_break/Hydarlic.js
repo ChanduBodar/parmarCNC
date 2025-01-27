@@ -46,6 +46,7 @@ const Hydarlic = () => {
                             of our hydraulic press brake make it extremely popular in the
                             global market.
                         </p>
+                        <br/>
                         <p>
                             Press Brakes are developed by keeping latest technology
                             with cylinders are mounted at back side of press Brake
@@ -69,10 +70,10 @@ const Hydarlic = () => {
 
                 {/* part-3 */}
                 <div className="Hyralic_3">
-                    <div className="Hyralic_3_img">
+                    <div className="Hyralic_3_img_1">
                         <img src={img_74} alt="" />
                     </div>
-                    <div className="Hyralic_3_img">
+                    <div className="Hyralic_3_img_2">
                         <img src={img_75} alt="" />
                     </div>
                     <div className='hyralic_last_img'>
@@ -133,10 +134,10 @@ const Hydarlic = () => {
                     </div>
 
                     <div className="part_5_3">
-                        <div className="third_label">
+                        <div className="first_label">
                             <p>Optional Accessories:</p>
                         </div>
-                        <div className="third_label_data">
+                        <div className="first_label_data">
                             <ul>
                                 <li>Motorised Back Gauge with PLC</li>
                                 <li>Anti Detection System</li>

@@ -10,9 +10,16 @@
 }
 /* part-2  */
 .Hyralic_2{
-    margin: 2%;
+    margin: 1% 0% 0% 2% ;
     display: flex;
     flex-direction: row;
+    justify-content:flex-end;
+}
+.hy_img_part{
+    height:80% ;
+    width: 80%;
+    
+    
 }
 .Hyralic_2_desc_part{
     height:100% ;
@@ -26,19 +33,15 @@
     text-align: justify;
     font-size: 1.1em; /* Font size */
      
-    word-spacing: 0.8em; /* Space between words */
+    word-spacing: 0.5em; /* Space between words */
     line-height: 1.3rem;
 }
 
-.hy_img_part{
-    height:100% ;
-    width: 100%;
-    padding-left: 10%;
-    
-}
+
 .hy_img_part img{
-    height: 100%;
-    width: 85%;
+    height: 90%;
+    width: 80%;
+    transform: translateX(15%);
   
 }
 .border{
@@ -60,14 +63,24 @@
     margin: 2%;
     
 }
-.Hyralic_3_img
+.Hyralic_3_img_1
 {
     height:100% ;
     width:100% ;
 }
-.Hyralic_3_img img{
+.Hyralic_3_img_1 img{
     height: 50%;
-    width: 50%;
+    width: 80%;
+}
+.Hyralic_3_img_2
+{
+    height:100% ;
+    width:100% ;
+    transform: translateX(10%);
+}
+.Hyralic_3_img_2 img{
+    height: 50%;
+    width: 60%;
 }
 .hyralic_last_img{
     height:30%;
@@ -76,12 +89,13 @@
     flex-direction: column;
     border: 1px solid black;
 }
+
 .f_part{
     background-color: #A5C847;
 }
 .f_part p{
-    padding: 0px 0px;
-    margin: 10px;
+    padding: 3% 0;
+    
     color: white;
     font-weight: 600;
     font-size: 1.1rem;
@@ -97,8 +111,8 @@
 
 }
 .cyb_part p{
-    padding: 0px 0px;
-    margin: 10px;
+    padding: 3% 0px;
+   
     color: white;
     font-weight: 600;
     font-size: 1.1rem;
@@ -111,12 +125,12 @@
 .specification{
     background-color: #4D4F48;
     width: 100%;
-    height: 2.8em;
+    
 }
 .specification p{
     font-weight: 400;
     max-width: 100%; /* Maximum width of the line */
-    
+    padding: 0.5%;
     font-size: 1.6em; /* Font size */
     text-align: center; /* Justify text to spread it */
     word-spacing: 0.10em; /* Space between words */
@@ -133,6 +147,7 @@
     width: 100%;
     height: 100%;
 }
+/* part 5  */
 .part_5{
     display: flex;
     flex-direction: row;
@@ -144,41 +159,362 @@
 
 }
 .first_label{
-    transform: translate(15%,0%);
+    transform: translate(10%,-40%);
 }
 .first_label p{
     font-weight: 400;
     max-width: 100%; /* Maximum width of the line */
     
-    font-size: 1.6em; /* Font size */
+    font-size: 1.8em; /* Font size */
     text-align: center; /* Justify text to spread it */
-    word-spacing: 0.10em; /* Space between words */
+   
     line-height: 1.3em;
     color: var(--color);
     transform: translate(-15%,10%);
 
 }
 .second_label_data{
-   transform: translate(0%,25%);
+   transform: translate(0%,20%);
 }
-.second_label_data, .first_label_data,.third_label_data{
-    margin-top: 2%;
+.first_label_data ul li ,.second_label_data ul li{
+    max-width: 100%;
+    font-size: 1.0rem;
+    word-spacing: 0.1rem;
 }
-.third_label p{
-    font-weight: 400;
-    max-width: 100%; /* Maximum width of the line */
-    
-    font-size: 1.6em; /* Font size */
-    text-align: center; /* Justify text to spread it */
-    word-spacing: 0.10em; /* Space between words */
-    line-height: 1.3em;
-    color: var(--color);
-    transform: translate(-15%,10%);
+
+
+
+@media screen and (max-width:2500px){
 
 }
-.third_label{
-    transform: translate(15%,0%);
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
 }
+@media screen and (max-width: 1024px){
+    .Hyralic_2_desc_part p{
+       
+        font-size: 1.0em; /* Font size */
+         
+        word-spacing: 0.45em; /* Space between words */
+        line-height: 1.2rem;
+    }
+    .f_part p{
+       
+        font-size: 1.1rem;
+        
+    
+    }
+    .cyb_part p{
+        padding: 3% 0px;
+       
+        color: white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .specification p{
+        font-size: 1.5em;
+        
+    }
+    .first_label p{
+        
+        
+        font-size: 1.7em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.9rem;
+        word-spacing: 0.1rem;
+    }
+}
+  
+   
+
+@media screen and (max-width:912px){
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.9em; /* Font size */
+         
+        word-spacing: 0.4em; /* Space between words */
+        line-height: 1.1rem;
+    }
+    .f_part p{
+       
+        font-size: 1.1rem;
+        
+    
+    }
+    .cyb_part p{
+        padding: 3% 0px;
+       
+        color: white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .specification p{
+        font-size: 1.4em;
+        
+    }
+    .first_label p{
+        font-size: 1.5em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.8rem;
+        word-spacing: 0.1rem;
+    }
+}
+   
+
+@media screen and (max-width:833px){
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.9em; /* Font size */
+         
+        word-spacing: 0.4em; /* Space between words */
+        line-height: 1.0rem;
+    }
+    .f_part p{
+       
+        font-size: 1.1rem;
+        
+    
+    }
+    .cyb_part p{
+        padding: 3% 0px;
+       
+        color: white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .specification p{
+        font-size: 1.4em;
+       
+        
+    }
+    .first_label p{
+        font-size: 1.4em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.7rem;
+        word-spacing: 0.1rem;
+    }
+}
+
+
+@media screen and (max-width:768px){
+
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.75em; /* Font size */
+         
+        word-spacing: 0.4em; /* Space between words */
+        line-height: 0.9rem;
+    }
+    .f_part p{
+       
+        font-size: 1.0rem;
+        
+    
+    }
+    .cyb_part p{
+        padding: 3% 0px;
+       
+        color: white;
+        font-weight: 600;
+        font-size: 1.0rem;
+        text-align: center;
+    }
+    .specification p{
+        font-size: 1.3em;
+     
+        
+    }
+    .first_label p{
+        font-size: 1.3em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.65rem;
+        word-spacing: 0.1rem;
+    }
+
+}
+@media screen and (max-width:600px){
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.6em; /* Font size */
+         
+        word-spacing: 0.3em; /* Space between words */
+        line-height: 0.65rem;
+    }
+    .f_part p{
+       
+        font-size: 0.9rem;
+        
+    
+    }
+    .cyb_part p{
+        padding: 3% 0px;
+     
+        font-size: 0.9rem;
+        
+    }
+    .specification p{
+        font-size: 1.2em;
+    }
+    .first_label p{
+        font-size: 1.1em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.55rem;
+        word-spacing: 0.1rem;
+    }
+}
+
+ @media screen and (max-width: 575px)
+{
+
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.55em; /* Font size */
+         
+        word-spacing: 0.3em; /* Space between words */
+        line-height: 0.60rem;
+    }
+    .f_part p{
+       
+        font-size: 0.8rem;
+        
+    
+    }
+    .cyb_part p{
+        padding: 3% 0px;
+     
+        font-size: 0.8rem;
+        
+    }
+    .specification p{
+        font-size: 1.1em;
+    }
+    .first_label p{
+        font-size: 1.0em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.50rem;
+        word-spacing: 0.1rem;
+    }
+   
+}
+@media screen and (max-width:540px){
+    
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.5em; /* Font size */
+         
+        word-spacing: 0.3em; /* Space between words */
+        line-height: 0.60rem;
+    }
+   
+    .specification p{
+        font-size: 1.0em;
+    }
+    .first_label p{
+        font-size: 0.9em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.45rem;
+        word-spacing: 0.1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.45em; /* Font size */
+         
+        word-spacing: 0.3em; /* Space between words */
+        line-height: 0.50rem;
+    }
+   
+    .specification p{
+        font-size: 0.9em;
+    }
+    .first_label p{
+        font-size: 0.8em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.4rem;
+        word-spacing: 0.1rem;
+    }
+   
+}
+
+
+@media screen and (max-width: 400px)
+{
+    .Hyralic_2_desc_part p{
+       
+        font-size: 0.40em; /* Font size */
+         
+        word-spacing: 0.3em; /* Space between words */
+        line-height: 0.45rem;
+    }
+   
+    .specification p{
+        font-size: 0.8em;
+    }
+    .first_label p{
+        font-size: 0.7em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.35rem;
+        word-spacing: 0.1rem;
+    }
+ 
+}
+@media screen and (max-width: 380px)
+{
+    
+   
+    .specification p{
+        font-size: 0.8em;
+    }
+    .first_label p{
+        font-size: 0.6em;
+    
+    }
+    .first_label_data ul li ,.second_label_data ul li{
+        max-width: 100%;
+        font-size: 0.3rem;
+        word-spacing: 0.2rem;
+    }
+}
+
 
 
 

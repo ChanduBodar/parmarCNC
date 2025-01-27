@@ -8,22 +8,31 @@
     
 }
 .std_com_1{
+  display: flex;
+  flex-direction: column;
   
+    
+}
+.std_label_data{
+    transform: translate(5%,20%);
     
 }
 .std_label p{
     color:#A5C847;
-    font-size:1.5rem ;
+    font-size:1.45rem ;
+    transform: translateY(50%);
 }
-.std_label_data ul li{
+.std_label_data ul li,.std_label_data_2 ul li{
     color: white;
+    font-size: 1rem;
+    word-spacing: 0.1rem;
 } 
 .std_label_data_2 ul li{
     color: white;
     
 }
 .std_label_data_2 {
-    transform: translate(0%,50%);
+    transform: translate(0%,35%);
     
 }
 @media screen and (max-width:2500px){
@@ -37,40 +46,92 @@
 	
 }
 @media screen and (max-width: 1024px){
- 
+    .std_label p{
+        font-size:1.40rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.9rem;
+        word-spacing: 0.1rem;
+    }
     
 }
 
 @media screen and (max-width:912px){
     
-    
+    .std_label p{
+        font-size:1.35rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.8rem;
+        word-spacing: 0.1rem;
+    }
     
    
 }
 @media screen and (max-width:833px){
     
-    
+    .std_label p{
+        font-size:1.3rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.7rem;
+        word-spacing: 0.1rem;
+    }
     
 }
 
 
 @media screen and (max-width:768px){
    
-   
+    .std_label p{
+        font-size:1.2rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.6rem;
+        word-spacing: 0.1rem;
+    }
+    
 
 }
 @media screen and (max-width:600px){
+    .std_label p{
+        font-size:1.1rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.5rem;
+        word-spacing: 0.1rem;
+    }
     
 }
 
  @media screen and (max-width: 575px)
 {
+    .std_label p{
+        font-size:0.8rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.45rem;
+        word-spacing: 0.1rem;
+    }
     
    
 }
 @media screen and (max-width:540px){
     
-   
+    .std_label p{
+        font-size:0.7rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.40rem;
+        word-spacing: 0.1rem;
+    }
 }
 
 
@@ -78,17 +139,44 @@
 @media screen and (max-width: 480px)
 {
    
+    .std_label p{
+        font-size:0.5rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.35rem;
+        word-spacing: 0.1rem;
+      
+    }
+    .std_label_data_2 {
+        transform: translate(0%,50%);
+        
+    }
 }
 
 
 @media screen and (max-width: 430px)
 {
-    
+       
+    .std_label p{
+        font-size:0.45rem ;
+    }
+    .std_label_data ul li,.std_label_data_2 ul li{
+        
+        font-size: 0.30rem;
+        word-spacing: 0.15rem;
+              
+    }
+    .std_label_data_2 {
+        transform: translate(0%,50%);
+        line-height: 0.5;
+        
+    }
    
 }
 @media screen and (max-width: 390px)
 {
-    
+   
     
 }
 

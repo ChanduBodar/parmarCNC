@@ -1,7 +1,6 @@
 
  .nav_bar {
-  margin: 0;
-  padding: 0;
+  
   display: flex;
   justify-content: flex-start;
   align-items: end;
@@ -12,7 +11,7 @@
   z-index: 1000;
   background-color: white;
   width: 100%;
-  height: auto;
+ 
 }
 
 .nav_bar img {
@@ -22,6 +21,7 @@
 
 
 .nav__elements {
+
   gap: 8%;
   list-style: none;
   display: inline-flex;
@@ -30,12 +30,7 @@
 
 }
 
-#contect-me{
-  display: 'flex';
-  align-items: 'center';
-  white-space: 'nowrap';
-  text-overflow: 'ellipsis',
-}
+
 
 .nav__elements li a {
   color: black;
@@ -46,12 +41,12 @@
 }
 
 .nav__elements li a:not(.active):hover {
-  color: #A5C847;
+  color: var(--primary-color);
 }
 .nav__elements li a.active{
   
   text-decoration: underline;
-  color: #A5C847;
+  color: var(--primary-color);
   text-decoration-color: black;
   text-decoration-thickness: 2px; 
   text-underline-offset: 4px;
@@ -59,7 +54,7 @@
 }
 .nav__elements li a:hover {
   text-decoration: underline;
-  color: #A5C847;
+  color: var(--primary-color);
   text-decoration-color: black;
   text-decoration-thickness: 2px; 
   text-underline-offset: 4px;

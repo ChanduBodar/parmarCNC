@@ -1,33 +1,29 @@
-import React from 'react'
-import './Third.css'
-import './Prouct.css'
+import React from 'react';
+import './Third.css';
 import { useNavigate } from 'react-router-dom';
-const Third = () => {
+
+const Third = ({ imageSrc, buttonLabel, redirectPath, imageForMachine }) => {
   const navigate = useNavigate();
 
   const handleRedirect = () => {
-    navigate('/Shering_machine');
+    navigate(redirectPath);
   };
+
   return (
-  
     <div>
-         <div className="ba_img">
-          <img src={require("./images_for_main_page/Group 98.png")} />
-          <div className="above_div">
-            <div className="right_text_part">
-              <img
-                src={require("./images_for_main_page/Group 118.png")}
-                alt="Shearing Machine 1"
-                id="big"
-              />
-            </div>
-            <div className="tag_part">
-              <button onClick={handleRedirect}>SHEARING MACHINE</button>
-            </div>
+      <div className="ba_img">
+        <img src={imageSrc} alt="Product" />
+        <div className="above_div">
+          <div className="right_text_part">
+            <img src={imageForMachine} alt="Machine" id="big" />
+          </div>
+          <div className="tag_part">
+            <button onClick={handleRedirect}>{buttonLabel}</button>
           </div>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Third
+export default Third;

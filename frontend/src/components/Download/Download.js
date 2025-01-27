@@ -1,44 +1,32 @@
-import React from 'react'
-import './download.css'
-import down_img from './Img_for_download/Group 125.png'
-import icon from './Img_for_download/Group.png'
-import downlaod_img from './Img_for_download/PDF_file_icon.svg 1.png'
+import React from 'react';
+import './download.css';
+import { downloadData } from '../../Data_Folders/Download'; // Import the download data
 
 const Download = () => {
-
   return (
-    <div className='download_section'>
-
-      <div className='download_section'>
-
-        <img src={down_img} alt='' />
-        <p id='Download_tag'>
-             DOWNLOAD
-        </p>
+    <div className="download_section">
+      {/* Download Header Section */}
+      <div className="download_section">
+        <img src={require('../../Images/download_hero_img.png')} alt="Download Header" />
+        <p id="Download_tag">DOWNLOAD</p>
       </div>
 
-      {/* download part section */}
-      <div className='Down_part'>
-        <div className='download_img_part'>
-          <img  src={downlaod_img}/>
-          <div className='download_btn'>
-            <img src={icon} id='do_icon' />
-            <a href='ParmarCNC.pdf' class="download_text" download="Parmar.pdf"> Download</a>
+      {/* Download Part Section */}
+      <div className="Down_part">
+        {downloadData.map((download) => (
+          <div className="download_img_part" key={download.id}>
+            <img src={download.image} alt="Download Icon" />
+            <div className="download_btn">
+              <img src={download.icon} id="do_icon" alt="Download Button Icon" />
+              <a href={download.fileName} className="download_text" download={download.downloadName}>
+                Download
+              </a>
+            </div>
           </div>
-        </div>
-
-        <div className='download_img_part'>
-          <img  src={downlaod_img}/>
-          <div className='download_btn'>
-            <img src={icon} id='do_icon' />
-            <a href='ParmarCNC.pdf' class="download_text" download="Parmar.pdf"> Download</a>
-          </div>
-        </div>
+        ))}
       </div>
-
-
     </div>
-  )
-}
+  );
+};
 
-export default Download
+export default Download;

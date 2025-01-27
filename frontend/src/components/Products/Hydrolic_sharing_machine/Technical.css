@@ -9,14 +9,19 @@
 .tech_part img{
     height:40%;
     width: 40%;
+    margin-right: 1%;
+    margin-bottom: 1%;
 }
 .tech_data{
-    
+    margin-left: 1%;
 
 }
 .tech_data p{
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 400;
     text-align: justify;
+    word-spacing: 0.2rem;
+    line-height: 1.2;
 }
 .Tech_images{
     margin-top: 2%;
@@ -35,4 +40,103 @@
 #im_2{
  height:30%;
  width:30% ;
+}
+@media screen and (max-width:2500px){
+
+}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+   
+    .tech_data p{
+        font-size: 1.1rem;
+        margin-bottom: 1%;
+        
+    }
+}
+
+@media screen and (max-width:912px){
+  
+    .tech_data p{
+        font-size: 1.0rem;
+       
+    }
+    
+   
+}
+@media screen and (max-width:833px){
+    .tech_data p{
+        font-size: 0.9rem;
+       
+    }
+    
+    
+}
+
+
+@media screen and (max-width:768px){
+
+    
+    .tech_data p{
+        font-size: 0.8rem;
+        word-spacing: 0.15rem;
+       
+    }
+
+}
+@media screen and (max-width:600px){
+    .tech_data p{
+        font-size: 0.6rem;
+       
+    }
+}
+
+ @media screen and (max-width: 575px)
+{
+
+    
+    
+   
+}
+@media screen and (max-width:540px){
+   
+    .tech_data p{
+        font-size: 0.53rem;
+       
+    }
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .tech_data p{
+        font-size: 0.45rem;
+        word-spacing: 0.10rem;
+       
+    }
+   
+}
+
+
+@media screen and (max-width: 400px)
+{
+    .tech_data p{
+        font-size: 0.4rem;
+        margin-bottom: 2%;
+       
+    }
+}
+@media screen and (max-width: 380px)
+{
+    .tech_data p{
+        font-size: 0.35rem;
+        margin-bottom: 2%;
+       
+    }
 }

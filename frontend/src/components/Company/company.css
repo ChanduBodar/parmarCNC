@@ -8,6 +8,134 @@
 .company-section{
     margin-top: 12%;
 }
+/* main_part */
+.two_image {
+    position: relative; 
+   
+    
+  }
+  .backword_div img {
+    width: 100%;     
+    height: auto;      
+    object-fit: cover;
+  } 
+  .forword_div{
+    position: absolute; 
+    top: 5%;
+    left: 3%;
+    width: 95%;        
+    height:85%;  
+      
+    background-color: var(--yellow); 
+    color: black ;     
+          
+
+
+  }
+  .forword_div p {
+
+    width: 100%; 
+    max-width: 100%; 
+    text-align: justify;
+    padding: var(--padding-boxes); 
+    font-size: var(--text-size);               
+    line-height: 1.6;               
+      
+    
+  }
+  /* mission and vision */  
+  
+.text_header{
+    text-decoration: underline;        
+    text-decoration-color: var(--primary-color);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  .two_image_1 {
+      position: relative; 
+      
+  
+    }
+    .forword_div_1{
+      position: absolute; 
+       
+      width: 75%;        
+      height:85%;     
+      top: 8%;
+      right:0%;  
+      background-color: var(--yellow); 
+      color: black ;     
+      display: flex; 
+    }
+    .forword_div_1 p {
+  
+      width: 100%; 
+      max-width: 100%; 
+      text-align: justify;
+      padding: var(--padding-boxes); 
+      font-size: var(--text-size);               
+      line-height: 1.6;  
+      
+    }
+  
+    
+    .backword_div_1 img {
+      width: 70%;     
+      height: auto;     
+      object-fit: cover;  
+    }
+
+/* why us */
+
+  .text_header{
+    text-decoration: underline;        
+    text-decoration-color: var(--primary-color);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+ 
+  .two_image_2 {
+    position: relative; 
+    
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  .forword_div_2{
+    position: absolute;
+    width: 75%;        
+    height:85%;     
+    top: 6%;
+    left: 0%;  
+    background-color: var(--yellow); 
+    color: black ;     
+    display: flex; 
+  }
+  .forword_div_2 p {
+
+    width: 100%; 
+    max-width: 100%; 
+    text-align: justify;
+    padding: var(--padding-boxes); 
+    font-size: var(--text-size);               
+    line-height: 1.6;  
+    
+  }
+  
+
+  .backword_div_2 img {
+    width: 70%;     
+    height: auto;      
+    object-fit: cover; 
+    margin: 0% 0% 2% 30%;
+  }
+  
+
+  
 
  /* responsivr site  */
 

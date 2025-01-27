@@ -1,60 +1,50 @@
+// src/components/Footer.js
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+import { footerText, footerImages } from '../../Data_Folders/Footerdata'; // Import the data
+
 const Footer = () => {
     return (
         <div className="footer">
+            <p id="contact">{footerText.contactTitle}</p>
 
-            <p id="contect">
-                CONTACT US
-               
-            </p>
             <div className="ma_part">
                 <div className="footer_text_2">
-                    <p>
-                        Survey No. 91, Jay Industrial Area, Hadamtala, 2 Rajkot - 360311 Gondal Road, Rajkot,
-                        <br />
-                        360002.Gujarat-India
-                    </p>
+                    <p>{footerText.address}</p>
                 </div>
 
                 <div className="foot_1">
-                    <img id='iso_img' src={require("./Footer_images/iso 2.png")}  alt="Hero" />
+                    <img id="iso_img" src={require(`${footerImages.isoImage}`)} alt="ISO Certification" />
 
                     <div className="middle_element">
                         <div className="tags">
-                            <img src={require("./Footer_images/Vector-1.png")} alt="Vector-1" />
-                            <img src={require("./Footer_images/Vactor-2.png")} alt="Vector-2" />
-                            <img src={require("./Footer_images/Vector-3.png")} alt="Vector-3" />
-                            <img src={require("./Footer_images/Vector-4.png")} alt="Vector-4" />
+                            {footerImages.vectorImages.map((image, index) => (
+                                <img key={index} src={require(`${image}`)} alt={`Vector-${index + 1}`} />
+                            ))}
                         </div>
 
                         <div className="middle_element_text">
-                            <p>+91 94272 54147 <br />+91 94272 54147</p>
+                            <p dangerouslySetInnerHTML={{ __html: footerText.phoneNumbers }}></p>
                         </div>
                     </div>
 
-                    <img  id='certificate_img' src={require("./Footer_images/certificate 2.png")}  />
+                    <img id="certificate_img" src={require(`${footerImages.certificateImage}`)} alt="Certificate" />
                 </div>
 
                 <div className="footer_text_2">
-                    <p>
-                        We are an ISO 9001:2015 certified company established in 2009 engaged in manufacturing of All
-                        type of Hydraulic Press
-                        <br/> Machine in Rajkot- Gujarat -India.
-                    </p>
+                    <p>{footerText.companyDescription}</p>
                 </div>
             </div>
 
             <div className="footer_last_part">
-                <p>©2024 Parmar CNC Machines (India) LLP, All rights reserved
+                <p>
+                    {footerText.copyrightText}
                     <br />
-                    Developed by ELVIS Software Private Limited
+                    {footerText.developerText}
                 </p>
             </div>
-
-
         </div>
     );
-}
+};
 
 export default Footer;

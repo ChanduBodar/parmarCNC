@@ -1,5 +1,6 @@
 .tech_lable{
-    width: 100%;
+    width: 98%;
+    transform: translateX(1%);
     
     background-color: #4D4F48;
 }
@@ -7,9 +8,114 @@
     font-size: 1.8rem;
     color: white;
     text-align: center;
+    padding: 0.5% 0%;
 
 }
 #table_data{
-    width: 100%;
+    width: 98%;
+    transform: translateX(1%);
+    margin-top: 0.5%;
     
+}
+@media screen and (max-width:2500px){
+
+}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+    
+}
+
+@media screen and (max-width:912px){
+    .tech_lable p{
+        font-size: 1.7rem;
+        
+    
+    }
+   
+}
+@media screen and (max-width:833px){
+  
+    .tech_lable p{
+        font-size: 1.6rem;
+        
+    
+    }
+    
+}
+
+
+@media screen and (max-width:768px){
+
+    
+    .tech_lable p{
+        font-size: 1.5rem;
+        
+    
+    }
+
+}
+@media screen and (max-width:600px){
+    .tech_lable p{
+        font-size: 1.1rem;
+        
+    
+    }
+}
+
+ @media screen and (max-width: 575px)
+{
+
+    .tech_lable p{
+        font-size: 1.0rem;
+        
+    
+    }
+    
+   
+}
+@media screen and (max-width:540px){
+    .tech_lable p{
+        font-size: 0.9rem;
+        
+    
+    }
+    
+  
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .tech_lable p{
+        font-size: 0.8rem;
+        
+    
+    }
+   
+}
+
+
+@media screen and (max-width: 400px)
+{
+    .tech_lable p{
+        font-size: 0.75rem;
+        
+    
+    }
+}
+@media screen and (max-width: 380px)
+{
+    .tech_lable p{
+        font-size: 0.7rem;
+        
+    
+    }
 }

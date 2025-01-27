@@ -2,12 +2,32 @@
     display: flex;
     flex-direction: column;   
     background-color: #4D4F48;
-    transform: translate(0%,-1.5%);
+    width: 98%;
+    transform: translateX(1%);
+    margin-top:1% ;
+   
 
+}
+.controller_label{
+    background-color: #A5C847;
+    padding: 0px 0px;
+    
+}
+.controller_label p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1% 0%;
 }
 .image_div{
     display: flex;
     flex-direction: row;
+    gap: 5%;
+   
+        margin:  2% 1% 0% 2%;
+       
+      
+    
    
   
 }
@@ -25,7 +45,7 @@
     color: white;
     font-size: 1.5rem;
     text-align: center;
-    padding: 10px 0px;
+    padding: 2% 0%;
    
 
 }
@@ -37,13 +57,214 @@
     color: white;
     width: 100%;
 }
-.controller_label{
-    background-color: #A5C847;
-    padding: 0px 0px;
-    
+
+@media screen and (max-width:2500px){
+
 }
-.controller_label p{
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+    .controller_label p{
+        font-size: 1.7rem;
+        
+    }
+    .d_label p{
+        font-size: 1.4rem;
+    
+    }
+    .shering_data ul li{
+        font-size: 1.2rem;
+        
+    }
+   
+
+@media screen and (max-width:912px){
+    .i_sharing{
+        width: 380px;
+        height: 280px;
+    }
+    .controller_label p{
+        font-size: 1.5rem;
+        
+    }
+    .d_label p{
+        font-size: 1.3rem;
+    
+    }
+    .shering_data ul li{
+        font-size: 1.1rem;
+        
+    }
+}
+   
+}
+@media screen and (max-width:833px){
+ 
+    .i_sharing{
+        width: 360px;
+        height: 260px;
+    }
+    .controller_label p{
+        font-size: 1.4rem;
+        
+    }
+    .d_label p{
+        font-size: 1.3rem;
+    
+    }
+    .shering_data ul li{
+        font-size: 1.1rem;
+        
+    }
+}
+
+
+@media screen and (max-width:768px){
+
+    .i_sharing{
+        width: 340px;
+        height: 240px;
+    }
+    .controller_label p{
+        font-size: 1.4rem;
+        
+    }
+    .d_label p{
+        font-size: 1.3rem;
+        padding-top: 4%;
+    
+    }
+    .shering_data ul li{
+        font-size: 1.0rem;
+        
+    }
+
+}
+@media screen and (max-width:600px){
+    .i_sharing{
+        width: 260px;
+        height: 180px;
+    }
+    .controller_label p{
+        font-size: 1.2rem;
+        
+    }
+    .d_label p{
+        font-size: 1.1rem;
+        padding-top: 3%;
+    
+    }
+    .shering_data ul li{
+        font-size: 0.75rem;
+        
+    }
+}
+
+ @media screen and (max-width: 575px)
+{
+
+    
+   
+}
+@media screen and (max-width:540px){
+    .i_sharing{
+        width: 240px;
+        height: 160px;
+    }
+    .controller_label p{
+        font-size: 1.0rem;
+        
+    }
+    .d_label p{
+        font-size: 1.0rem;
+        padding-top: 3%;
+    
+    }
+    .shering_data ul li{
+        font-size: 0.65rem;
+        
+    }
+    
+  
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .i_sharing{
+        width: 220px;
+        height: 140px;
+    }
+    .controller_label p{
+        font-size: 1.0rem;
+        
+    }
+    .d_label p{
+        font-size: 0.9rem;
+        padding-top: 2%;
+    
+    }
+    .shering_data ul li{
+        font-size: 0.60rem;
+        
+    }
+   
+}
+
+
+@media screen and (max-width: 400px)
+{
+    .i_sharing{
+        width: 160px;
+        height: 100px;
+    }
+    .controller_label p{
+        font-size: 0.8rem;
+        
+    }
+    .d_label p{
+        font-size: 0.7rem;
+        padding-top: 2%;
+    
+    }
+    .shering_data ul li{
+        font-size: 0.48rem;
+        
+    }
+    .image_div{
+        margin:  2% 1% 0% 2%;
+       
+      
+    }
+}
+@media screen and (max-width: 380px)
+{
+    .i_sharing{
+        width: 140px;
+        height: 80px;
+    }
+    .controller_label p{
+        font-size: 0.7rem;
+        
+    }
+    .d_label p{
+        font-size: 0.6rem;
+        padding-top: 1%;
+    
+    }
+    .shering_data ul{
+        
+    }
+    .shering_data ul li{
+        font-size: 0.4rem;
+        line-height: 0.5rem;
+        
+    }
 }
