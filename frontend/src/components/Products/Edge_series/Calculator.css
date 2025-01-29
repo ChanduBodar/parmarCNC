@@ -2,7 +2,8 @@
 .Calculator_part{
     display: flex;
     flex-direction: row;
-    margin: 2% 1% 2% 2%;
+    margin: 1%;
+    
     
 
 }

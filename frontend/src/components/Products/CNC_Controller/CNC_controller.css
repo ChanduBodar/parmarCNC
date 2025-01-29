@@ -1,6 +1,15 @@
+#cnc_label{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 0.7%;
+    font-size: 2rem;
+    
+}
 .conroller_main_controller {
     margin: 1%;
-    position: relative;
+    /* position: relative; */
+    
 }
 .conroller_main_controller img{
     height: auto;
@@ -9,41 +18,231 @@
 .delem_Cybelic_part{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    position: absolute;
-    top: 0%;
-    left: 0%;
+    justify-content: space-between;
+    margin-top: 2%;
+    /* position: absolute;
+    top: 5%;
+    left: 0%; */
+    transform: translateX(0%);
+    
 }
 .delem_part img,.cybelic_div img{
-    width: 50%;
-    height: 80%;
+    width: 40%;
+    height: 100%;
 }
 .delem_part ,.cybelic_div
 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
-    justify-content: space-around;
+    
+    justify-content: center;
+    gap: 10px;
+    background-image: url('./Imges/bg_for_controller.png');
+    padding: 2% 0%;
+    width:48%;
+   
 }
 .delem_desc,.cybelic_desc{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    
+    
 }
 #machine_text_label
 {
     background-color: var(--secondary-color);
     color: white;
-    padding: 15px;
-    font-size: 2rem;
-    
+    padding: 5%;
+    font-size: 1.3rem;
+   
+    text-align: center;
+    width: 200px;
 }
 #label_btn{
     background-color: var(--primary-color);
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     color: white;
-    padding: 10%;
+    padding: 6% 10%;
+    cursor: pointer;
 }
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+    #machine_text_label
+    {
+        font-size: 1.2rem;
+        width: 190px;
+    }
+    #label_btn{
+        font-size: 1.0rem;
+    }
+    
+}
+
+@media screen and (max-width:912px){
+    
+    #machine_text_label
+    {
+        font-size: 1.1rem;
+        width: 180px;
+    }
+    #label_btn{
+        font-size: 1.0rem;
+    }
+   
+    
+   
+}
+@media screen and (max-width:853px){
+    
+    #cnc_label{
+        font-size: 1.9rem;
+    }
+    #machine_text_label
+    {
+        font-size: 1.0rem;
+        width: 170px;
+    }
+    #label_btn{
+        font-size: 0.9rem;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:768px){
+   
+    #cnc_label{
+        font-size: 1.3rem;
+    }
+    #machine_text_label
+    {
+        font-size: 0.95rem;
+        width: 150px;
+    }
+    #label_btn{
+        font-size: 0.85rem;
+    }
+
+}
+@media screen and (max-width:600px){
+    #cnc_label{
+        font-size: 1.1rem;
+    }
+    #machine_text_label
+    {
+        font-size: 0.9rem;
+        width: 130px;
+    }
+    #label_btn{
+        font-size: 0.80rem;
+    }
+
+}
+
+ @media screen and (max-width: 575px)
+{
+    
+   
+}
+@media screen and (max-width:540px){
+    #cnc_label{
+        font-size: 1.0rem;
+    }
+    #machine_text_label
+    {
+        font-size: 0.8rem;
+        width: 100px;
+    }
+    #label_btn{
+        font-size: 0.75rem;
+    }
+    .delem_desc,.cybelic_desc{
+      
+        gap: 16px;
+        
+        
+    }
+   
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    
+    #cnc_label{
+        font-size: 0.9rem;
+    }
+    #machine_text_label
+    {
+        font-size: 0.7rem;
+        width: 90px;
+    }
+    #label_btn{
+        font-size: 0.7rem;
+    }
+    .delem_desc,.cybelic_desc{
+      
+        gap: 14px;
+        
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 400px)
+{
+    #cnc_label{
+        font-size: 0.85rem;
+    }
+    #machine_text_label
+    {
+        font-size: 0.7rem;
+        width: 90px;
+    }
+    #label_btn{
+        font-size: 0.7rem;
+    }
+    .delem_desc,.cybelic_desc{
+      
+        gap: 14px;
+        
+        
+    }
+}
+@media screen and (max-width: 390px)
+{
+    #cnc_label{
+        font-size: 0.8rem;
+    }
+    #machine_text_label
+    {
+        font-size: 0.65rem;
+        width: 80px;
+    }
+    #label_btn{
+        font-size: 0.6rem;
+    }
+    .delem_desc,.cybelic_desc{
+      
+        gap: 12px;
+        
+        
+    }
+    
+    
+}
+

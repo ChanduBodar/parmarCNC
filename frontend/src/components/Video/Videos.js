@@ -17,8 +17,7 @@ const Videos = () => {
         {videoData.map((video) => (
           <div key={video.id} className="video_desc">
             <iframe
-              width="560"
-              height="315"
+              id='video_part'
               src={video.videoUrl}
               title={video.title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

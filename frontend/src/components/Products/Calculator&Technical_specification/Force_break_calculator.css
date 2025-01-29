@@ -1,0 +1,25 @@
+.third_part{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.third_part img{
+    width: 30%;
+    height:50% ;
+    transform: translateX(10%);
+}
+.part_3_text{
+    margin-left: 11%;
+}
+
+.part_3_text p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.calc_class{
+    margin-top: 5%;
+}
+

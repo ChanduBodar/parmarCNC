@@ -11,6 +11,7 @@ import media_1 from '../Media_buttons/Media_images/Group 119.png'
 import media_2 from '../Media_buttons/Media_images/Group 120.png'
 import media_3 from '../Media_buttons/Media_images/Group 121.png'
 import { useNavigate } from 'react-router-dom'
+import Specification from '../Calculator&Technical_specification/Specification'
 
 const Hydarlic = () => {
     const navigate = useNavigate();
@@ -104,14 +105,7 @@ const Hydarlic = () => {
                 </div>
 
                 {/* part-4 */}
-                <div className="part_4">
-                    <div className="specification">
-                        <p>Technical Specification</p>
-                    </div>
-                    <div className="chart">
-                        <img src={G_80} alt="" />
-                    </div>
-                </div>
+                <Specification/>
 
                 {/* part-5 */}
                 <div className="part_5">
