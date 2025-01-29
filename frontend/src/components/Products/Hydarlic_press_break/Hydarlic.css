@@ -4,18 +4,52 @@
 .Hyralic_part{
     margin-top: 12%;
 }
-.hero_section img{
-    height:50% ;
-    width: 40%
+.Hyderlic_part_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Hyderlic_part_1 img{
+    width: 43%;
+    height: 50%;
+    
 }
 .machine_description{
-    transform: translate(45%,10%);
+    display: flex;
+    flex-direction: column;
+    background-color: #A5C847;
+    gap: 10px;
+    padding-bottom: 2%;
+    height:100%;
+    width: 700px;
 }
-#main_text{
-    font-size: 1.45rem;
+.header_line{
+    background-color: #4D4F48;
+    color: white;
+   padding: 3% 2%;
+    width: 85%;
+    line-height: 1.5;
+    transform: translate(20%,10%);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
-#sub_text{
-    font-size: 1.0rem;
+#hyderolic_main_text
+{
+    font-size: 1.8rem;
+}
+#hyderolic_sub_text{
+    font-size: 0.8rem;
+}
+.hyderolic_media_button{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: translate(30%,2%);
+    margin-top: 2%;
+}
+.hyderolic_media_button img{
+    height: 100%;
+    width: 50%;
 }
 /* part-2  */
 .Hyralic_2{
@@ -50,7 +84,7 @@
 .hy_img_part img{
     height: 90%;
     width: 80%;
-    transform: translateX(15%);
+    transform: translateX(5%);
   
 }
 .border{
@@ -204,6 +238,20 @@
 	
 }
 @media screen and (max-width: 1024px){
+    #hyderolic_main_text
+    {
+        font-size: 1.5rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.75rem;
+    }
+   
+    .hyderolic_media_button img{
+        height: 100%;
+        width: 45%;
+    }
+
+
     .Hyralic_2_desc_part p{
        
         font-size: 1.0em; /* Font size */
@@ -279,6 +327,24 @@
         font-size: 0.8rem;
         word-spacing: 0.1rem;
     }
+    #hyderolic_main_text
+    {
+        font-size: 1.35rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.7rem;
+    }
+   
+    .hyderolic_media_button img{
+        height: 100%;
+        width: 40%;
+    }
+    .hyderolic_media_button{
+        
+        gap: 8px;
+        transform: translate(35%,2%);
+        
+    }
 }
    
 
@@ -317,6 +383,24 @@
         max-width: 100%;
         font-size: 0.7rem;
         word-spacing: 0.1rem;
+    }
+    #hyderolic_main_text
+    {
+        font-size: 1.25rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.65rem;
+    }
+   
+    .hyderolic_media_button img{
+        height: 100%;
+        width: 40%;
+    }
+    .hyderolic_media_button{
+        
+        gap: 8px;
+        transform: translate(40%,2%);
+        
     }
 }
 
@@ -358,6 +442,24 @@
         font-size: 0.65rem;
         word-spacing: 0.1rem;
     }
+    #hyderolic_main_text
+    {
+        font-size: 1.15rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.6rem;
+    }
+   
+    .hyderolic_media_button img{
+        height: 100%;
+        width: 40%;
+    }
+    .hyderolic_media_button{
+        
+        gap: 8px;
+        transform: translate(40%,2%);
+        
+    }
 
 }
 @media screen and (max-width:600px){
@@ -391,6 +493,24 @@
         max-width: 100%;
         font-size: 0.55rem;
         word-spacing: 0.1rem;
+    }
+    #hyderolic_main_text
+    {
+        font-size: 0.9rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.55rem;
+    }
+   
+    .hyderolic_media_button img{
+        height: 100%;
+        width: 40%;
+    }
+    .hyderolic_media_button{
+        
+        gap: 8px;
+        transform: translate(40%,2%);
+        
     }
 }
 
@@ -428,6 +548,24 @@
         font-size: 0.50rem;
         word-spacing: 0.1rem;
     }
+    #hyderolic_main_text
+    {
+        font-size: 0.85rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.5rem;
+    }
+   
+    .hyderolic_media_button img{
+        height: 100%;
+        width: 40%;
+    }
+    .hyderolic_media_button{
+        
+        gap: 8px;
+        transform: translate(40%,2%);
+        
+    }
    
 }
 @media screen and (max-width:540px){
@@ -451,6 +589,24 @@
         max-width: 100%;
         font-size: 0.45rem;
         word-spacing: 0.1rem;
+    }
+    #hyderolic_main_text
+    {
+        font-size: 0.8rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.45rem;
+    }
+   
+    .hyderolic_media_button img{
+        height: 100%;
+        width: 40%;
+    }
+    .hyderolic_media_button{
+        
+        gap: 8px;
+        transform: translate(40%,2%);
+        
     }
 }
 
@@ -478,6 +634,15 @@
         font-size: 0.4rem;
         word-spacing: 0.1rem;
     }
+    #hyderolic_main_text
+    {
+        font-size: 0.7rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.4rem;
+    }
+   
+    
    
 }
 
@@ -504,6 +669,15 @@
         font-size: 0.35rem;
         word-spacing: 0.1rem;
     }
+    #hyderolic_main_text
+    {
+        font-size: 0.55rem;
+    }
+    #hyderolic_sub_text{
+        font-size: 0.35rem;
+    }
+   
+    
  
 }
 @media screen and (max-width: 380px)

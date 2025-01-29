@@ -24,19 +24,19 @@ const STD_components = () => {
         
         <div className='item_div'>
           <img src={p_7_1}/>
-          <p>Back Gauge</p>
+          <p>Side Guard</p>
         </div>
         
         
         <div className='item_div'>
           <img src={p_8_1}/>
-          <p>Back Gauge</p>
+          <p>Linear Scale</p>
         </div>
         
       
         <div className='item_div'>
           <img src={i_33}/>
-          <p>Back Gauge</p>
+          <p>Fingers</p>
         </div>
         
        

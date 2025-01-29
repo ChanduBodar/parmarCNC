@@ -16,20 +16,20 @@ const Sin_1 = () => {
     };
     return (
         <div>
-            <div className='hero_section'>
+            <div className='sinchro_main_part'>
                 <img  id='sn_img' src={cncPressImg} />
-                <div className='hero_text_section'>
-                    <div className='hero_img_section'>
-                        <div className='machine_description'>
-                            <p id='main_text'>
+                
+                    <div className='sinchro_desc_text'>
+                        <div className='sinchro_label_text'>
+                            <p id='sinchro_main_text'>
                              EDGE SERIES SYNCHRO HYDRAULIC PRESS BRAKE
                             </p>
-                            <p id='sub_text'>
+                            <p id='sinchro_sub_text'>
                                 Capacity : 40 Ton x 1000mm to 400 Ton x 4000mm
                             </p>
                         </div>
 
-                         <div className='media_section'>
+                         <div className='sinchro_media_button'>
                                               <img src={media_1}></img>
                                               <img src={media_2}></img>
                                               <img src={media_3} onClick={handleRedirect}/>
@@ -38,7 +38,7 @@ const Sin_1 = () => {
 
 
                     </div>
-                </div>
+            
             </div>
 
         </div>

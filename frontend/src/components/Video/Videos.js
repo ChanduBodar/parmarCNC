@@ -13,15 +13,14 @@ const Videos = () => {
       </div>
 
       {/* Render Videos Dynamically */}
-      <div>
+      <div className='video_container'>
         {videoData.map((video) => (
-          <div key={video.id} className="video_container">
+          <div key={video.id} className="video_desc">
             <iframe
               width="560"
               height="315"
               src={video.videoUrl}
               title={video.title}
-              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen

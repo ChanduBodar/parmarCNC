@@ -1,0 +1,49 @@
+.conroller_main_controller {
+    margin: 1%;
+    position: relative;
+}
+.conroller_main_controller img{
+    height: auto;
+    width: 100%;
+}
+.delem_Cybelic_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.delem_part img,.cybelic_div img{
+    width: 50%;
+    height: 80%;
+}
+.delem_part ,.cybelic_div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    justify-content: space-around;
+}
+.delem_desc,.cybelic_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+#machine_text_label
+{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px;
+    font-size: 2rem;
+    
+}
+#label_btn{
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10%;
+}

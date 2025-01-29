@@ -22,22 +22,22 @@ const Hydarlic = () => {
         <div>
             <div className="Hyralic_part">
                 {/* part-1 */}
-                <div className="hero_section">
+                <div className="Hyderlic_part_1">
                     <img src={img_1} alt="First Image" />
 
                     {/* Right part */}
-                    <div className='hero_text_section'>
-                        <div className='hero_img_section'>
-                            <div className='machine_description'>
-                                <p id='main_text'>
+                   
+                        <div className='machine_description'>
+                            <div className='header_line'>
+                                <p id='hyderolic_main_text'>
                                     REAR CYLINDER HYDRAULIC PRESS BRAKE
                                 </p>
-                                <p id='sub_text'>
+                                <p id='hyderolic_sub_text'>
                                    Capacity : 1270mm X 20 TON TO 6000mm x 600 TON
                                 </p>
                             </div>
 
-                            <div className='media_section'>
+                            <div className='hyderolic_media_button'>
                                 <img src={media_1}></img>
                                 <img src={media_2}></img>
                                 <img src={media_3} onClick={handleRedirect}/>
@@ -45,7 +45,7 @@ const Hydarlic = () => {
                             </div>
 
 
-                        </div>
+                        
                     </div>
                 </div>
 

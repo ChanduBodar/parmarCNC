@@ -22,14 +22,14 @@
    
 }
 .cnc_description{
-    background-color: #4D4F48;
-    color: white;
-   padding: 3% 2%;
-    width: 90%;
-    line-height: 1.5;
-    transform: translate(12%,10%);
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+        background-color: #4D4F48;
+        color: white;
+    padding: 3% 2%;
+        width: 90%;
+        line-height: 1.5;
+        transform: translate(12%,10%);
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
 
 }
 #CNC_label_text{

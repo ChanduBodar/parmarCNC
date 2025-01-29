@@ -31,7 +31,7 @@ const Footer = () => {
                     <img id="certificate_img" src={require(`${footerImages.certificateImage}`)} alt="Certificate" />
                 </div>
 
-                <div className="footer_text_2">
+                <div className="footer_text">
                     <p>{footerText.companyDescription}</p>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './CNC_controller.css';
+import CNC_Controller from '../CNC_Controller/CNC_Controller';
 
 const CNC_controller = () => {
   return (
@@ -10,10 +11,7 @@ const CNC_controller = () => {
             <p>CNC Controller</p>
         </div>
 
-        {/* DELEM Section */}
-        <div className="delem">
-            <p>DELEM</p>
-        </div>
+        <CNC_Controller/>
     </div>
     </div>
   )

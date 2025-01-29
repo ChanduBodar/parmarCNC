@@ -14,22 +14,22 @@ const Shering_hero = () => {
   };
   return (
     <div>
-      <div className="hero_section">
+      <div className="shering_main_part">
         <img src={firstImage} alt="First Image" />
 
         {/* Right part */}
-        <div className='hero_text_section'>
-            <div className='hero_img_section'>
-              <div className='machine_description'>
-                <p id='head_text'>
+        <div className='sherimg_right_part'>
+            
+              <div className='sharing_machine_desc'>
+                <p id='sharing_main_text'>
                 VARIABLE RACK ANGLE HYDRAULIC SHEARING MACHINE
                 </p>
-                <p id='sub_text'>
+                <p id='sharig_sub_text'>
                     CNC SERIES
                 </p>
               </div>
                 
-                <div className='media_section'>
+                <div className='sharig_media_buttons'>
                                      <img src={media_1}></img>
                                      <img src={media_2}></img>
                                      <img src={media_3} onClick={handleRedirect}/>
@@ -37,7 +37,7 @@ const Shering_hero = () => {
                 </div>   
                 
 
-            </div>
+          
         </div>
       </div>
       <div className='border_part'>

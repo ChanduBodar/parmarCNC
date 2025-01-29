@@ -28,7 +28,7 @@ const Edge_series = () => {
         <Legend/>
         <Specification/>
         <CNC_controller/>
-        <Delem/>
+        {/* <Delem/>
         <Cybelic/>
         <Step/>
         <Standard_Components/>
@@ -37,7 +37,7 @@ const Edge_series = () => {
         <Crowing/>
         <Hydrolic/>
         <STD_components/>
-        <Acceseries/>
+        <Acceseries/> */}
         
         
     </div>

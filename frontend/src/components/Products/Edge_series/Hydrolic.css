@@ -96,6 +96,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translateX(5%);
 
 }
 .hy_img_p_1 img{
@@ -105,7 +106,7 @@
 #d_img_part {
     background-color: #A5C847;
     width: 80%;
-    transform: translate(15%,-12%);
+    transform: translate(5%,-12%);
     padding: 3% 0.5%;
     color: white;
     text-align: center;
@@ -118,6 +119,7 @@
     text-align: center;
     font-size: 0.8rem;
     padding-left: 3%;
+    transform: translate(-10%,0%);
 }
 
  
