@@ -1,11 +1,18 @@
-
+#std_label{
+   background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 1%;
+    font-size: 2rem;
+    margin: 0% 1%;
+}
 .std_main_div{
    display: flex;
    /* flex-direction: row; */
    flex-wrap: wrap;
-   margin-top: 2%;
-   width: 96%;
-   margin-left: 2%;
+   margin: 1%;
+   width: 98%;
+  
    padding-left: 2%;
    align-items: center;
    background-color: #4D4F48;

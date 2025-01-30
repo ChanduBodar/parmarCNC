@@ -1,11 +1,12 @@
 import React from 'react'
 import './Hydrolic_sahring.css'
 import Shering_hero from './Shering_hero'
-import Sharing_controller from './Sharing_controller'
+
 import Technical_specification_sahring from './Technical_specification_sahring'
 import Standard_components from './Standard_components'
 import Shering_com from './Shering_com'
 import Excellernce from './Excellernce'
+import Specification from '../Calculator&Technical_specification/Specification'
 
 
 const Hydrolic_Sharing = () => {
@@ -13,7 +14,7 @@ const Hydrolic_Sharing = () => {
     <div className='main_div'>
       <Shering_hero/>
       <Technical_specification_sahring/>
-      <Sharing_controller/>
+      <Specification/>
       <Standard_components/>
       <Shering_com/>
       <Excellernce/>

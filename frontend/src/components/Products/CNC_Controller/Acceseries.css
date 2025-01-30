@@ -1,15 +1,12 @@
-.accessories_label{
-   background-color: var(--color);
-   width: 96%;
-   margin-left: 2%;
-   margin-top: 2%;
-}
-.accessories_label p{
-   font-size: 1.5rem;
-   padding: 1% 0%;
+#accessories_label{
+   background-color: var(--primary-color);
    text-align: center;
-   color:white
+   color: white;
+   padding: 1%;
+   font-size: 2rem;
+   margin: 0% 1%;
 }
+
 .img_std_2{
    display: flex;
    flex-direction: column;
@@ -19,8 +16,9 @@
 
 .std_part_2{
     background-color: #4D4F48;
-    width: 96%;
-    margin: 1% 2% 2% 2%;
+    width: 98%;
+    margin: 1%;
+    
     padding: 1%;
  }
  .std_part_2 table{

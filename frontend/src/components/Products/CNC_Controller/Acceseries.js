@@ -9,11 +9,11 @@ import Acceseries_4 from './Imges/Accesries_4.png'
 const Acceseries = () => {
   return (
     <div>
-      <div className='accessories_label'>
-          <p>
+      
+          <p id='accessories_label'>
           ACCESSORIES
           </p>
-      </div>
+    
       <div className="std_part_2">
       <table>
         <tr className="std_2">

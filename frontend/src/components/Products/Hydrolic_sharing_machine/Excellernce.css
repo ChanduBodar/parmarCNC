@@ -1,16 +1,11 @@
 
-.our_label{
-    width: 98%;
-    transform: translateX(1%);
-    margin-top: 1.5%;
-    
-    background-color: #A5C847;
-}
-.our_label p{
-    font-size: 1.5rem;
+#excellence_pabel{
+    background-color: var(--primary-color);
     text-align: center;
     color: white;
-    padding: 0.5% 0%;
+    padding: 0.7%;
+    font-size: 2rem;
+    margin: 1%;
 }
 .ex_img{
     background-color: #4D4F48;

@@ -5,9 +5,7 @@ const Excellernce = () => {
     return (
         <div>
             <div className="Excellence_part">
-                <div className='our_label'>
-                  <p>Our Excellence</p>
-                </div>
+                <p id='excellence_pabel'>OUR EXCELLENCE</p>
                 
                     <div className="ex_img">
                         <div className="ex_img_1">

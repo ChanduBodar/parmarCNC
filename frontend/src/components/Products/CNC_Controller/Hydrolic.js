@@ -12,9 +12,9 @@ const Hydrolic = () => {
     <div> 
         <div>
           {/* HYDRAULIC COMPONENTS */}
-          <div className="hydraulic_c">
-            <p>HYDRAULIC COMPONENTS</p>
-          </div>
+          
+            <p id='hydraulic_c'>HYDRAULIC COMPONENTS</p>
+          
     
           <div className="h_components">
             {/* Hydraulic System */}

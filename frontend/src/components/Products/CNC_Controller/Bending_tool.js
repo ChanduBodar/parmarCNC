@@ -23,9 +23,9 @@ const Bending_tool = () => {
     <div>
          <div>
       {/* EDGE SERIES BENDING TOOLS */}
-      <div className="edge">
-        <p>EDGE SERIES BENDING TOOLS</p>
-      </div>
+     
+        <p id='edge_label'>EDGE SERIES BENDING TOOLS</p>
+      
 
       {/* EDGE TOOLS PART */}
       <div className="edge_tools_part">

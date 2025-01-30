@@ -15,7 +15,7 @@
     color: white;
     font-size: 3rem;
     font-weight: 800;
-    letter-spacing: 3rem;;
+    letter-spacing: 3rem;
   
 }
     .video_container{
@@ -30,7 +30,8 @@
     align-items: center;
 }
 #video_part{
-    
+   width: 500px;
+   height: 300px; 
 }
 .video_desc p{
     text-align: center;

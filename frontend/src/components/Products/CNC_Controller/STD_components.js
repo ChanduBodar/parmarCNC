@@ -12,9 +12,9 @@ const STD_components = () => {
   return (
     <div>
       <div>
-      <div className="hydraulic_c">
-        <p>STANDARD COMPONENTS</p>
-      </div>
+      
+        <p id='std_label'>STANDARD COMPONENTS</p>
+      
 
       <div className='std_main_div'>
         <div  className='item_div'>

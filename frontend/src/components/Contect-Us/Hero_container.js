@@ -9,9 +9,9 @@ const Hero_container = () => {
                     <img src={require("./images_for_main_page/Group 127.png")} alt="Hero" />
                 </div>
 
-                <div className="des_text">
+               
                     <p  id='des_text' >CONTACT US</p>
-                </div>
+                
             </div>
         </div>
     )

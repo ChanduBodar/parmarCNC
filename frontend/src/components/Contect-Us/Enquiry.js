@@ -15,7 +15,7 @@ const Enquiry = () => {
                                 <p>ENQUIRIES:</p>
                             </div>
                             <div className="contect_info">
-                                <p>Domestic:<br></br>Export.parmarllp@gmail.com</p>
+                                <p>Domestic: Export.parmarllp@gmail.com</p>
                                 <p>International: Export.parmarllp@gmail.com</p>
                             </div>
                         </div>

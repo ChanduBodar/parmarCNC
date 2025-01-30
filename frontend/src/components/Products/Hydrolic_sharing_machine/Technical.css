@@ -13,10 +13,7 @@
     margin-right: 1%;
     margin-bottom: 1%;
 }
-.tech_data{
-    margin-left: 1%;
 
-}
 .tech_data p{
     font-size: 1.3rem;
     font-weight: 400;
@@ -31,9 +28,7 @@
     gap: 20%;
     margin: 3% 10%;
 }
-.Tech_images img{
-   
-}
+
 #im_1{
     height:50%;
     width: 50%;

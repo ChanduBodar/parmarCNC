@@ -22,9 +22,9 @@ export const Crowing = () => {
          
     <div>
       {/* CNC CROWNING & HEAVY TOOLS */}
-      <div className="edge">
-        <p>CNC CROWNING & HEAVY TOOLS</p>
-      </div>
+      
+        <p id='crowningheavy_label'>CNC CROWNING & HEAVY TOOLS</p>
+      
 
       <div className="CNC_crowning_and_heavy_tools">
         {/* Heavy Part */}

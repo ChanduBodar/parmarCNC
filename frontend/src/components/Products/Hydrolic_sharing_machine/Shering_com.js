@@ -4,11 +4,9 @@ import './Shering_compo.css'
 const Shering_com = () => {
     return (
         <div>
-            <div className='controller_label'>
-                <p>
-                Shearing  Controller
-                </p>
-            </div>
+      
+                <p id='shearing_label'>SHEARING CONTROLLER</p>
+            
 
             <div className="sharig_images">
             {/* img_1 */}

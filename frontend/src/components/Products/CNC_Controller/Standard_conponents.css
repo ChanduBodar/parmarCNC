@@ -14,7 +14,7 @@
 
 .tool_holder_part{
     background-color:#4D4F48;
-    margin: 2%;
+    margin: 1%;
     
     
 }
@@ -89,12 +89,7 @@
     background-color: #4D4F48;
     
 }
-.tag_name{
-    background-color: var(--color);
-    
-    width: 20%;
-    transform: translate(200%,30%);
-}
+
 .tag_name p{
     font-weight: 400;
     max-width: 100%; /* Maximum width of the line */
@@ -102,9 +97,13 @@
     font-size: 1.6em; /* Font size */
     text-align: center; /* Justify text to spread it */
     word-spacing: 0.10em; /* Space between words */
-
-    color: white;
-    padding: 2% 0%;
+    line-height: 1.3em;
+   color: white;
+   background-color: var(--primary-color);
+   width: 20%;
+   align-items: center;
+   transform: translate(190%,40%);
+   padding: 0.5% 0%;
     
     
 
