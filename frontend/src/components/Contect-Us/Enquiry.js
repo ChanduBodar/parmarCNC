@@ -1,47 +1,46 @@
-import React from 'react'
-import './Enquiry.css'
+import React from 'react';
+import './contect_us.css'
 
-const Enquiry = () => {
-    return (
-        <div>
-            {/* Inquire Section */}
-            <div className="Enquiry_part">
-                <div className="Enquiry_div">
-                    {/* Enquiries */}
-                    <div className="info_div">
-                        <img id='pho_img' src={require("./images_for_main_page/Group 93.png")} alt="Enquiries" />
-                        <div className="data_1">
-                            <div className="d1">
-                                <p>ENQUIRIES:</p>
-                            </div>
-                            <div className="contect_info">
-                                <p>Domestic: Export.parmarllp@gmail.com</p>
-                                <p>International: Export.parmarllp@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Contact Us */}
-                    <div className="info_div">
-                        <img id='pho_img' src={require("./images_for_main_page/Group 91.png")} alt="Contact Us" />
-                        <div className="data_1">
-                            <div className="d1">
-                                <p>CONTACT US</p>
-                            </div>
-                            <div className="contect_info">
-                                <p>Domestic: +9195108 22377</p>
-                                <p>International: +9194272 54147</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <img id='s_img' src={require("./images_for_main_page/parmar_catalog[1]004 1.png")} alt="Catalog" />
+const Enquiry = ({ enquiryData }) => {
+  return (
+    <div>
+      <div className="Enquiry_part">
+        <div className="Enquiry_div">
+          {/* Enquiries */}
+          <div className="info_div">
+            <img id="pho_img" src={enquiryData.enquiryImage} alt="Enquiries" />
+            <div className="data_1">
+              <div className="d1">
+                <p>ENQUIRIES:</p>
+              </div>
+              <div className="contect_info">
+                <p>Domestic: {enquiryData.domesticEmail}</p>
+                <p>International: {enquiryData.internationalEmail}</p>
+              </div>
             </div>
+          </div>
 
-            <div className="line_border"></div>
+          {/* Contact Us */}
+          <div className="info_div">
+            <img id="pho_img" src={enquiryData.contactUsImage} alt="Contact Us" />
+            <div className="data_1">
+              <div className="d1">
+                <p>CONTACT US</p>
+              </div>
+              <div className="contect_info">
+                <p>Domestic: {enquiryData.domesticPhone}</p>
+                <p>International: {enquiryData.internationalPhone}</p>
+              </div>
+            </div>
+          </div>
         </div>
-    )
-}
 
-export default Enquiry
+        <img id="s_img" src={enquiryData.catalogImage} alt="Catalog" />
+      </div>
+
+      <div className="line_border"></div>
+    </div>
+  );
+};
+
+export default Enquiry;

@@ -1,20 +1,17 @@
-import React from 'react'
-import './Hero_container.css'
+import React from 'react';
+import './contect_us.css'
 
-const Hero_container = () => {
-    return (
-        <div>
-            <div className="hero_container">
-                <div className="hero_image">
-                    <img src={require("./images_for_main_page/Group 127.png")} alt="Hero" />
-                </div>
-
-               
-                    <p  id='des_text' >CONTACT US</p>
-                
-            </div>
+const HeroContainer = ({ heroData }) => {
+  return (
+    <div>
+      <div className="hero_container">
+        <div className="hero_image">
+          <img src={heroData.image} alt="Hero" />
         </div>
-    )
-}
+        <p id="des_text">{heroData.title}</p>
+      </div>
+    </div>
+  );
+};
 
-export default Hero_container
+export default HeroContainer;

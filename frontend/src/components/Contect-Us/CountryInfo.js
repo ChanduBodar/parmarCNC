@@ -1,8 +1,8 @@
 import React from 'react'
-import './CountryInfo.css'
-import Arab from './images_for_main_page/united-arab-emirates.png'
-import nextImg from './images_for_main_page/download (2).png'
-import brahin from './images_for_main_page/download (3).png'
+import './contect_us.css'
+import Arab from '../../Images/country_img_1.png'
+import nextImg from '../../Images/country_img_2.png'
+import brahin from '../../Images/country_img_3.png'
 
 const CountryInfo = () => {
     return (
@@ -26,7 +26,7 @@ const CountryInfo = () => {
                         </div>
                     </div>
                 </div>
-
+                
                 <div className="divs_2">
                     <img src={brahin} alt="Bahrain" />
                     <div className="c_name">
@@ -34,6 +34,7 @@ const CountryInfo = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }

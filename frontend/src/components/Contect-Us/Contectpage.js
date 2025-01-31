@@ -1,17 +1,18 @@
 import React from 'react';
 import './contect_us.css';
-import Get_touch from './Get_touch';
+import GetTouch from './Get_touch';
 import HeroContainer from './Hero_container';
 import Enquiry from './Enquiry';
 import CountryInfo from './CountryInfo';
+import { contactPageData } from '../../Data_Folders/ContectusData';
 
 const Contectpage = () => {
   return (
     <div className="contect_us">
-      <HeroContainer />
-      <Enquiry />
+      <HeroContainer heroData={contactPageData.heroSection} />
+      <Enquiry enquiryData={contactPageData.enquirySection} />
       <CountryInfo />
-      <Get_touch />
+      <GetTouch getInTouchData={contactPageData.getInTouchForm} />
     </div>
   );
 };

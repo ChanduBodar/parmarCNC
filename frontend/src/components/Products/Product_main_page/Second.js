@@ -1,5 +1,5 @@
 import React from 'react';
-import './Second.css';
+import './Prouct.css'
 import { useNavigate } from 'react-router-dom';
 
 const Second = ({ imageSrc, buttonLabel, redirectPath, imageForMachine }) => {

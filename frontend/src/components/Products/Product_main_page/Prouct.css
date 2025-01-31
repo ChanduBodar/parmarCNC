@@ -4,3 +4,406 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+/* part -1 */
+
+.two_image{
+    position: relative;
+    display: inline-block;
+}
+#first{
+        width:100%;
+        height: auto;
+
+}
+.prodct_part{
+   
+    background-color: #5F5F5FE5;
+    position: absolute;
+    top:40% ;
+    left: 0%;
+    width: 40%;
+    padding: 2% 3%;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    
+    
+  
+ 
+    
+    
+}
+.prodct_part #label_1{
+   
+    color: white;
+    font-weight: 600;
+    font-size: 2.0rem;
+    transform: translate();
+    margin: 0;
+    padding: 0% 0% 2% 10%;
+    
+}
+.prodct_part #label_2{
+   
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 0.4rem;
+    color: white;
+    transform: translate(00%,-50%);
+    font-size: 1.2rem;
+    margin: 0;
+    padding:2% 0% 0% 30%;
+    
+}
+/* main-part-2 */
+.ba_img{
+    position: relative;
+    display: inline-block;
+    margin: 1%;
+    
+
+}
+
+
+.ba_img img {
+    width:100%;
+     height: auto; 
+     position: relative;
+
+      
+    
+ }
+ .img_t_part{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    justify-content:flex-start;
+    align-items: center;
+   
+ }
+ 
+.CNC_b_t_n {
+    position: absolute;
+    padding: 18px;
+    font-weight: 600;
+    font-size: 1.8em;
+    word-spacing: 0.2em;
+    color: white; 
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color:#4D4F48;
+    cursor: pointer;
+    top: 35%;
+         
+}
+
+
+
+
+
+#big_img{
+    width:50%;
+    height: 50%;
+    transform: translateX(100%);
+
+}
+/* main -part -3 */
+
+.ba_img{
+    position: relative;
+    display: inline-block;
+    margin: 1%;
+
+}
+
+
+.ba_img img {
+    width:100%;
+    height: auto; 
+    position: relative;
+
+      
+    
+ }
+ .above_div{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    
+    justify-content:flex-end;
+    align-items: center;
+    top: 20%;
+ }
+
+ .right_text_part{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  
+    left: 2%;
+
+}
+ #big{
+    width:40%;
+    height: 40%;
+
+
+}
+ 
+.tag_part {
+    
+    width: 40%;
+    height: 35%;
+    position: absolute;
+      
+       
+}
+.tag_part button{
+
+    width: 100%;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 1.8em;
+    word-spacing: 0.2em;
+   
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color:  #4D4F48;
+    cursor: pointer;
+    
+}
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    .prodct_part #label_1
+    {
+        font-size: 1.85rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.9rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:912px){
+    .prodct_part #label_1
+    {
+        font-size: 1.6rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.8rem;
+    }
+    .CNC_b_t_n{
+        padding: 18px;
+        
+        font-size: 1.5em;
+    }
+    .tag_part button{
+        padding: 18px;
+        
+        font-size: 1.5em;
+    }
+
+
+   
+}
+@media screen and (max-width:853px){
+   
+    .prodct_part #label_2{
+        font-size: 0.55rem;
+    }
+    .prodct_part{
+        line-height: 1.4;
+    }
+}
+@media screen and (max-width:820px){
+    .prodct_part #label_1
+    {
+        font-size: 1.3rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.6rem;
+    }
+    .prodct_part{
+        line-height: 1.4;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .prodct_part #label_1
+    {
+        font-size: 1.3rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.7rem;
+    }
+    .prodct_part{
+        line-height: 1.5;
+    }
+    .CNC_b_t_n{
+        padding: 16px;
+        
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width:677px){
+    .CNC_button button{
+        padding: 14px;
+        
+        font-size: 1.3em;
+    }
+    .tag_part button{
+        padding: 14px;
+        
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 624px)
+{
+    .CNC_b_t_n{
+        padding: 12px;
+        
+        font-size: 1.2em;
+    }
+    .tag_part button{
+        padding: 12px;
+        
+        font-size: 1.2em;
+    }
+   
+}
+ @media screen and (max-width: 575px)
+{
+    .prodct_part #label_1
+    {
+        font-size: 1.0rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.5rem;
+        word-spacing: 0.3rem;
+    }
+    .CNC_b_t_n{
+        padding: 10px;
+        
+        font-size: 1.1em;
+    }
+    .tag_part button{
+        padding: 10px;
+        
+        font-size: 1.1em;
+    }
+   
+}
+@media screen and (max-width:540px){
+    .prodct_part #label_1
+    {
+        font-size: 0.9rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.4rem;
+        word-spacing: 0.25rem;
+    }
+    
+}
+@media screen and (max-width: 518px)
+{
+    .CNC_b_t_n{
+        padding: 8px;
+        
+        font-size: 1.0em;
+       
+    }
+    .tag_part button{
+        padding: 8px;
+        
+        font-size: 1.0em;
+    }
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .prodct_part #label_1
+    {
+        font-size: 0.8rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.4rem;
+        word-spacing: 0.2rem;
+    }
+    .CNC_b_t_n{
+        padding: 6px;
+        
+        font-size: 0.9em;
+       
+    }
+    
+    .tag_part button{
+        padding: 6px;
+        
+        font-size: 0.9em;
+    }
+}
+
+
+@media screen and (max-width: 430px)
+{
+    .prodct_part #label_1
+    {
+        font-size: 0.7rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.35rem;
+        word-spacing: 0.15rem;
+    }
+    
+    .CNC_b_t_n{
+        padding: 6px;
+        
+        font-size: 0.6em;
+       
+    }
+    .tag_part button{
+        padding: 6px;
+        
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width: 390px)
+{
+    .prodct_part #label_2{
+        font-size: 0.35rem;
+        word-spacing: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 376px)
+{
+    .prodct_part #label_1
+    {
+        font-size: 0.6rem;
+    }
+    .prodct_part #label_2{
+        font-size: 0.3rem;
+        
+    }
+}
+
+
+
+

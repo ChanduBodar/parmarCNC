@@ -1,5 +1,5 @@
 import React from 'react';
-import './First_part.css';
+import './Prouct.css'
 
 export const First_part = ({ imageSrc, label1, label2 }) => {
   return (

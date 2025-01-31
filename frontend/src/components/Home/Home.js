@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { heroData, textContent1,textContent2,textContent3, images, overlapData } from '../../Data_Folders/Homedata'; // Import data
 
 import './home.css';
-import './Home_media.css';
+
 
 function HomePage() {
   const navigate = useNavigate();

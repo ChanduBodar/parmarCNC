@@ -26,6 +26,7 @@ import Cybelic from './components/Products/CNC_Controller/Cybelic';
 import Step from './components/Products/CNC_Controller/Step';
 import Standard_Components from './components/Products/CNC_Controller/Standard_Components';
 
+
 function App() {
   return (
     <div className='container'>
@@ -35,7 +36,7 @@ function App() {
       
       
       <div>
-      <ScrollTotop/>
+        <ScrollTotop/>
         <Routes>
           
            <Route path="/" element={<HomePage />} />
