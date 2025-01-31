@@ -1,5 +1,5 @@
 import React from 'react'
-import './Legend.css'
+import './Calc_Tecnical.css'
 import lg_1 from './images/Lagend_1.png'
 import lg_2 from './images/Lagend_2.png'
 

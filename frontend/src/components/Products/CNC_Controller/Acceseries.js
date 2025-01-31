@@ -1,5 +1,5 @@
 import React from 'react'
-import './Acceseries.css'
+import './CNC_controller.css'
 import Acceseries_1 from './Imges/Accesries_1.png'
 import Acceseries_2 from './Imges/Accesries_2.png'
 import Acceseries_3 from './Imges/Accesries_3.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Calculator.css'
+import './Edge_series.css'
 import Datapart from './Datapart'
 import firstImage from "./images_for_main_page/parmar_catalog[1]222 2.png";
 

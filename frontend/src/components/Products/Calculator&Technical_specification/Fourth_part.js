@@ -1,5 +1,5 @@
 import React from 'react'
-import './Fourth_part.css'
+import './Calc_Tecnical.css'
 import force_1 from './images/Force_calc_1.png'
 import force_2 from './images/Force_calc_2.png'
 import force_calculator from './images/force_calculator.png'

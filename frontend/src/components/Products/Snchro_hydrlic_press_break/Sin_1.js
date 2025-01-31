@@ -1,5 +1,5 @@
 import React from 'react'
-import './Sin1.css'
+import './Snchro_hydrlic_press_break.css'
 
 import cncPressImg from './images_for_main_page/3200x160 tone (6+1axis) at Ms.Bobst India Pune 2.png'
 

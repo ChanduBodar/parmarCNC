@@ -1,6 +1,6 @@
 import React from 'react'
-import './Step.css'
-import './Delem.css'
+import './CNC_controller.css'
+
 import Rock15 from './Imges/Rock15.png'
 import Rock17 from './Imges/Rock17.png'
 import Dual22 from './Imges/Dual22.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Bending_tool.css'
+import './CNC_controller.css'
 import bandig_main_img from './Imges/banding_tool_main_img.png'
 import punch_1 from './Imges/Punch_1.png'
 import punch_2 from './Imges/Punch_2.png'

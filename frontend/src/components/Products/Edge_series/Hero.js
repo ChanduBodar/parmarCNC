@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hero.css'
+import './Edge_series.css'
 import firstImage from "./images_for_main_page/parmar_catalog[1]222 2.png";
 import media_1 from '../Media_buttons/Media_images/Group 119.png'
 import media_2 from '../Media_buttons/Media_images/Group 120.png'

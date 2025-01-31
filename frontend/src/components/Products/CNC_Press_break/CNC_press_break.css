@@ -4,4 +4,401 @@
     overflow-x: hidden;
     margin-top: 11%;
 }
+/* part-2 */
+.last_part{
+    margin: 1% ;
+}
+.back_img{
+    position: relative;
+    display: inline-block;
+
+}
+ .img_text_part_1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    
+    justify-content:flex-end;
+    align-items: center;
+    
+ }
+ 
+.left_part_1 {
+    position: absolute;
+    left: 0;
+        
+}
+#front_img{
+    width:100%;
+    height:auto; 
+    position: relative;
+}
+.cnc_tag_name{
+    background-color: #4D4F48;
+    font-weight: 500;
+    font-size: 1.5em;
+    word-spacing: 0.2em;
+    
+    color: white; 
+   padding: 16px 20px;
+
+}
+
+#btn_view{
+    background-color: var(--color);
+    color: white;
+    border: none;
+    padding: 13px 40px;
+    font-size:1.5rem;
+    font-weight: 400;
+    position: absolute;
+    top: 160%;
+    left:30%;
+    cursor: pointer;
+}
+
+#big_img_1{
+    width:50%;
+    height: 50%;
+
+}
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    .cnc_tag_name{
+        padding: 14px 12px;
+        font-size: 1.5em;
+    }
+    #btn_view{
+        padding: 13px 40px;
+       font-size:1.4rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:912px){
+   
+    .cnc_tag_name{
+        padding: 12px 10px;
+        font-size: 1.2em;
+    }
+    #btn_view{
+        padding: 12px 35px;
+       font-size:1.2rem;
+    }
+
+   
+}
+@media screen and (max-width:853px){
+    .cnc_tag_name{
+        padding: 11px 8px;
+        font-size: 1.2em;
+    }
+    #btn_view{
+        padding: 12px 32px;
+       font-size:1.0rem;
+    }
+}
+@media screen and (max-width:768px){
+    .cnc_tag_name{
+        padding: 11px 8px;
+        font-size: 1.1em;
+    }
+  
+}
+
+
+@media screen and (max-width:729px){
+    .cnc_tag_name{
+        padding: 10px 6px;
+        font-size: 1.0em;
+    }
+    #btn_view{
+        padding: 12px 32px;
+       font-size:1.0rem;
+    }
+}
+@media screen and (max-width:677px){
+    .cnc_tag_name{
+        padding: 8px 4px;
+        font-size: 0.9em;
+    }
+    #btn_view{
+        padding: 10px 28px;
+       font-size:0.8rem;
+    }
+}
+
+ @media screen and (max-width: 624px)
+{
+    
+   
+}
+@media screen and (max-width:571px){
+   
+    .cnc_tag_name{
+        padding: 6px 4px;
+        font-size: 0.8em;
+    }
+    #btn_view{
+        padding: 8px 26px;
+       font-size:0.7rem;
+    }
+    .left_part_1{
+        top: 30%;
+    }
+}
+
+
+
+@media screen and (max-width: 518px)
+{
+    .cnc_tag_name{
+        padding: 6px 4px;
+        font-size: 0.8em;
+    }
+    #btn_view{
+        padding: 8px 26px;
+       font-size:0.7rem;
+    }
+    .left_part_1{
+        top: 28%;
+    }
+}
+
+
+@media screen and (max-width: 466px)
+{
+    .cnc_tag_name{
+        padding: 4px 4px;
+        font-size: 0.7em;
+    }
+    #btn_view{
+        padding: 6px 24px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 26%;
+    }
+}
+@media screen and (max-width: 430px)
+{
+    .cnc_tag_name{
+        padding: 2px 4px;
+        font-size: 0.6em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+@media screen and (max-width: 390px)
+{
+    .cnc_tag_name{
+        padding: 2px 4px;
+        font-size: 0.5em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+@media screen and (max-width: 375px)
+{
+    .cnc_tag_name{
+        padding: 2px 4px;
+        font-size: 0.5em;
+    }
+    #btn_view{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+    .left_part_1{
+        top: 27%;
+    }
+}
+/* part -3 */
+.part_3_main_div{
+    margin: 1% ;
+}
+
+
+.img_and_tag_div{
+    position: relative;
+    display: inline-block;
+}
+.tag_division{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    
+    justify-content:space-between;
+    align-items: center;
+}
+
+#big_img_4{
+    height: 40%;
+    width: 40%;
+    
+}
+#btn_view_3{
+    background-color: var(--color);
+    color: white;
+    border: none;
+    padding: 13px 40px;
+    font-size:1.5rem;
+    font-weight: 400;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    cursor: pointer;
+}
+@media screen and (max-width:2500px){}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    
+    #btn_view_3{
+        padding: 13px 40px;
+       font-size:1.4rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:912px){
+   
+    
+    #btn_view_3{
+        padding: 12px 35px;
+       font-size:1.2rem;
+    }
+
+   
+}
+@media screen and (max-width:853px){
+    
+    #btn_view_3{
+        padding: 12px 32px;
+       font-size:1.0rem;
+    }
+}
+
+
+@media screen and (max-width:729px){
+  
+    #btn_view_3{
+        padding: 12px 32px;
+       font-size:1.0rem;
+    }
+}
+@media screen and (max-width:677px){
+   
+    #btn_view_3{
+        padding: 10px 28px;
+       font-size:0.8rem;
+    }
+}
+
+ @media screen and (max-width: 624px)
+{
+    
+   
+}
+@media screen and (max-width:571px){
+   
+   
+    #btn_view_3{
+        padding: 8px 26px;
+       font-size:0.7rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 518px)
+{
+   
+    #btn_view_3{
+        padding: 8px 26px;
+       font-size:0.7rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 466px)
+{
+    
+    #btn_view_3{
+        padding: 6px 24px;
+       font-size:0.6rem;
+    }
+    
+}
+@media screen and (max-width: 413px)
+{
+   
+    #btn_view_3{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+}
+@media screen and (max-width: 375px)
+{
+   
+    #btn_view_3{
+        padding: 5px 20px;
+       font-size:0.6rem;
+    }
+}
+/* part-4 */
+
+#big_img_2{
+    width: 50%;
+    height: 50%;
+    transform: translateX(65%);
+}
+@media screen and (max-width: 1024px){
+    
+    #big_img_2{
+        width: 50%;
+        height: 50%;
+        transform: translateX(0%);
+    }
+    
+}
+/* part5 */
+
+#big_img_5{
+    height: 30%;
+    width: 30%;
+    
+}
+
+
+
+
+
 

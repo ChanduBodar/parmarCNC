@@ -1,6 +1,6 @@
 import React from 'react'
-// import './Shering_1.css'
-import '../CNC_Press_break/Part_1.css'
+
+import '../CNC_Press_break/CNC_press_break.css'
 
 const Shering_1 = () => {
     return (

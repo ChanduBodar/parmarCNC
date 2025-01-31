@@ -1,5 +1,5 @@
 import React from 'react'
-import './Crowing.css'
+import './CNC_controller.css'
 import crowing_main_part from './Imges/crowimg_main_img.png'
 import edge_1 from './Imges/Edge_series_1.png'
 import edge_2 from './Imges/Edge_series_2.png'

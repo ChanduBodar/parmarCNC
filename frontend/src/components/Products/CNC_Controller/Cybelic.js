@@ -1,6 +1,6 @@
 import React from 'react'
-import './Cybelic.css'
-import './Delem.css'
+import './CNC_controller.css'
+
 import ps8 from './Imges/8ps.png';
 import ps12 from './Imges/12ps.png'
 import ps15 from './Imges/15ps.png'

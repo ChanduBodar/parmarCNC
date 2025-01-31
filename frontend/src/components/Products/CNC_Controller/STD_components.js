@@ -1,5 +1,5 @@
 import React from 'react'
-import './STD_components.css'
+import './CNC_controller.css'
 import std_1 from './Imges/STD_Compo_1.png'
 import std_2 from './Imges/STD_Compo_2.png'
 import std_3 from './Imges/STD_Compo_3.png'

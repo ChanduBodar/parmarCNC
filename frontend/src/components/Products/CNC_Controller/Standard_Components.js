@@ -1,5 +1,5 @@
 import React from 'react'
-import './Standard_conponents.css'
+import './CNC_controller.css'
 import tool_holder_1 from './Imges/Tool_Holder_1.png'
 import tool_holder_2 from './Imges/Tool_Holder_2.png'
 import tool_holder_3 from './Imges/Tool_Holder_3.png'

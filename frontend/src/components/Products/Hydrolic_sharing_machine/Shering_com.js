@@ -1,5 +1,5 @@
 import React from 'react'
-import './Shering_compo.css'
+import './Hydrolic_sahring.css'
 
 const Shering_com = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import im_3 from './Frame27_images/parmar_14 2.png'
-import './Technical.css'
+import './Hydrolic_sahring.css'
 import im_56 from './Frame27_images/Group 82.png'
 import im_70 from './Frame27_images/Group 83.png'
 

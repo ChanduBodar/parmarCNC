@@ -1,5 +1,5 @@
 import React from 'react'
-import './Specification.css'
+import './Calc_Tecnical.css'
 import tech_specification from  './images/Technical_specification.png'
 
 const Specification = () => {

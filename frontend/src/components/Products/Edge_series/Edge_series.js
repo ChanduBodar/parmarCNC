@@ -15,8 +15,6 @@ const Edge_series = () => {
         <Hero/>
         <Calculator/>
         <Calc_Technical/>
-        
-      
         <CNC_Controller/> 
         
         

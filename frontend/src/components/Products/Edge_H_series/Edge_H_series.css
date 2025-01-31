@@ -1,3 +1,230 @@
 .m_ain_con{
     margin-top: 12%;
 }
+/* Edge_1 */
+.edge_H_main_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.edge_H_main_part img{
+    width: 45%;
+    height: 50%;
+}
+.edge_H_hero_part{
+    display: flex;
+    flex-direction: column;
+    background-color: #A5C847;
+    gap: 10px;
+    padding-bottom: 2%;
+    height:100%;
+    width: 700px;
+}
+.edge_machine_description{
+    background-color: #4D4F48;
+    color: white;
+    padding: 3% 2%;
+    width: 85%;
+    line-height: 1.5;
+    transform: translate(18%,10%);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#edge_main_text{
+    font-size: 1.75rem;
+}
+#edge_sub_text
+{
+    font-size: 0.8rem;
+}
+.edge_media_button{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: translate(30%,2%);
+    margin-top: 2%;
+}
+.edge_media_button img{
+    height: 100%;
+    width: 50%;
+}   
+@media screen and (max-width:2500px){
+
+}
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1366px){}
+@media screen and (max-width:1199px){}
+@media screen and (min-width: 1366px){
+   
+	
+}
+@media screen and (max-width: 1024px){
+    #edge_main_text{
+        font-size: 1.45rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.75rem;
+    }
+   
+    
+}
+
+@media screen and (max-width:912px){
+   
+    #edge_main_text{
+        font-size: 1.28rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.7rem;
+    }
+   
+}
+
+@media screen and (max-width:853px){
+    
+    #edge_main_text{
+        font-size: 1.2rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.65rem;
+    }
+    
+}
+
+
+@media screen and (max-width:768px){
+   
+    #edge_main_text{
+        font-size: 1.0rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.6rem;
+    }
+    .edge_media_button{
+     
+       
+        margin-top: 1%;
+    }
+    .edge_media_button img{
+        height: 100%;
+        width: 45%;
+    } 
+}
+@media screen and (max-width:600px){
+    
+    #edge_main_text{
+        font-size: 0.85rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.55rem;
+    }
+    .edge_media_button img{
+        height: 100%;
+        width: 40%;
+    } 
+}   
+
+ @media screen and (max-width: 575px)
+{
+    #edge_main_text{
+        font-size: 0.8rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width:540px){
+    #edge_main_text{
+        font-size: 0.75rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.45rem;
+    }
+  
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    #edge_main_text{
+        font-size: 0.65rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 430px)
+{
+    
+    #edge_main_text{
+        font-size: 0.6rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.35rem;
+    }
+   
+}
+@media screen and (max-width: 400px)
+{
+   
+    #edge_main_text{
+        font-size: 0.55rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    
+    #edge_main_text{
+        font-size: 0.5rem;
+    }
+    #edge_sub_text
+    {
+        font-size: 0.3rem;
+    }
+}
+
+
+
+/* edge_2 */
+/* second part */
+.Edge_part{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+
+}
+.Edge_part img{
+    width:40% ;
+    height: 90%;
+    transform: translateY(2%);
+}
+
+
+.border_line{
+    height:2px;
+    width: 98%;
+   
+   transform: translate(1%,10%);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+
+}

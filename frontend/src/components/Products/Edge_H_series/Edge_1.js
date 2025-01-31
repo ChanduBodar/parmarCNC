@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Edge_1.css'
+
 import firstImage from './images_for_main_page/CNC Press Brake 6000x800tone 3.png'
 import media_1 from '../Media_buttons/Media_images/Group 119.png'
 import media_2 from '../Media_buttons/Media_images/Group 120.png'

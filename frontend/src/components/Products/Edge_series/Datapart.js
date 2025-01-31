@@ -1,7 +1,7 @@
 import React from 'react'
-import './Datapart.css'
+
 import Datalist from './Datalist'
-import './Datalist.css'
+
 
 const Datapart = () => {
   return (

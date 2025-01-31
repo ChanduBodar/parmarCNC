@@ -1,5 +1,5 @@
 import React from 'react'
-import './Part_1.css'
+
 import './CNC_press_break.css'
 const Part_1 = () => {
     return (

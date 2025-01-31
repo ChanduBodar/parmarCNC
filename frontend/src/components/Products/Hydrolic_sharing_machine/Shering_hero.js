@@ -1,5 +1,5 @@
 import React from 'react'
-import './Shering_hero.css'
+import './Hydrolic_sahring.css'
 import media_1 from '../Media_buttons/Media_images/Group 119.png'
 import media_2 from '../Media_buttons/Media_images/Group 120.png' 
 import media_3 from '../Media_buttons/Media_images/Group 121.png'

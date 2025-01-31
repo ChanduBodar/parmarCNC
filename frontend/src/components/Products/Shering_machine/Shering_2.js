@@ -1,6 +1,6 @@
 import React from 'react'
-import './Shering_2.css'
-import '../CNC_Press_break/Part_2.css'
+import './Shering.css'
+import '../CNC_Press_break/CNC_press_break.css'
 import { useNavigate } from 'react-router-dom';
 
 const Shering_2 = () => {

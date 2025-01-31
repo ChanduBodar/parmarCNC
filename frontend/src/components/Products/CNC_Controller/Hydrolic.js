@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hydrolic.css'
+import './CNC_controller.css'
 import hydrolic_1 from './Imges/Hydrolic_1.png'
 import hydrolic_2 from './Imges/Hydrolic_2.png'
 import hydrolic_3 from './Imges/Hydrolic_3.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Force_break_calculator.css';
+import './Calc_Tecnical.css'
 import calculator from "./images/calculator.png";
 
 

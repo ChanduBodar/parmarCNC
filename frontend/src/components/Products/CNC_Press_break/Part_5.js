@@ -1,6 +1,5 @@
 import React from 'react'
-import './Part_3.css'
-import './Part_5.css'
+import './CNC_press_break.css'
 import { useNavigate } from 'react-router-dom';
 
 const Part_5 = () => {

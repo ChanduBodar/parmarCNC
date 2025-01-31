@@ -1,5 +1,5 @@
 import React from 'react'
-import './Delem.css'
+import './CNC_controller.css'
 import Da_53 from './Imges/Da-53.png';
 import Da_58 from './Imges/Da-58.png';
 import Da_66 from './Imges/Da-66.png';

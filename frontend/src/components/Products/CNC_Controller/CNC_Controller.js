@@ -1,7 +1,5 @@
 import React from 'react'
 import './CNC_controller.css'
-
-import bg_img from './Imges/bg_for_controller.png'
 import delem_img from './Imges/delem.png'
 import cybelic_img from './Imges/cybelic.png' 
 import step_img from './Imges/step.png'

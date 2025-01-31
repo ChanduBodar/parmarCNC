@@ -1,5 +1,5 @@
 import React from 'react'
-import './Standard_file.css'
+import './Hydrolic_sahring.css'
 
 const Standard_components = () => {
   return (

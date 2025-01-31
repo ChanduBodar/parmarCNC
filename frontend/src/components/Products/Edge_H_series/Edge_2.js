@@ -1,5 +1,5 @@
 import React from 'react'
-import './Edge_2.css'
+
 import Datapart from '../Edge_series/Datapart'
 import firstImage from './images_for_main_page/CNC Press Brake 6000x800tone 4.png'
 

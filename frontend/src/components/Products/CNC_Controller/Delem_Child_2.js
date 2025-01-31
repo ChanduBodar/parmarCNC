@@ -1,5 +1,5 @@
 import React from 'react'
-import './Delem.css'
+import './CNC_controller.css'
 import T_53 from './Imges/TX_53.png'
 import T_58 from './Imges/TX_58.png'
 import S66 from './Imges/S66.png'
