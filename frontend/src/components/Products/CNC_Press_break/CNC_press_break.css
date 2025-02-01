@@ -5,43 +5,45 @@
     margin-top: 11%;
 }
 /* part-2 */
-.last_part{
-    margin: 1% ;
-}
+
 .back_img{
-    position: relative;
+    /* position: relative; */
     display: inline-block;
+    width: 100%;
+    margin: 1% ;
 
 }
  .img_text_part_1{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    top: 10%;
+    /* position: absolute;
+    top: 10%; */
     
-    justify-content:flex-end;
+    justify-content:space-between;
     align-items: center;
+    width: 100%;
     
  }
  
 .left_part_1 {
-    position: absolute;
-    left: 0;
+    /* position: absolute;
+    left: 0; */
         
 }
 #front_img{
     width:100%;
     height:auto; 
-    position: relative;
+  
 }
 .cnc_tag_name{
     background-color: #4D4F48;
     font-weight: 500;
     font-size: 1.5em;
-    word-spacing: 0.2em;
+    word-spacing: 0.1em;
     
     color: white; 
-   padding: 16px 20px;
+    padding: 1% 1%;
+    width: 110%;
 
 }
 
@@ -49,12 +51,10 @@
     background-color: var(--color);
     color: white;
     border: none;
-    padding: 13px 40px;
+    
     font-size:1.5rem;
     font-weight: 400;
-    position: absolute;
-    top: 160%;
-    left:30%;
+    
     cursor: pointer;
 }
 

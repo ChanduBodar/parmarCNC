@@ -4,6 +4,7 @@
     --yellow:rgba(217, 224, 205,0.8);
     --padding-boxes:2%;
     --text-size:1.85rem;
+    --line-height:170%;
 }
 .company-section{
     margin-top: 12%;
@@ -39,7 +40,7 @@
     text-align: justify;
     padding: var(--padding-boxes); 
     font-size: var(--text-size);               
-    line-height: 1.6;               
+    line-height: var(--line-height);               
       
     
   }
@@ -75,7 +76,7 @@
       text-align: justify;
       padding: var(--padding-boxes); 
       font-size: var(--text-size);               
-      line-height: 1.6;  
+      line-height: var(--line-height);   
       
     }
   
@@ -122,7 +123,7 @@
     text-align: justify;
     padding: var(--padding-boxes); 
     font-size: var(--text-size);               
-    line-height: 1.6;  
+    line-height: var(--line-height);    
     
   }
   
@@ -140,12 +141,48 @@
  /* responsivr site  */
 
 @media screen and (max-width:2500px){}
-@media screen and (max-width:1920px){}
-@media screen and (max-width:1366px){}
-@media screen and (max-width:1199px){}
-@media screen and (min-width: 1366px){
+@media screen and ((max-width: 2500px) and (min-width:1290px)){
+
     :root{
-        --text-size:1.85rem;
+        --text-size:3.65rem;
+        
+    }
+    .text_header h1{
+        font-size: 4.0rem;
+        
+    }
+}
+@media screen and ((max-width: 2200px) and (min-width:1290px)){
+
+    :root{
+        --text-size:3.2rem;
+    }
+    .text_header h1{
+        font-size: 3.5rem;
+        
+    }
+}
+	
+
+@media screen and ((max-width: 1900px) and (min-width:1290px)){
+
+    :root{
+        --text-size:2.8rem;
+    }
+    .text_header h1{
+        font-size: 3.0rem;
+        
+    }
+	
+}
+@media screen and ((max-width: 1600px) and (min-width:1290px)){
+
+    :root{
+        --text-size:2.3rem;
+    }
+    .text_header h1{
+        font-size: 2.5rem;
+        
     }
 	
 }
@@ -170,7 +207,7 @@
 @media screen and (max-width:768px){
     :root{
         --text-size:1.15rem;
-        line-height: 1rem;
+        
     }
 }
 
@@ -211,49 +248,24 @@
         
     }
 }
-@media screen and (max-width: 390px)
+@media screen and (max-width: 400px)
 {
     :root{
         --text-size:0.58rem;
-        line-height: 0.9rem;
+        
     }
 }
-
-@media screen and (max-width: 375px)
+@media screen and (max-width:375px)
 {
     :root{
-        
-            --text-size:0.55rem;
-            line-height: 0.9rem;
+        --text-size:0.55rem;
         
     }
-    
-
-}
-@media screen and (max-width: 344px)
-{
-    :root{
-        
-        --text-size:0.5rem;
-        line-height: 0.8rem;
-    
 }
 
 
-}
-@media screen and (max-width: 320px)
-{
-    :root{
-        
-        --text-size:0.47rem;
-        line-height: 0.7rem;
-    
-    }
-    .text_header h1{
-        font-size: 1.3rem;
-        
-    }
-} 
+
+
 
   
   

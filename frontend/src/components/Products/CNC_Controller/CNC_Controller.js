@@ -42,11 +42,12 @@ const CNC_Controller = () => {
 
           {/* cybellic_part */}
           <div className='cybelic_div'>
-          <img src={cybelic_img} />
+          
             <div className='cybelic_desc'>
               <p id='machine_text_label'>CYBELEC</p>
               <button id='label_btn' onClick={handlerCybelic}>View</button>
             </div>
+            <img src={cybelic_img} />
             
           </div>
           
@@ -57,18 +58,18 @@ const CNC_Controller = () => {
        
         <div className='delem_Cybelic_part'>
 
-          {/* delem_part */}
+        {/* step */}
           <div className='delem_part'>
-          
+          <img src={step_img} />
             <div className='delem_desc'>
               <p id='machine_text_label'>STEP</p>
               <button id='label_btn'onClick={handlerStep}>View</button>
             </div>
-            <img src={step_img} />
+            
             
           </div>
 
-          {/* cybellic_part */}
+          {/* standard components */}
           <div className='cybelic_div'>
             
             <div className='cybelic_desc'>

@@ -41,14 +41,43 @@
     color: white;
     font-size: 1.35rem;
 }
-@media screen and (max-width:2500px){}
-@media screen and (max-width:1920px){}
-@media screen and (max-width:1366px){}
-@media screen and (max-width:1199px){}
-@media screen and (min-width: 1366px){
-   
-	
+@media screen and ((max-width:2500px) and (min-width:1290px)){
+    #video_lable{
+       
+        font-size: 6rem;
+       
+        letter-spacing: 6rem;
+      
+    }
 }
+@media screen and ((max-width:2200px) and (min-width:1290px)){
+    #video_lable{
+       
+        font-size: 5rem;
+       
+        letter-spacing: 5rem;
+      
+    }
+}
+@media screen and ((max-width:1900px) and (min-width:1290px)){
+    #video_lable{
+       
+        font-size: 4rem;
+       
+        letter-spacing: 4rem;
+      
+    }
+}
+@media screen and ((max-width:1600px) and (min-width:1290px)) {
+    #video_lable{
+       
+        font-size: 3rem;
+       
+        letter-spacing: 3rem;
+      
+    }
+}
+ 
 @media screen and (max-width: 1024px){
     .video_desc p{
         text-align: center;
@@ -150,23 +179,5 @@
     }
   
 }
-@media screen and (max-width: 341px){
-    
-    #video_lable{
-        font-size: 1.3rem;
-        letter-spacing: 1.3rem;
-        left:20%;
-    }
-  
-}
-@media screen and (max-width: 276px){
-    
-    #video_lable{
-        font-size: 1.0rem;
-        letter-spacing: 1.0rem;
-        left:18%;
-        top: 20%;
-    }
 
-}
 

@@ -25,7 +25,7 @@
     
     font-size: 0.9rem;
    align-items: center;
-   line-height: 1.2rem;
+   line-height: 130%;
    max-width: 50%;
    transform: translateX(50%);
    margin:0.5%
@@ -33,7 +33,7 @@
 .footer_text p{
     font-size: 0.9rem;
     align-items: center;
-    line-height: 1.2rem;
+    line-height: 130%;
     max-width: 90%;
     transform: translateX(5%);
     margin:1%;
@@ -74,7 +74,7 @@
     justify-content:center;
     align-items: center;
     gap: 12%;
-    margin: 2%;
+    margin-bottom: 2%;
     
 }
 .tags img{
@@ -82,11 +82,6 @@
     height: 9%;
 }
 
-.middle_element{
-
-    gap: 5px;
-  
-}
 .foot_1, .middle_element,.middle_element_text{
     display: flex;
     align-items: center;
@@ -117,7 +112,100 @@
     font-size: 0.8em;
     word-spacing: 0.2em;
 }
+@media screen and ((max-width:2500px) and (min-width:1290px)){
+    #contact{
+   
+        font-size: 3.0rem;
+       
+    } 
+    .footer_text_2 p, .footer_text p{
+    
+        font-size: 1.7rem;
+    }
+    .tags img{
+    
+        height:16% ;
+        width: 16%;
+    }
+    .tags{
 
+        gap: 30%;
+        margin-bottom: 10%;
+        
+        
+    }
+    .middle_element_text p{
+        font-size: 1.5rem;
+        
+    }
+    .footer_last_part p{
+        font-size: 1.3em;
+       
+    }
+}
+@media screen and ((max-width:2200px) and (min-width:1290px)){
+    #contact{
+   
+        font-size: 2.5rem;
+       
+    } 
+    .footer_text_2 p, .footer_text p{
+    
+        font-size: 1.5rem;
+    }
+    .tags img{
+    
+        height:14% ;
+        width: 14%;
+    }
+    .tags{
+
+        gap: 25%;
+        margin-bottom: 8%;
+        
+        
+    }
+    .middle_element_text p{
+        font-size: 1.3rem;
+        
+    }
+    .footer_last_part p{
+        font-size: 1.2em;
+       
+    }
+}
+@media screen and ((max-width:1900px) and (min-width:1290px)){
+    #contact{
+   
+        font-size: 2.0rem;
+       
+    } 
+    .footer_text_2 p, .footer_text p{
+    
+        font-size: 1.3rem;
+    }
+    .tags img{
+    
+        height:12% ;
+        width: 12%;
+    }
+    .tags{
+
+        gap: 20%;
+        margin-bottom: 5%;
+        
+        
+    }
+    .middle_element_text p{
+        font-size: 1.0rem;
+        
+    }
+    .footer_last_part p{
+        font-size: 1.0em;
+       
+    }
+  
+}
 @media screen and (max-width: 1024px) {
     
      #contact{

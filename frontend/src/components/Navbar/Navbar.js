@@ -42,25 +42,25 @@ const Navbar = () => {
         <ul className={`nav__elements ${menuOpen ? 'open' : ''}`}>
        
           <li>
-            <NavLink to="/" >HOME</NavLink>
+            <NavLink to="/"onClick={toggleMenu} >HOME</NavLink>
           </li>
           <li>
-            <NavLink to="/company" >COMPANY</NavLink>
+            <NavLink to="/company"onClick={toggleMenu} >COMPANY</NavLink>
           </li>
           <li>
-            <NavLink to="/products"  >PRODUCTS</NavLink>
+            <NavLink to="/products" onClick={toggleMenu} >PRODUCTS</NavLink>
           </li>
           <li>
-            <NavLink to="/event" >EVENT</NavLink>
+            <NavLink to="/event"onClick={toggleMenu} >EVENT</NavLink>
           </li>
           <li>
-            <NavLink to="/download" >DOWNLOAD</NavLink>
+            <NavLink to="/download" onClick={toggleMenu}>DOWNLOAD</NavLink>
           </li>
           <li>
-            <NavLink to="/videos" >VIDEOS</NavLink>
+            <NavLink to="/videos" onClick={toggleMenu} >VIDEOS</NavLink>
           </li>
           <li id='contect-me'>
-            <NavLink to="/contact">CONTACTUS</NavLink>
+            <NavLink to="/contact" onClick={toggleMenu}>CONTACTUS</NavLink>
           </li>
         </ul>
       

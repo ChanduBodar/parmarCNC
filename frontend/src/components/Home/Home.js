@@ -49,9 +49,9 @@ function HomePage() {
             <img src={item.image} alt={item.text} />
             <div className="side_of_text">
               <p>{item.text}</p>
-              <div className="more_text">
-                <button onClick={() => handleRedirect(item.redirectPath)}>{item.buttonText}</button>
-              </div>
+              
+                <button id="learn_more_btn" onClick={() => handleRedirect(item.redirectPath)}>{item.buttonText}</button>
+              
             </div>
           </div>
         ))}
