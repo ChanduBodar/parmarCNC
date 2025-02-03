@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Edge_series.css'
 
 const Datalist = () => {
   return (
-    <div>
+    <div className='Genereic_details'>
         <ul>
         <li>High sensitivity, stress relieved steel construction body, long life frame.</li>
         <li>Automatic calibration and first start up.</li>

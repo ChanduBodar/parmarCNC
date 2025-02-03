@@ -56,7 +56,7 @@
     
 }
 /* main-part-2 */
-.ba_img{
+.machine_desc_part{
     position: relative;
     display: inline-block;
     margin: 1%;
@@ -67,14 +67,14 @@
 }
 
 
-.ba_img img {
+.machine_desc_part img {
     width:100%;
      height: auto; 
 
       
     
  }
- .img_t_part{
+ .machine_and_label_part{
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -86,7 +86,7 @@
    
  }
  
-.CNC_b_t_n {
+.label_btn {
     padding: 2%;
     font-weight: 600;
     font-size: 1.8rem;
@@ -100,42 +100,12 @@
 
          
 }
-#big_img{
+#machine_img{
     width:50%;
     height: 50%;
 
 }
-/* main -part -3 */
 
-.ba_img_2{
-    
-    display: inline-block;
-    margin: 1%;
-    position: relative;
-
-}
-.ba_img_2 img {
-    width:100%;
-    height: auto; 
- }
- .above_div{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 20%;
-
-    justify-content:space-between;
-    align-items: center;
-    width: 100%;
-   
-
- }
- #big{
-    width:40%;
-    height: 40%;
-
-
-}
  
 @media screen and ((max-width:2500px) and (min-width:1290px)){
     .prodct_part #label_1
@@ -145,7 +115,7 @@
     .prodct_part #label_2{
         font-size: 2.5rem;
     }
-    .CNC_b_t_n {
+    .label_btn {
        
         font-size: 3rem;
         
@@ -161,7 +131,7 @@
     .prodct_part #label_2{
         font-size: 2.0rem;
     }
-    .CNC_b_t_n {
+    .label_btn{
        
         font-size: 3rem;
         
@@ -176,7 +146,7 @@
     .prodct_part #label_2{
         font-size: 1.7rem;
     }
-    .CNC_b_t_n {
+    .label_btn {
        
         font-size: 3rem;
         
@@ -191,7 +161,7 @@
     .prodct_part #label_2{
         font-size: 1.55rem;
     }
-    .CNC_b_t_n {
+    .label_btn {
        
         font-size: 3rem;
         
@@ -218,7 +188,7 @@
     .prodct_part #label_2{
         font-size: 0.8rem;
     }
-    .CNC_b_t_n{
+    .label_btn{
        
         
         font-size: 1.5em;
@@ -256,7 +226,7 @@
         font-size: 0.7rem;
     }
     
-    .CNC_b_t_n{
+    .label_btn{
         
         font-size: 1.3em;
     }
@@ -273,7 +243,8 @@
         font-size: 0.45rem;
        
     }
-    .CNC_b_t_n{
+    .label_btn{
+        
         
         font-size: 1.1em;
     }
@@ -292,9 +263,7 @@
         font-size: 0.4rem;
        
     }
-    .CNC_b_t_n{
-    
-        
+    .label_btn{
         font-size: 1.0em;
        
     }
@@ -313,9 +282,7 @@
         font-size: 0.4rem;
         word-spacing: 0.2rem;
     }
-    .CNC_b_t_n{
-      
-        
+    .label_btn{
         font-size: 0.9em;
        
     }
@@ -334,17 +301,13 @@
         word-spacing: 0.15rem;
     }
     
-    .CNC_b_t_n{
-        padding: 6px;
+    .label_btn{
+       
         
         font-size: 0.6em;
        
     }
-    .tag_part button{
-        padding: 6px;
-        
-        font-size: 0.6em;
-    }
+    
 }
 @media screen and (max-width: 390px)
 {

@@ -7,19 +7,20 @@ const Part_3 = () => {
   const navigate = useNavigate();
 
   const handleRedirect = () => {
-    navigate('/hydarlic'); 
+    navigate('/hydarlic');
   };
   return (
     <div>
-     <div className="part_3_main_div">
-        <div className="img_and_tag_div">
-          <img id='front_img' src={require("./images/Group 98.png")} alt="CNC Press Brake Machine" />
-          <div className="tag_division">
-             
-            <img src={require("./images/PNCPBR1030_Rear_cylinder_press_brake-removebg-preview 1.png")} alt="Catalog" id="big_img_4" />
-            <div className="my_data_part">
-              <p className='cnc_tag_name'>Rear Cylinder Hydraulic Press Brake Machine</p>
-              <button id='btn_view_3' onClick={handleRedirect}>VIEW</button>
+      <div className='machine_parent_div'>
+        <div className="machine_main_div">
+          <img src={require("./images/Group 98.png")} alt="CNC Press Brake Machine" />
+          <div className="btn_and_img_div" id='part_3_div'>
+
+            <img id='part_3_img' src={require("./images/PNCPBR1030_Rear_cylinder_press_brake-removebg-preview 1.png")} alt="Catalog" />
+
+            <div className='machine_desc'>
+              <p id="machine_label">Rear Cylinder Hydraulic Press Brake Machine</p>
+              <button id='view' onClick={handleRedirect}>VIEW</button>
             </div>
           </div>
         </div>

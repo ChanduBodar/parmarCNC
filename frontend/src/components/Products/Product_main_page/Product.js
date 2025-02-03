@@ -3,7 +3,7 @@ import './Prouct.css';
 import { First_part } from './First_part';
 import Second from './Second';
 import Third from './Third';
-import { productData } from '../../../Data_Folders/ProductData'; 
+import {productData}  from '../../../Data_Folders/ProductData'; 
 
 const Company = () => {
   return (

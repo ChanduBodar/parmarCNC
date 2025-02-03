@@ -1,5 +1,5 @@
 import React from 'react'
-import './Edge_series.css'
+
 import Datapart from './Datapart'
 import firstImage from "./images_for_main_page/parmar_catalog[1]222 2.png";
 
@@ -7,7 +7,7 @@ const Calculator = () => {
   return (
     <div>
          
-    <div className="Calculator_part">
+    <div className="img_and_data">
 
          <Datapart />
 
@@ -15,7 +15,7 @@ const Calculator = () => {
      
     </div>
 
-    <div className="border_line"></div>
+    <div className=""></div>
   
     </div>
   )

@@ -6,7 +6,7 @@ import v_7 from './Frame_26_images/Vector 7.png'
 import img_74 from './Frame_26_images/Group 74.png'
 import img_75 from './Frame_26_images/Group 75.png'
 import im_13 from './Frame_26_images/parmar_13 1.png'
-import G_80 from './Frame_26_images/Group 80.png'
+
 import media_1 from '../Media_buttons/Media_images/Group 119.png'
 import media_2 from '../Media_buttons/Media_images/Group 120.png'
 import media_3 from '../Media_buttons/Media_images/Group 121.png'
@@ -95,7 +95,7 @@ const Hydarlic = () => {
                             <p>CYBELIC</p>
                         </div>
 
-                        <img src={im_13} />
+                        <img id='hydrolic_img' src={im_13} />
 
                         <div className='cyb_part'>
                             <p>Cyb Touch 8</p>

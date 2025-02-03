@@ -11,23 +11,28 @@ const Part_2 = () => {
   return (
     <div>
       {/* Part-2 */}
-
-    
-        <div className="back_img">
-          <img id='front_img' src={require("./images/Group 98.png")} alt="CNC Press Brake Machine" />
-          <div className="img_text_part_1">
-
+      <div className='machine_parent_div'>
+        <div className="machine_main_div">
+          <img src={require("./images/istockphoto-1243283657-612x612.png")} alt="CNC Press Brake" />
+          <div className="btn_and_img_div">
 
            
-            <div className="left_part_1">
-              <p className='cnc_tag_name'>CNC Press Brake Machine Edge Series</p>
-              <button id='btn_view' onClick={handleRedirect}>VIEW</button>
-            </div>
-            <img src={require("./images/parmar_catalog[1]222 2.png")} alt="Catalog" id="big_img_1" />
+          <div className='machine_desc'>
+              <p id="machine_label">CNC Press Brake Machine Edge Series</p>
+              <button id='view' onClick={handleRedirect }>VIEW</button>
+          </div>
+
+
+
+
+            <img src={require("./images/Group 117.png")} alt="Catalog" id="machine_img" />
+
 
           </div>
         </div>
-     
+      </div>
+
+
     </div>
   )
 }

@@ -5,17 +5,15 @@ import '../CNC_Press_break/CNC_press_break.css'
 const Shering_1 = () => {
     return (
         <div>
-            <div className="ba_img">
-                <img src={require("./Sherimg_images/istockphoto-1243283657-612x612.png")} alt="CNC Press Brake" />
-                <div className="img_t_part">
-                    <div className='lable_taging'>
-                        <button className="CNC_b_t_n">SHEARING MACHINE
-                        </button>
-                    </div>
+            <div className="machine_main_div">
+                <img src={require("./Sherimg_images/shering_bg.png")} alt="CNC Press Brake" />
+                <div className="btn_and_img_div">
+                   
+                    <p id='main_machine_label'>SHEARING MACHINE</p>
 
-                    <div className='machne_image'>
-                        <img src={require("./Sherimg_images/Group 118.png")} alt="Catalog" id="big_img" />
-                    </div>
+                    
+                    <img id='machine_img' src={require("./Sherimg_images/sharing_machine_img.png")} alt="Catalog"  />
+                
 
                 </div>
             </div>

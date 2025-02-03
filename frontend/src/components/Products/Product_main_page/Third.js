@@ -11,14 +11,14 @@ const Third = ({ imageSrc, buttonLabel, redirectPath, imageForMachine }) => {
 
   return (
     <div>
-      <div className="ba_img_2">
+      <div className="machine_desc_part">
         <img src={imageSrc} alt="Product" />
-        <div className="above_div">
+        <div className="machine_and_label_part">
          
-            <img src={imageForMachine} alt="Machine" id="big" />
+            <img src={imageForMachine} alt="Machine" id="machine_img" />
           
           
-            <button className='CNC_b_t_n' onClick={handleRedirect}>{buttonLabel}</button>
+            <button className='label_btn' onClick={handleRedirect}>{buttonLabel}</button>
           
         </div>
       </div>

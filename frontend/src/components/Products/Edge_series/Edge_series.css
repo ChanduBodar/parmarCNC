@@ -17,18 +17,18 @@
     display: flex;
     flex-direction: column;
     background-color: #A5C847;
-    gap: 10px;
+    
     padding-bottom: 2%;
     height:100%;
-    width: 700px;
+    width: 100%;
     
     
    
 }
 .cnc_description{
-        background-color: #4D4F48;
+        background-color: var(--secondary-color);
         color: white;
-    padding: 3% 2%;
+        padding: 3% 2%;
         width: 90%;
         line-height: 1.5;
         transform: translate(12%,10%);
@@ -55,15 +55,125 @@
     height: 100%;
     width: 50%;
 }
-@media screen and (max-width:2500px){
-
+/* calculator_part */
+.img_and_data{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
 }
-@media screen and (max-width:1920px){}
-@media screen and (max-width:1366px){}
-@media screen and (max-width:1199px){}
-@media screen and (min-width: 1366px){
+.img_and_data img{
+    width: 50%;
+    height: 50%;
+    
+}
+.line{
+    width: 95%;
+    background-color: black;
+    height: 2px;
+    margin:  0% 5% 0% 2%;
+}
+/* datapart */
+.Datapart_main_part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:10px
+}
+#datapart_data{
+    max-width: 95%;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 120%;
+    word-spacing: 0.1rem;
+}
+.General_specification{
+   display: flex;
+   flex-direction: column;
    
-	
+}
+#general_label{
+    color: #4C7D3C;
+    font-size: 1.2rem;
+}
+/* datalist */
+.Genereic_details{
+    margin: 2% 0% 0% 2%;
+}
+.Genereic_details ul li{
+ font-size: 0.9rem;
+}
+
+@media screen and ((max-width:2500px) and (min-width:1290px)){
+    #CNC_label_text{
+        font-size: 3.3rem;
+    }
+    #CNC_sub_label_text{
+        font-size: 1.9rem;
+    }
+    #datapart_data{
+        font-size: 2.4rem;
+    }
+    #general_label{
+      
+        font-size: 2.5rem;
+    }
+    .Genereic_details ul li{
+        font-size: 1.6rem;
+    }
+}
+@media screen and ((max-width:2200px) and (min-width:1290px)){
+    #CNC_label_text{
+        font-size: 3.0rem;
+    }
+    #CNC_sub_label_text{
+        font-size: 1.7rem;
+    }
+    #datapart_data{
+        font-size: 2.0rem;
+    }
+    #general_label{
+      
+        font-size: 2.0rem;
+    }
+    .Genereic_details ul li{
+        font-size: 1.4rem;
+    }
+}
+@media screen and ((max-width:1900px) and (min-width:1290px)){
+    #CNC_label_text{
+        font-size: 2.6rem;
+    }
+    #CNC_sub_label_text{
+        font-size: 1.4rem;
+    }
+    #datapart_data{
+        font-size: 1.7rem;
+    }
+    #general_label{
+      
+        font-size: 1.7rem;
+    }
+    .Genereic_details ul li{
+        font-size: 1.3rem;
+    }
+}
+@media screen and ((max-width:1600px) and (min-width:1290px)) {
+    #CNC_label_text{
+        font-size: 2.2rem;
+    }
+    #CNC_sub_label_text{
+        font-size: 1.2rem;
+    }
+    #datapart_data{
+        font-size: 1.4rem;
+    }
+    #general_label{
+      
+        font-size: 1.3rem;
+    }
+    .Genereic_details ul li{
+        font-size: 1.15rem;
+    }
 }
 @media screen and (max-width: 1024px){
     #CNC_label_text{
@@ -84,6 +194,16 @@
         height: 100%;
         width: 45%;
     }
+    #datapart_data{
+        font-size: 1.0rem;
+    }
+    #general_label{
+      
+        font-size: 1.0rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.6rem;
+    }
    
     
 }
@@ -91,6 +211,16 @@
 @media screen and (max-width:912px){
     #CNC_label_text{
         font-size: 1.30rem;
+    }
+    #datapart_data{
+        font-size: 0.8rem;
+    }
+    #general_label{
+      
+        font-size: 1.0rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.6rem;
     }
     
    
@@ -101,7 +231,7 @@
     #CNC_label_text{
         font-size: 1.22rem;
     }
-    
+   
 }
 
 
@@ -110,7 +240,16 @@
     #CNC_label_text{
         font-size: 1.1rem;
     }
-
+    #datapart_data{
+        font-size: 0.6rem;
+    }
+    #general_label{
+      
+        font-size: 1.0rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.5rem;
+    }
 }
 @media screen and (max-width:600px){
     #CNC_label_text{
@@ -119,6 +258,18 @@
     #CNC_sub_label_text{
         font-size: 0.5rem;
     }
+    #datapart_data{
+        font-size: 0.54rem;
+    }
+    #general_label{
+      
+        font-size: 0.8rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.4rem;
+    }
+  
+    
   
 }
 
@@ -129,6 +280,20 @@
     }
     #CNC_sub_label_text{
         font-size: 0.4rem;
+    }
+    #datapart_data{
+        font-size: 0.5rem;
+    }
+    #general_label{
+      
+        font-size: 0.8rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.4rem;
+    }
+    .Datapart_main_part{
+        
+        gap:1px;
     }
 }
 @media screen and (max-width:540px){
@@ -151,6 +316,17 @@
     #CNC_sub_label_text{
         font-size: 0.4rem;
     }
+    #datapart_data{
+        font-size: 0.4rem;
+    }
+    #general_label{
+      
+        font-size: 0.7rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.35rem;
+    }
+   
 }
 
 @media screen and (max-width: 430px)
@@ -170,6 +346,16 @@
         margin-top: 0.5%;
     
     }
+    #datapart_data{
+        font-size: 0.35rem;
+    }
+    #general_label{
+      
+        font-size: 0.5rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.33rem;
+    }
    
 }
 @media screen and (max-width: 400px)
@@ -180,17 +366,54 @@
     #CNC_sub_label_text{
         font-size: 0.3rem;
     }
+    #datapart_data{
+        font-size: 0.3rem;
+    }
+    #general_label{
+      
+        font-size: 0.4rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.30rem;
+    }
+    .line{
+       
+        height: 1px;
+        
+    }
 
     
 }
 
-@media screen and (max-width: 390px)
+@media screen and (max-width: 375px)
 {
     #CNC_label_text{
-        font-size: 0.56rem;
+        font-size: 0.5rem;
     }
     #CNC_sub_label_text{
         font-size: 0.3rem;
+    }
+    #datapart_data{
+        font-size: 0.3rem;
+    }
+    .media_buttons{
+       
+        gap: 4px;
+        
+        margin-top: 2.5%;
+    
+    }
+    #general_label{
+      
+        font-size: 0.4rem;
+    }
+    .Genereic_details ul li{
+        font-size: 0.30rem;
+    }
+    .line{
+       
+        height: 1px;
+        
     }
   
 

@@ -5,15 +5,15 @@ const Part_1 = () => {
     return (
         <div>
             {/* Main Part Start 1 */}
-            <div className="ba_img">
+            <div className="machine_main_div">
                 <img src={require("./images/istockphoto-1243283657-612x612.png")} alt="CNC Press Brake" />
-                <div className="img_t_part">
+                <div className="btn_and_img_div">
                  
-                        <button className="CNC_b_t_n">CNC PRESS BRAKE</button>
+                        <p id="main_machine_label">CNC PRESS BRAKE</p>
                     
 
                    
-                        <img src={require("./images/Group 117.png")} alt="Catalog" id="big_img" />
+                        <img id='machine_img' src={require("./images/Group 117.png")} alt="Catalog"/>
                     
 
                 </div>

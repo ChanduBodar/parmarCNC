@@ -11,14 +11,14 @@ const Second = ({ imageSrc, buttonLabel, redirectPath, imageForMachine }) => {
 
   return (
     <div>
-      <div className="ba_img">
+      <div className="machine_desc_part">
         <img src={imageSrc} alt="Product" />
-        <div className="img_t_part">
+        <div className="machine_and_label_part">
      
-            <button className="CNC_b_t_n" onClick={handleRedirect}>{buttonLabel}</button>
+            <button className="label_btn" onClick={handleRedirect}>{buttonLabel}</button>
           
       
-            <img src={imageForMachine} alt="Machine" id="big_img" />
+            <img src={imageForMachine} alt="Machine" id="machine_img" />
           
         </div>
       </div>

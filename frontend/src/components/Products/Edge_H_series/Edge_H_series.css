@@ -15,10 +15,10 @@
     display: flex;
     flex-direction: column;
     background-color: #A5C847;
-    gap: 10px;
+    
     padding-bottom: 2%;
     height:100%;
-    width: 700px;
+    width: 100%;
 }
 .edge_machine_description{
     background-color: #4D4F48;
@@ -48,15 +48,45 @@
     height: 100%;
     width: 50%;
 }   
-@media screen and (max-width:2500px){
+
+/* edge_2 */
+/* second part */
+.Edge_part{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
 
 }
-@media screen and (max-width:1920px){}
-@media screen and (max-width:1366px){}
-@media screen and (max-width:1199px){}
-@media screen and (min-width: 1366px){
+.Edge_part img{
+    width:40% ;
+    height: 90%;
+    transform: translateY(2%);
+}
+
+
+.border_line{
+    height:2px;
+    width: 98%;
    
-	
+   transform: translate(1%,10%);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+
+}
+@media screen and ((max-width:2500px) and (min-width:1290px)){
+   
+}
+@media screen and ((max-width:2200px) and (min-width:1290px)){
+    
+}
+@media screen and ((max-width:1900px) and (min-width:1290px)){
+  
+}
+@media screen and ((max-width:1600px) and (min-width:1290px)) {
+   
 }
 @media screen and (max-width: 1024px){
     #edge_main_text{
@@ -200,31 +230,3 @@
 }
 
 
-
-/* edge_2 */
-/* second part */
-.Edge_part{
-    display: flex;
-    flex-direction: row;
-    margin: 1%;
-
-}
-.Edge_part img{
-    width:40% ;
-    height: 90%;
-    transform: translateY(2%);
-}
-
-
-.border_line{
-    height:2px;
-    width: 98%;
-   
-   transform: translate(1%,10%);
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1%;
-
-}
