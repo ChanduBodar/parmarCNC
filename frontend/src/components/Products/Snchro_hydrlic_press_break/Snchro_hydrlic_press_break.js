@@ -13,7 +13,7 @@ const Snchro_hydrlic_press_break = () => {
       <Sin_2/>
       
       <Calc_Technical/>
-        <CNC_Controller/>
+      <CNC_Controller/>
     </div>
   )
 }

@@ -40,9 +40,7 @@ const Shering_hero = () => {
           
         </div>
       </div>
-      <div className='border_part'>
-
-      </div>
+      
     </div>
   )
 }

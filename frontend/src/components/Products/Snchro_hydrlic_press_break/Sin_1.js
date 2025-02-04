@@ -17,9 +17,9 @@ const Sin_1 = () => {
     return (
         <div>
             <div className='sinchro_main_part'>
-                <img  id='sn_img' src={cncPressImg} />
+                <img src={cncPressImg} />
                 
-                    <div className='sinchro_desc_text'>
+                    <div className='sinchro_text'>
                         <div className='sinchro_label_text'>
                             <p id='sinchro_main_text'>
                              EDGE SERIES SYNCHRO HYDRAULIC PRESS BRAKE
@@ -32,8 +32,7 @@ const Sin_1 = () => {
                          <div className='sinchro_media_button'>
                                               <img src={media_1}></img>
                                               <img src={media_2}></img>
-                                              <img src={media_3} onClick={handleRedirect}/>
-                                          
+                                              <img src={media_3} onClick={handleRedirect}/>              
                         </div>
 
 

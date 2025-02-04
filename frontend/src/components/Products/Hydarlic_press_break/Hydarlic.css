@@ -118,8 +118,8 @@
     margin: 1%;
     justify-content: center;
     width: 98%;
-    
- 
+
+
 
 }
 
@@ -145,7 +145,7 @@
 }
 
 .hyralic_last_img {
-   
+
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -163,13 +163,15 @@
     font-weight: 600;
     font-size: 1.1rem;
     text-align: center;
-  
+
 
 }
-#hydrolic_img{
+
+#hydrolic_img {
     height: 100%;
-    width: 90% ;
+    width: 90%;
 }
+
 .cyb_part {
     background-color: var(--secondary-color);
 
@@ -177,7 +179,7 @@
 
 .cyb_part p {
     padding: 5% 0px;
-   
+
     color: white;
     font-weight: 600;
     font-size: 1.1rem;
@@ -239,26 +241,29 @@
         font-size: 1.8rem;
     }
 
-    .Hyralic_2_desc_part p  {
+    .Hyralic_2_desc_part p {
         font-size: 2.4rem;
     }
-    
-.f_part p, .cyb_part p {
-    font-size: 3rem;
-    
 
-}
-.first_label p {
-    font-size: 4.0em;
-    
+    .f_part p,
+    .cyb_part p {
+        font-size: 3rem;
 
-}
-.first_label_data ul li,
-.second_label_data ul li {
-   
-    font-size: 1.7rem;
-    
-}
+
+    }
+
+    .first_label p {
+        font-size: 4.0em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 1.7rem;
+
+    }
 
 }
 
@@ -271,467 +276,552 @@
         font-size: 1.4rem;
     }
 
-    .Hyralic_2_desc_part p  {
+    .Hyralic_2_desc_part p {
         font-size: 2.4rem;
     }
-    
-.f_part p, .cyb_part p {
-    font-size: 3rem;
-    
 
-}
-.first_label p {
-    font-size: 4.0em;
-    
-
-}
-.first_label_data ul li,
-.second_label_data ul li {
-   
-    font-size: 1.7rem;
-    
-}
-}
-
-@media screen and ((max-width:1900px) and (min-width:1290px)) {}
-
-@media screen and ((max-width:1600px) and (min-width:1290px)) {}
-
-@media screen and (max-width: 1024px) {
-    #hyderolic_main_text {
-        font-size: 1.5rem;
-    }
-
-    #hyderolic_sub_text {
-        font-size: 0.75rem;
-    }
-
-    .hyderolic_media_button img {
-        height: 100%;
-        width: 45%;
-    }
-
-
-    .Hyralic_2_desc_part p {
-
-        font-size: 1.0em;
-        /* Font size */
-
-        word-spacing: 0.45em;
-        /* Space between words */
-        line-height: 1.2rem;
-    }
-
-    .f_part p {
-
-        font-size: 1.1rem;
-
-
-    }
-
+    .f_part p,
     .cyb_part p {
-        padding: 3% 0px;
+        font-size: 3rem;
 
-        color: white;
-        font-weight: 600;
-        font-size: 1.1rem;
-        text-align: center;
-    }
-
-    .specification p {
-        font-size: 1.5em;
 
     }
 
     .first_label p {
+        font-size: 4.0em;
 
-
-        font-size: 1.7em;
 
     }
 
     .first_label_data ul li,
     .second_label_data ul li {
-        max-width: 100%;
+
+        font-size: 1.7rem;
+
+    }
+}
+
+@media screen and ((max-width:1900px) and (min-width:1290px)) {
+    #hyderolic_main_text {
+        font-size: 2.9rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 1.0rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 1.9rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 3rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 3.0em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 1.5rem;
+
+    }
+
+}
+
+@media screen and ((max-width:1600px) and (min-width:1290px)) {
+    #hyderolic_main_text {
+        font-size: 2.5rem;
+    }
+
+    #hyderolic_sub_text {
         font-size: 0.9rem;
-        word-spacing: 0.1rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 1.6rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 2.5rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 2.5em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 1.3rem;
+
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    #hyderolic_main_text {
+        font-size: 1.55rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.8rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 1.0rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 1.4rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 1.5em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.9rem;
+
     }
 }
 
 
 
 @media screen and (max-width:912px) {
-    .Hyralic_2_desc_part p {
-
-        font-size: 0.9em;
-        /* Font size */
-
-        word-spacing: 0.4em;
-        /* Space between words */
-        line-height: 1.1rem;
-    }
-
-    .f_part p {
-
-        font-size: 1.1rem;
-
-
-    }
-
-    .cyb_part p {
-        padding: 3% 0px;
-
-        color: white;
-        font-weight: 600;
-        font-size: 1.1rem;
-        text-align: center;
-    }
-
-    .specification p {
-        font-size: 1.4em;
-
-    }
-
-    .first_label p {
-        font-size: 1.5em;
-
-    }
-
-    .first_label_data ul li,
-    .second_label_data ul li {
-        max-width: 100%;
-        font-size: 0.8rem;
-        word-spacing: 0.1rem;
-    }
-
     #hyderolic_main_text {
-        font-size: 1.35rem;
+        font-size: 1.4rem;
     }
 
     #hyderolic_sub_text {
         font-size: 0.7rem;
     }
 
-    .hyderolic_media_button img {
-        height: 100%;
-        width: 40%;
+    .Hyralic_2_desc_part p {
+        font-size: 0.9rem;
     }
 
-    .hyderolic_media_button {
+    .f_part p,
+    .cyb_part p {
+        font-size: 1.2rem;
 
-        gap: 8px;
-        transform: translate(35%, 2%);
+
+    }
+
+    .first_label p {
+        font-size: 1.4em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.8rem;
 
     }
 }
 
 
 @media screen and (max-width:833px) {
-    .Hyralic_2_desc_part p {
-
-        font-size: 0.9em;
-        /* Font size */
-
-        word-spacing: 0.4em;
-        /* Space between words */
-        line-height: 1.0rem;
-    }
-
-    .f_part p {
-
-        font-size: 1.1rem;
-
-
-    }
-
-    .cyb_part p {
-        padding: 3% 0px;
-
-        color: white;
-        font-weight: 600;
-        font-size: 1.1rem;
-        text-align: center;
-    }
-
-    .specification p {
-        font-size: 1.4em;
-
-
-    }
-
-    .first_label p {
-        font-size: 1.4em;
-
-    }
-
-    .first_label_data ul li,
-    .second_label_data ul li {
-        max-width: 100%;
-        font-size: 0.7rem;
-        word-spacing: 0.1rem;
-    }
-
     #hyderolic_main_text {
-        font-size: 1.25rem;
-    }
-
-    #hyderolic_sub_text {
-        font-size: 0.65rem;
-    }
-
-    .hyderolic_media_button img {
-        height: 100%;
-        width: 40%;
-    }
-
-    .hyderolic_media_button {
-
-        gap: 8px;
-        transform: translate(40%, 2%);
-
-    }
-}
-
-
-@media screen and (max-width:768px) {
-
-    .Hyralic_2_desc_part p {
-
-        font-size: 0.75em;
-        /* Font size */
-
-        word-spacing: 0.4em;
-        /* Space between words */
-        line-height: 0.9rem;
-    }
-
-    .f_part p {
-
-        font-size: 1.0rem;
-
-
-    }
-
-    .cyb_part p {
-        padding: 3% 0px;
-
-        color: white;
-        font-weight: 600;
-        font-size: 1.0rem;
-        text-align: center;
-    }
-
-    .specification p {
-        font-size: 1.3em;
-
-
-    }
-
-    .first_label p {
-        font-size: 1.3em;
-
-    }
-
-    .first_label_data ul li,
-    .second_label_data ul li {
-        max-width: 100%;
-        font-size: 0.65rem;
-        word-spacing: 0.1rem;
-    }
-
-    #hyderolic_main_text {
-        font-size: 1.15rem;
+        font-size: 1.3rem;
     }
 
     #hyderolic_sub_text {
         font-size: 0.6rem;
     }
 
-    .hyderolic_media_button img {
-        height: 100%;
-        width: 40%;
-    }
-
-    .hyderolic_media_button {
-
-        gap: 8px;
-        transform: translate(40%, 2%);
-
-    }
-
-}
-
-@media screen and (max-width:600px) {
     .Hyralic_2_desc_part p {
-
-        font-size: 0.6em;
-        /* Font size */
-
-        word-spacing: 0.3em;
-        /* Space between words */
-        line-height: 0.65rem;
+        font-size: 0.8rem;
     }
 
-    .f_part p {
-
-        font-size: 0.9rem;
-
-
-    }
-
+    .f_part p,
     .cyb_part p {
-        padding: 3% 0px;
+        font-size: 1.0rem;
 
-        font-size: 0.9rem;
 
     }
 
-    .specification p {
+    .first_label p {
         font-size: 1.2em;
-    }
 
-    .first_label p {
-        font-size: 1.1em;
 
     }
 
     .first_label_data ul li,
     .second_label_data ul li {
-        max-width: 100%;
-        font-size: 0.55rem;
-        word-spacing: 0.1rem;
-    }
 
-    #hyderolic_main_text {
-        font-size: 0.9rem;
-    }
-
-    #hyderolic_sub_text {
-        font-size: 0.55rem;
-    }
-
-    .hyderolic_media_button img {
-        height: 100%;
-        width: 40%;
-    }
-
-    .hyderolic_media_button {
-
-        gap: 8px;
-        transform: translate(40%, 2%);
+        font-size: 0.7rem;
 
     }
 }
 
-@media screen and (max-width: 575px) {
 
-    .Hyralic_2_desc_part p {
-
-        font-size: 0.55em;
-        /* Font size */
-
-        word-spacing: 0.3em;
-        /* Space between words */
-        line-height: 0.60rem;
-    }
-
-    .f_part p {
-
-        font-size: 0.8rem;
-
-
-    }
-
-    .cyb_part p {
-        padding: 3% 0px;
-
-        font-size: 0.8rem;
-
-    }
-
-    .specification p {
-        font-size: 1.1em;
-    }
-
-    .first_label p {
-        font-size: 1.0em;
-
-    }
-
-    .first_label_data ul li,
-    .second_label_data ul li {
-        max-width: 100%;
-        font-size: 0.50rem;
-        word-spacing: 0.1rem;
-    }
-
+@media screen and (max-width:768px) {
     #hyderolic_main_text {
-        font-size: 0.85rem;
+        font-size: 1.15rem;
     }
 
     #hyderolic_sub_text {
         font-size: 0.5rem;
     }
 
-    .hyderolic_media_button img {
-        height: 100%;
-        width: 40%;
-    }
-
-    .hyderolic_media_button {
-
-        gap: 8px;
-        transform: translate(40%, 2%);
-
-    }
-
-}
-
-@media screen and (max-width:540px) {
-
     .Hyralic_2_desc_part p {
-
-        font-size: 0.5em;
-        /* Font size */
-
-        word-spacing: 0.3em;
-        /* Space between words */
-        line-height: 0.60rem;
+        font-size: 0.7rem;
     }
 
-    .specification p {
-        font-size: 1.0em;
+    .f_part p,
+    .cyb_part p {
+        font-size: 1.0rem;
+
+
     }
 
     .first_label p {
-        font-size: 0.9em;
+        font-size: 1.0em;
+
 
     }
 
     .first_label_data ul li,
     .second_label_data ul li {
-        max-width: 100%;
-        font-size: 0.45rem;
-        word-spacing: 0.1rem;
+
+        font-size: 0.6rem;
+
     }
+
+}
+
+@media screen and (max-width:600px) {
+    #hyderolic_main_text {
+        font-size: 3.4rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 1.4rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 2.4rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 3rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 4.0em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 1.7rem;
+
+    }
+}
+
+@media screen and ((max-width:1900px) and (min-width:1290px)) {
+    #hyderolic_main_text {
+        font-size: 2.9rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 1.0rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 1.9rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 3rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 3.0em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 1.5rem;
+
+    }
+
+}
+
+@media screen and ((max-width:1600px) and (min-width:1290px)) {
+    #hyderolic_main_text {
+        font-size: 2.5rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.9rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 1.6rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 2.5rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 2.5em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 1.3rem;
+
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    #hyderolic_main_text {
+        font-size: 1.55rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.8rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 1.0rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 1.4rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 1.5em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.9rem;
+
+    }
+}
+
+
+
+@media screen and (max-width:912px) {
+    #hyderolic_main_text {
+        font-size: 1.4rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.7rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 0.9rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 1.2rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 1.4em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.8rem;
+
+    }
+}
+
+
+@media screen and (max-width:833px) {
+    #hyderolic_main_text {
+        font-size: 1.3rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.6rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 0.8rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 1.0rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 1.2em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.7rem;
+
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    #hyderolic_main_text {
+        font-size: 1.15rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.5rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 0.7rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 1.0rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 1.0em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.6rem;
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    #hyderolic_main_text {
+        font-size: 0.9rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.4rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 0.55rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 0.8rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 0.9em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.5rem;
+
+    }
+}
+
+@media screen and (max-width:540px) {
 
     #hyderolic_main_text {
         font-size: 0.8rem;
     }
 
     #hyderolic_sub_text {
-        font-size: 0.45rem;
+        font-size: 0.35rem;
     }
 
-    .hyderolic_media_button img {
-        height: 100%;
-        width: 40%;
+    .Hyralic_2_desc_part p {
+        font-size: 0.50rem;
     }
 
-    .hyderolic_media_button {
+    .f_part p,
+    .cyb_part p {
+        font-size: 0.7rem;
 
-        gap: 8px;
-        transform: translate(40%, 2%);
+
+    }
+
+    .first_label p {
+        font-size: 0.75em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.4rem;
 
     }
 }
@@ -739,100 +829,112 @@
 
 
 @media screen and (max-width: 480px) {
-    .Hyralic_2_desc_part p {
-
-        font-size: 0.45em;
-        /* Font size */
-
-        word-spacing: 0.3em;
-        /* Space between words */
-        line-height: 0.50rem;
-    }
-
-    .specification p {
-        font-size: 0.9em;
-    }
-
-    .first_label p {
-        font-size: 0.8em;
-
-    }
-
-    .first_label_data ul li,
-    .second_label_data ul li {
-        max-width: 100%;
-        font-size: 0.4rem;
-        word-spacing: 0.1rem;
-    }
-
     #hyderolic_main_text {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
 
     #hyderolic_sub_text {
-        font-size: 0.4rem;
+        font-size: 0.30rem;
     }
 
-
-
-}
-
-
-@media screen and (max-width: 400px) {
     .Hyralic_2_desc_part p {
-
-        font-size: 0.40em;
-        /* Font size */
-
-        word-spacing: 0.3em;
-        /* Space between words */
-        line-height: 0.45rem;
+        font-size: 0.45rem;
     }
 
-    .specification p {
-        font-size: 0.8em;
+    .f_part p,
+    .cyb_part p {
+        font-size: 0.7rem;
+
+
     }
 
     .first_label p {
         font-size: 0.7em;
 
+
     }
 
     .first_label_data ul li,
     .second_label_data ul li {
-        max-width: 100%;
+
         font-size: 0.35rem;
-        word-spacing: 0.1rem;
+
     }
 
+}
+
+
+@media screen and (max-width: 400px) {
     #hyderolic_main_text {
-        font-size: 0.55rem;
+        font-size: 0.6rem;
     }
 
     #hyderolic_sub_text {
-        font-size: 0.35rem;
+        font-size: 0.3rem;
     }
 
+    .hyderolic_media_button {
+        gap: 5px;
+    }
 
+    .Hyralic_2_desc_part p {
+        font-size: 0.38rem;
+        margin-top: 1%;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 0.6rem;
+
+
+    }
+
+    .first_label p {
+        font-size: 0.6em;
+
+
+    }
+
+    .first_label_data ul li,
+    .second_label_data ul li {
+
+        font-size: 0.3rem;
+    }
 
 }
 
 @media screen and (max-width: 380px) {
 
 
-    .specification p {
-        font-size: 0.8em;
+    #hyderolic_main_text {
+        font-size: 0.55rem;
+    }
+
+    #hyderolic_sub_text {
+        font-size: 0.3rem;
+    }
+
+    .Hyralic_2_desc_part p {
+        font-size: 0.34rem;
+    }
+
+    .f_part p,
+    .cyb_part p {
+        font-size: 0.5rem;
+
+
     }
 
     .first_label p {
-        font-size: 0.6em;
+        font-size: 0.5em;
+
 
     }
 
     .first_label_data ul li,
     .second_label_data ul li {
-        max-width: 100%;
+
         font-size: 0.3rem;
-        word-spacing: 0.2rem;
+
     }
 }

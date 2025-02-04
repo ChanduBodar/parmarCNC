@@ -36,7 +36,7 @@ const Delem_Child_1 = () => {
 
 
                 </div>
-                <div className="p_2">
+                <div className="p_1">
                     <div className="label">
                         <p>DA- 58 T</p>
                     </div>
@@ -87,7 +87,7 @@ const Delem_Child_1 = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="p_2">
+                <div className="p_1">
                     <div className="label">
                         <p>DA- 69 T</p>
                     </div>

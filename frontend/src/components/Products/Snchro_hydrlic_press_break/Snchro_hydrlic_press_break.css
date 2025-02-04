@@ -6,28 +6,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 2%;
 }
 .sinchro_main_part img{
     width: 33%;
     height: 40%;
-    transform: translateX(10%);
+    
 }
-.sinchro_desc_text{
+.sinchro_text{
     display: flex;
     flex-direction: column;
-    background-color: #A5C847;
+    background-color: var(--primary-color);
     gap: 10px;
     padding-bottom: 2%;
-    height:100%;
-    width: 700px;
+    height: 100%;
+    width: 100%;
 }
 .sinchro_label_text{
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     color: white;
     padding: 3% 2%;
     width: 85%;
-    line-height: 1.5;
-    transform: translate(18%,10%);
+    transform: translate(20%, 10%);
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
@@ -39,25 +39,84 @@
     font-size: 0.75rem;
 }
 .sinchro_media_button{
-    display:flex;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    transform: translate(30%,2%);
+
     margin-top: 2%;
 }
 .sinchro_media_button img{
     height: 100%;
-    width: 50%;
+    width: 35%;
 }   
-@media screen and (max-width:2500px){
+
+/* sin-2 */
+/* second part */
+.Sin_2_part{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 1% 2% 2%;
 
 }
-@media screen and (max-width:1920px){}
-@media screen and (max-width:1366px){}
-@media screen and (max-width:1199px){}
-@media screen and (min-width: 1366px){
+.Sin_2_part img{
+    width:30% ;
+    height: 30%;
+}
+
+
+.border_line{
+    height:2px;
+    width: 98%;
    
-	
+   transform: translate(1%,10%);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+
+}
+@media screen and ((max-width:2500px) and (min-width:1290px)) {
+    #sinchro_main_text{
+        font-size: 3.5rem;
+    }
+    #sinchro_sub_text
+    {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and ((max-width:2200px) and (min-width:1290px)) {
+    #sinchro_main_text{
+        font-size: 3.0rem;
+    }
+    #sinchro_sub_text
+    {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and ((max-width:1900px) and (min-width:1290px)) {
+    #sinchro_main_text{
+        font-size: 2.6rem;
+    }
+    #sinchro_sub_text
+    {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and ((max-width:1600px) and (min-width:1290px)) {
+    #sinchro_main_text{
+        font-size: 2.3rem;
+    }
+    #sinchro_sub_text
+    {
+        font-size: 1.0rem;
+    }
+
 }
 @media screen and (max-width: 1024px){
     #sinchro_main_text{
@@ -219,30 +278,3 @@
 }
 
 
-
-/* sin-2 */
-/* second part */
-.Sin_2_part{
-    display: flex;
-    flex-direction: row;
-    margin: 2% 1% 2% 2%;
-
-}
-.Sin_2_part img{
-    width:30% ;
-    height: 30%;
-}
-
-
-.border_line{
-    height:2px;
-    width: 98%;
-   
-   transform: translate(1%,10%);
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1%;
-
-}
