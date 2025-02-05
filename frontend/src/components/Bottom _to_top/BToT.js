@@ -36,7 +36,7 @@ function BToT() {
       border: 'none',
       borderRadius: '5px',
       cursor: 'pointer',
-      fontSize: '20px',
+      fontSize: '150%',
     },
   };
 
