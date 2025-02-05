@@ -2,7 +2,7 @@ import React from 'react'
 import './CNC_controller.css'
 
 import Rock15 from './Imges/Rock15.png'
-import Rock17 from './Imges/Rock17.png'
+import Rock17 from './Imges/Roxk17.png'
 import Dual22 from './Imges/Dual22.png'
 import Dual27 from './Imges/Dual27.png'
 
@@ -15,17 +15,17 @@ const Step = () => {
            
                  <div className="delem_main_div">
                    
-                     <div className="products">
-                       <div className="p_1">
-                         <div className="label">
-                           <p>ROCK 15+</p>
-                         </div>
+                     <div className="machine_mega_div">
+                       <div className="machine_two_pair">
+                        
+                           <p id='label_of_machine'>ROCK 15+</p>
+                         
            
-                         <div className="label_img">
-                           <img src={Rock15} alt="" />
-                         </div>
+                         
+                           <img id='img_of_machine' src={Rock15} alt="" />
+                        
            
-                         <div className="product_desc">
+                         <div className="desc_of_machine">
                            <ul>
                              <li>INDUSTRY 4.0 READY Producation management and scheduling</li>
                              <li>Quick Editor function to create quickly 2D parts</li>
@@ -44,16 +44,16 @@ const Step = () => {
                          </div>
                        </div>
            
-                       <div className="p_2">
-                         <div className="label">
-                           <p>ROCK 17+</p>
-                         </div>
+                       <div className="machine_two_pair" id='rock_17' >
+                         
+                           <p id='label_of_machine'>ROCK 17+</p>
+                         
            
-                         <div className="label_img">
-                           <img src={Rock17} alt="" />
-                         </div>
+                         
+                           <img id='img_of_machine' src={Rock17} alt="" />
+                         
            
-                         <div className="product_desc">
+                         <div className="desc_of_machine">
                            <ul>
                              <li>2D graphical touch screen programming</li>
                              <li>15" high resolution colour TFT</li>
@@ -68,17 +68,17 @@ const Step = () => {
                      </div>
            
                      {/* 8.2 part */}
-                     <div className="products">
-                       <div className="p_1">
-                         <div className="label">
-                           <p>DUAL 22</p>
-                         </div>
+                     <div className="machine_mega_div">
+                       <div className="machine_two_pair">
+                        
+                           <p id='label_of_machine'>DUAL 22</p>
+                         
            
-                         <div className="label_img">
-                           <img src={Dual22} alt="" />
-                         </div>
+                       
+                           <img id='img_of_machine' src={Dual22} alt="" />
+                        
            
-                         <div className="product_desc">
+                         <div className="desc_of_machine">
                            <ul>
                              <li>2D graphical touch screen programming mode</li>
                              <li>17" high resolution colour TFT</li>
@@ -91,16 +91,16 @@ const Step = () => {
                          </div>
                        </div>
            
-                       <div className="p_2">
-                         <div className="label">
-                           <p>DUAL 27</p>
-                         </div>
+                       <div className="machine_two_pair" id='dual_27' >
+                         
+                           <p id='label_of_machine'>DUAL 27</p>
+                       
            
-                         <div className="label_img">
-                           <img src={Dual27} alt="" />
-                         </div>
+                        
+                           <img id='img_of_machine' src={Dual27} alt="" />
+                       
            
-                         <div className="product_desc">
+                         <div className="desc_of_machine">
                            <ul>
                              <li>3D and 2D graphical touch screen programming mode</li>
                              <li>3D visualisation in simulation and production</li>

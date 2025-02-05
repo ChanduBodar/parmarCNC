@@ -174,7 +174,7 @@
     }
 
 }
-@media screen and (max-width: 416px){
+@media screen and (max-width: 400px){
     
     #event{
         font-size: 1.1rem;
@@ -185,7 +185,7 @@
         font-size: 0.5rem;
         
     }
-
+  
 }
 @media screen and (max-width: 387px){
     

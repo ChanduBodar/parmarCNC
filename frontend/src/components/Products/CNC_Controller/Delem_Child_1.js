@@ -1,29 +1,29 @@
 import React from 'react'
 import './CNC_controller.css'
-import Da_53 from './Imges/Da-53.png';
-import Da_58 from './Imges/Da-58.png';
-import Da_66 from './Imges/Da-66.png';
-import Da_69 from './Imges/Da-69.png';
+import Da_53 from './Imges/Da_53.png';
+import Da_58 from './Imges/Da_58.png';
+import Da_66 from './Imges/Da_66.png';
+import Da_69 from './Imges/Da_69.png';
 
 const Delem_Child_1 = () => {
     return (
         <div>
 
             {/* 8.1 part */}
-            <div className="products">
-                <div className="p_1">
-                    <div className="label">
-                        <p>DA- 53 T</p>
-                    </div>
+            <div className="machine_mega_div">
+                <div className="machine_two_pair">
+                    
+                    <p id='label_of_machine'>DA- 53 T</p>
+                    
 
-                    <div className="label_img">
-                        <img src={Da_53} alt="" />
-                    </div>
+                    
+                    <img id='img_of_machine' src={Da_53} alt="" />
+                
 
-                    <div className="product_desc">
+                    <div className="desc_of_machine">
                         <ul>
                             <li>"Hot-key" touch navigation</li>
-                            <li>"10.1" high resolution colour TFT</li>
+                            <li>"10.1"high resolution colour TFT</li>
                             <li>Up to 4 axes (Y1, Y2 + 2 aux.axes)</li>
                             <li>Crowning control</li>
                             <li>Tool/material/ Product library</li>
@@ -36,15 +36,15 @@ const Delem_Child_1 = () => {
 
 
                 </div>
-                <div className="p_1">
-                    <div className="label">
-                        <p>DA- 58 T</p>
-                    </div>
-                    <div className="label_img">
-                        <img src={Da_58} alt="" />
-                    </div>
+                <div className="machine_two_pair" id='second_machine'>
+                    
+                        <p id='label_of_machine'>DA- 58 T</p>
+                    
+                    
+                        <img id='img_of_machine' src={Da_58} alt="" />
+                    
 
-                    <div className="product_desc">
+                    <div className="desc_of_machine">
                         <ul>
                             <li>2D graphical touch screen programming</li>
                             <li>15" high resolution colour TFT</li>
@@ -59,17 +59,17 @@ const Delem_Child_1 = () => {
             </div>
 
             {/* 8.2 part */}
-            <div className="products">
-                <div className="p_1">
-                    <div className="label">
-                        <p>DA- 66 T</p>
-                    </div>
+            <div className="machine_mega_div">
+                <div className="machine_two_pair">
+                    
+                        <p id='label_of_machine'>DA- 66 T</p>
+                    
 
-                    <div className="label_img">
-                        <img src={Da_66} alt="" />
-                    </div>
+                
+                        <img id='img_of_machine' src={Da_66} alt="" />
+                   
 
-                    <div className="product_desc">
+                    <div className="desc_of_machine">
                         <ul>
                             <li>2D graphical touch screen programming mode</li>
                             <li>17" high resolution colour TFT</li>
@@ -87,15 +87,15 @@ const Delem_Child_1 = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="p_1">
-                    <div className="label">
-                        <p>DA- 69 T</p>
-                    </div>
-                    <div className="label_img">
-                        <img src={Da_69} alt="" />
-                    </div>
+                <div className="machine_two_pair" id='da_69_T' >
+                    
+                        <p id='label_of_machine'>DA- 69 T</p>
+                    
+                    
+                        <img id='img_of_machine' src={Da_69} alt="" />
+                    
 
-                    <div className="product_desc">
+                    <div className="desc_of_machine">
                         <ul>
                             <li> 3D and 2D graphical touch screen programming mode</li>
                             <li>3D visualisation in simulation and production</li>
@@ -113,6 +113,7 @@ const Delem_Child_1 = () => {
 
             <div className="border_line_1"></div>
         </div>
+
     )
 }
 

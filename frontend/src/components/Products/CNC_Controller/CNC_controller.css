@@ -96,75 +96,60 @@
     margin: 1% 1%;
 }
 
-.products {
+.machine_mega_div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
-    padding: 2% 5% 3% 3%;
+    padding: 2% 3% 4% 3%;
     width:100%;
 
 }
-.p_1{
+.machine_two_pair{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 
 }
 
-.label {
+
+ #label_of_machine{
     background-color: var(--color);
-    width: 110%;
-}
-
-.label p {
+   width: 70%;
     color: white;
     font-weight: 600;
     text-align: left;
-    padding: 4% 0%;
+    padding: 1.5% 0%;
     font-size: 1.3rem;
     text-align: center;
    
 }
 
-.label_img {
-    margin-top: 3%;
-    width: 110%;
-    height: 300px;
-    background-color: white;
-
-}
-
-.label_img img {
-    width: 80%;
-    height: 80%;
-    padding: 10% 15%;
-    transform: translateX(10%);
-
-}
-
-
-.product_desc ul {
-    margin: 6%;
-    padding: 0;
-    width: 300px;
-
-}
-
-.product_desc ul li {
-    color: white;
-    font-size: 1rem;
+#img_of_machine{
+    width: 70%;
+    height: 50%;
     
-    word-spacing: 0px;
-
 
 }
 
-.p_1 {
-    margin-top: 1%;
+.desc_of_machine  {
+   margin: 3%;
+   width: 400px;
+   transform: translateX(5%);
+
 }
+
+.desc_of_machine ul li {
+    
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+
 
 
 
@@ -177,6 +162,30 @@
 
 
 
+}
+#second_machine{
+    transform: translateY(-2.5%);
+}
+#da_69_T{
+    transform: translateY(3.5%);
+}
+#da_58{
+    transform: translateY(-2%);
+}
+#da_69{
+    transform: translateY(3%);
+}
+.cybelic_main_part{
+    margin-top: 12%;
+}
+.step_main_container{
+    margin-top: 12%;
+}
+#rock_17{
+    transform: translateY(-17%);
+}
+#dual_27{
+    transform: translateY(4%); 
 }
 
 /* standard component */
@@ -196,7 +205,7 @@
 
 
 .tool_holder_part {
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     margin: 1%;
 
 
@@ -282,7 +291,7 @@
     margin: 2% 2% 0.4% 2%;
     width: 96%;
 
-    transform: translate();
+    
     background-color: #4D4F48;
 
 }
@@ -303,7 +312,7 @@
     background-color: var(--primary-color);
     width: 20%;
     align-items: center;
-    transform: translate(190%, 40%);
+    transform: translate(190%, 0%);
     padding: 0.5% 0%;
 
 
@@ -315,8 +324,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-
     padding: 2%;
     transform: translate(7%, 3%);
 }
@@ -351,7 +358,7 @@
     text-align: center;
     color: white;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0% 1%;
 }
 
@@ -364,7 +371,7 @@
 }
 
 .parmar_part {
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     padding: 2% 12% 2% 5%;
     display: flex;
     flex-direction: row;
@@ -556,7 +563,7 @@
     text-align: center;
     color: white;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0% 1%;
 }
 
@@ -573,7 +580,7 @@
 }
 
 .heavy_desc {
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     padding: 2%;
     width: 90%;
 
@@ -583,7 +590,9 @@
 
     font-weight: 400;
 
-
+    background-color: white;
+    width: 43%;
+    padding: 0% 1%;
     font-size: 1.5em;
     /* Font size */
     text-align: start;
@@ -629,7 +638,7 @@
 
 .heavy_img #heavy {
     font-weight: 400;
-
+    
 
     font-size: 1.0em;
     /* Font size */
@@ -645,7 +654,7 @@
 }
 
 .h_series {
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     width: 98%;
@@ -662,14 +671,16 @@
 }
 
 .heading_part {
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     width: 20%;
 }
 
-.heading_part #Edge_h {
+.heading_part #Edge_h ,.heading_part #edge_b{
 
     font-weight: 400;
-
+    background-color: white;
+    width: 90%;
+    padding: 0% 1%;
 
     font-size: 1.6em;
     /* Font size */
@@ -683,21 +694,6 @@
 
 }
 
-.heading_part #edge_b {
-    font-weight: 400;
-
-
-    font-size: 1.6em;
-    /* Font size */
-    text-align: start;
-    /* Justify text to spread it */
-    word-spacing: 0.10em;
-    /* Space between words */
-    line-height: 1.3em;
-    color: #4C7D3C;
-    margin-top: 2%;
-
-}
 
 .h_desc_part {
     height: 100%;
@@ -835,12 +831,12 @@
     text-align: center;
     color: white;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0% 1%;
 }
 
 .h_components {
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     margin: 2%;
     width: 98%;
     padding: 1%;
@@ -869,7 +865,7 @@
     word-spacing: 0.10em;
     /* Space between words */
     line-height: 1.3em;
-    color: black;
+    color: white;
     padding: 1.5% 0%;
 }
 
@@ -945,7 +941,7 @@
 }
 
 #d_img_part {
-    background-color: #A5C847;
+    background-color: var(--primary-color);
     width: 80%;
     transform: translate(5%, -12%);
     padding: 3% 0.5%;
@@ -970,7 +966,7 @@
     text-align: center;
     color: white;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0% 1%;
 }
 
@@ -1004,7 +1000,7 @@
 
 .item_div p {
     width: 90%;
-    background-color: var(--color);
+    background-color: var(--primary-color);
     padding: 2%;
     font-size: 1.5rem;
     color: white;
@@ -1017,7 +1013,7 @@
     text-align: center;
     color: white;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0% 1%;
 }
 
@@ -1029,7 +1025,7 @@
 
 
 .std_part_2 {
-    background-color: #4D4F48;
+    background-color: var(--secondary-color);
     width: 98%;
     margin: 1%;
 
@@ -1065,7 +1061,7 @@
 }
 
 .tag_2 {
-    background-color: var(--color);
+    background-color: var(--primary-color);
     width: 70%;
 }
 
@@ -1081,14 +1077,14 @@
     word-spacing: 0.10em;
    
     line-height: 1.3em;
-    margin-top: 2.0%;
+   
     color: white;
     padding: 2% 0%;
 
 
 }
 @media screen and ((max-width:2500px) and (min-width:1290px)) {
-    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c{
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
         font-size: 3.0rem;
 
     }
@@ -1114,6 +1110,7 @@
         font-size: 2.0em;
     
     }
+   
     /* bending_tools */
     .text_part p {
         font-size: 2.3em;
@@ -1171,7 +1168,44 @@
         font-size: 1.3em;
     
     }
-   
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 3em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 2.0em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 1.8rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 3rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 2.5em;
+    }
+    /* delem step and cybelic */
+    #label_of_machine{
+        font-size: 2.5rem;
+    }
+    .desc_of_machine {
+        width: 700px;
+    }
+    .desc_of_machine ul li{
+        font-size: 2rem;
+    }
+    #da_58{
+        transform: translateY(-5%);
+    }
+    #da_69{
+        transform: translateY(4%);
+    }
+    #rock_17{
+        transform: translateY(-19%);
+    }
    
 }
 
@@ -1194,14 +1228,126 @@
         font-size: 2.0rem;
 
     }
-}
-
-@media screen and ((max-width:1900px) and (min-width:1290px)) {
-    #cnc_label {
-        font-size: 2.4rem;
+    .item_div p{
+        font-size: 3rem;
+    }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 2.5rem;
 
     }
 
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 2.7em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 1.7em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 2.0em;
+    }
+    #label_header {
+        font-size: 2.7em;
+    }
+    .im {
+        width: 300px;
+        height: 300px;
+    
+    }
+    .im p,.die p{
+        font-size: 1.7em;
+    }
+    
+    .die {
+        width: 300px;
+        height: 300px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 2.5em;
+    }
+    #frout_text{
+        font-size: 2.0em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 300px;
+    }
+    .heavy_img #heavy{
+        font-size: 1.5em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 2.5em;
+    }
+    .h_img{
+        width: 300px;
+        height: 350px;
+    }
+    .h_img p {
+        font-size: 1.2em;
+    }
+    .h_img_1 {
+      
+        width: 350px;
+        height: 300px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 1.2em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 2.5em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 1.7em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 1.6rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 2.5rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 2.3em;
+    }
+    /* delem step and cybelic */
+    #label_of_machine{
+        font-size: 2.0rem;
+    }
+    .desc_of_machine {
+        width: 700px;
+    }
+    .desc_of_machine ul li{
+        font-size: 2rem;
+    }
+    #second_machine{
+        transform: translateY(-5%);
+    }
+    #da_69_T{
+        transform: translateY(5.5%);
+    }
+    #rock_17{
+        transform: translateY(-21%);
+    }
+    #dual_27{
+        transform: translateY(4%); 
+    }
+
+}
+
+@media screen and ((max-width:1900px) and (min-width:1290px)) {
+  
     #machine_text_label {
         background-color: var(--secondary-color);
 
@@ -1215,6 +1361,125 @@
         font-size: 1.5rem;
 
     }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 2.2rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 2.5em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 1.5em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 1.7em;
+    }
+    #label_header {
+        font-size: 2.3em;
+    }
+    .im {
+        width: 250px;
+        height: 300px;
+    
+    }
+    .im p,.die p{
+        font-size: 1.5em;
+    }
+    
+    .die {
+        width: 270px;
+        height: 300px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 2.0em;
+    }
+    #frout_text{
+        font-size: 1.6em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 270px;
+    }
+    .heavy_img #heavy{
+        font-size: 1.5em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 2.5em;
+    }
+    .h_img{
+        width: 250px;
+        height: 300px;
+    }
+    .h_img p {
+        font-size: 1.0em;
+    }
+    .h_img_1 {
+      
+        width: 300px;
+        height: 250px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 1.0em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 2.0em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 1.5em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 1.4rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 2.3rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 2.0em;
+    }
+     /* delem step and cybelic */
+     #label_of_machine{
+        font-size: 2.0rem;
+    }
+    .desc_of_machine {
+        width: 600px;
+    }
+    .desc_of_machine ul li{
+        font-size: 1.6rem;
+    }
+    #second_machine{
+        transform: translateY(-5%);
+    }
+    #da_69_T{
+        transform: translateY(3.5%);
+    }
+    #da_58{
+        transform: translateY(-5%);
+    }
+    #da_69{
+        transform: translateY(4%);
+    }
+    #rock_17{
+        transform: translateY(-19%);
+    }
+    #dual_27{
+        transform: translateY(4%); 
+    }
+
 }
 
 @media screen and ((max-width:1600px) and (min-width:1290px)) {
@@ -1236,6 +1501,121 @@
         font-size: 1.0rem;
 
     }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 2.0rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 2.3em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 1.3em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 1.5em;
+    }
+    #label_header {
+        font-size: 2.2em;
+    }
+    .im {
+        width: 230px;
+        height: 270px;
+    
+    }
+    .im p,.die p{
+        font-size: 1.3em;
+    }
+    
+    .die {
+        width: 230px;
+        height: 270px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 1.7em;
+    }
+    #frout_text{
+        font-size: 1.6em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 250px;
+    }
+    .heavy_img #heavy{
+        font-size: 1.3em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 2.2em;
+    }
+    .h_img{
+        width: 230px;
+        height: 270px;
+    }
+    .h_img p {
+        font-size: 0.9em;
+    }
+    .h_img_1 {
+      
+        width: 270px;
+        height: 230px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.9em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 1.8em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 1.3em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 1.1rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 2.0rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 1.7em;
+    }
+    /* delem step and cybelic */
+    #label_of_machine{
+        font-size: 2.0rem;
+    }
+    .desc_of_machine {
+        width: 500px;
+    }
+    .desc_of_machine ul li{
+        font-size: 1.6rem;
+    }
+    #second_machine{
+        transform: translateY(-2%);
+    }
+    #da_69_T{
+        transform: translateY(7%);
+    }
+   
+    #da_69{
+        transform: translateY(6%);
+    }
+   
+    #dual_27{
+        transform: translateY(5.5%); 
+    }
+       
 }
 
 
@@ -1248,6 +1628,205 @@
 
     #label_btn {
         font-size: 1.0rem;
+    }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 1.4rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 1.5em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.9em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 1.0em;
+    }
+    #label_header {
+        font-size: 1.6em;
+    }
+    .im {
+        width: 150px;
+        height: 250px;
+    
+    }
+    .im p,.die p{
+        font-size: 1.3em;
+    }
+    
+    .die {
+        width: 200px;
+        height: 250px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 1.5em;
+    }
+    #frout_text{
+        font-size: 1.1em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 200px;
+    }
+    .heavy_img #heavy{
+        font-size: 1.0em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 1.4em;
+    }
+    .h_img{
+        width: 180px;
+        height: 240px;
+    }
+    .h_img p {
+        font-size: 0.8em;
+    }
+    .h_img_1 {
+      
+        width: 250px;
+        height: 220px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.8em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 1.5em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.9em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.8rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 1.5rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 1.1em;
+    }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 1.4rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 1.5em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.9em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 1.0em;
+    }
+    #label_header {
+        font-size: 1.6em;
+    }
+    .im {
+        width: 150px;
+        height: 250px;
+    
+    }
+    .im p,.die p{
+        font-size: 1.3em;
+    }
+    
+    .die {
+        width: 200px;
+        height: 250px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 1.5em;
+    }
+    #frout_text{
+        font-size: 1.1em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 200px;
+    }
+    .heavy_img #heavy{
+        font-size: 1.0em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 1.4em;
+    }
+    .h_img{
+        width: 180px;
+        height: 240px;
+    }
+    .h_img p {
+        font-size: 0.8em;
+    }
+    .h_img_1 {
+      
+        width: 250px;
+        height: 220px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.8em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 1.5em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.9em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.8rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 1.5rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 1.1em;
+    }
+     /* delem step and cybelic */
+     #label_of_machine{
+        font-size: 1.0rem;
+    }
+    .desc_of_machine {
+        width: 300px;
+    }
+    .desc_of_machine ul li{
+        font-size: 1.0rem;
+    }
+    #second_machine{
+        transform: translateY(-2.5%);
+    }
+    #da_69{
+        transform: translateY(5.5%);
+    }
+    #dual_27{
+        transform: translateY(5.5%); 
     }
 
 }
@@ -1262,6 +1841,98 @@
     #label_btn {
         font-size: 1.0rem;
     }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 1.2rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 1.2em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.8em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 0.8em;
+    }
+    #label_header {
+        font-size: 1.5em;
+    }
+    .im {
+        width: 120px;
+        height: 200px;
+    
+    }
+    .im p,.die p{
+        font-size: 0.9em;
+    }
+    
+    .die {
+        width: 200px;
+        height: 250px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 1.3em;
+    }
+    #frout_text{
+        font-size: 1.0em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 180px;
+    }
+    .heavy_img #heavy{
+        font-size: 0.9em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 1.2em;
+    }
+    .h_img{
+        width: 120px;
+        height: 200px;
+    }
+    .h_img p {
+        font-size: 0.7em;
+    }
+    .h_img_1 {
+      
+        width: 200px;
+        height: 220px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.6em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 1.2em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.8em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.6rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 1.0rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 0.9em;
+    }
+       
+
 
 
 
@@ -1280,6 +1951,96 @@
 
     #label_btn {
         font-size: 0.9rem;
+    }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 1.0rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 1.0em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.7em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 0.7em;
+    }
+    #label_header {
+        font-size: 1.0em;
+    }
+    .im {
+        width: 100px;
+        height: 180px;
+    
+    }
+    .im p,.die p{
+        font-size: 0.7em;
+    }
+    
+    .die {
+        width: 130px;
+        height: 200px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 1.0em;
+    }
+    #frout_text{
+        font-size: 0.9em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 170px;
+    }
+    .heavy_img #heavy{
+        font-size: 0.9em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 1.0em;
+    }
+    .h_img{
+        width: 120px;
+        height: 180px;
+    }
+    .h_img p {
+        font-size: 0.5em;
+    }
+    .h_img_1 {
+      
+        width: 150px;
+        height: 200px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.7em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 1.0em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.7em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.5rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 0.9rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 0.8em;
     }
 
 
@@ -1300,6 +2061,108 @@
     #label_btn {
         font-size: 0.85rem;
     }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 0.9rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 0.9em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.6em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 0.7em;
+    }
+    #label_header {
+        font-size: 0.9em;
+    }
+    .im {
+        width: 100px;
+        height: 180px;
+    
+    }
+    .im p,.die p{
+        font-size: 0.7em;
+    }
+    
+    .die {
+        width: 110px;
+        height: 200px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 1.0em;
+    }
+    #frout_text{
+        font-size: 0.8em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 150px;
+    }
+    .heavy_img #heavy{
+        font-size: 0.8em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 1.0em;
+    }
+    .h_img{
+        width: 120px;
+        height: 180px;
+    }
+    .h_img p {
+        font-size: 0.5em;
+    }
+    .h_img_1 {
+      
+        width: 150px;
+        height: 200px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.7em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 0.9em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.6em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.55rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 0.8rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 0.7em;
+    }
+    .machine_mega_div{
+        flex-direction: column;
+    
+    }
+    #label_of_machine{
+        width: 50%;
+    }
+    #img_of_machine{
+        width: 50%;
+        
+    
+    }
 
 }
 
@@ -1316,6 +2179,102 @@
     #label_btn {
         font-size: 0.80rem;
     }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 0.8rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 0.8em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.6em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 0.5em;
+    }
+    #label_header {
+        font-size: 0.7em;
+    }
+    .im {
+        width: 90px;
+        height: 160px;
+    
+    }
+    .im p,.die p{
+        font-size: 0.5em;
+    }
+    
+    .die {
+        width: 90px;
+        height: 180px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 0.9em;
+    }
+    #frout_text{
+        font-size: 0.7em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 130px;
+    }
+    .heavy_img #heavy{
+        font-size: 0.7em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 0.8em;
+    }
+    .h_img{
+        width: 150px;
+        height: 160px;
+    }
+    .h_img p {
+        font-size: 0.6em;
+    }
+    .h_img_1 {
+      
+        width: 200px;
+        height: 200px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.6em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 0.8em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.5em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.4rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 0.7rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 0.6em;
+    }
+   
+    .desc_of_machine {
+        width: 270px;
+    }
+    
+    
 
 }
 
@@ -1357,6 +2316,100 @@
 
 
     }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 0.7rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 0.7em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.5em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 0.5em;
+    }
+    #label_header {
+        font-size: 0.7em;
+    }
+    .im {
+        width: 150px;
+        height: 160px;
+    
+    }
+    .im p,.die p{
+        font-size: 0.8em;
+    }
+    
+    .die {
+        width: 150px;
+        height: 180px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 0.8em;
+    }
+    #frout_text{
+        font-size: 0.6em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 120px;
+    }
+    .heavy_img #heavy{
+        font-size: 0.6em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 0.7em;
+    }
+    .h_img{
+        width: 150px;
+        height: 160px;
+    }
+    .h_img p {
+        font-size: 0.6em;
+    }
+    .h_img_1 {
+      
+        width: 200px;
+        height: 200px;
+ 
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.7em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 0.7em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.45em;
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.4rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 0.6rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 0.5em;
+    }
+   
+    .desc_of_machine {
+        width: 240px;
+    }
 
 }
 
@@ -1384,6 +2437,11 @@
 
 
     }
+    .desc_of_machine {
+        width: 220px;
+    }
+
+   
 
 }
 
@@ -1409,9 +2467,123 @@
 
 
     }
+    #cnc_label,#standard_label,#edge_label,#crowningheavy_label,#hydraulic_c,#std_label,#accessories_label,#delem_label{
+        font-size: 0.6rem;
+
+    }
+
+   
+    /* standard_components */
+    #de_text ,.tag_name p{
+        font-size: 0.5em;
+    }
+    .img_container p, .im-1 p {
+        font-size: 0.4em;
+    
+    }
+    /* bending_tools */
+    .text_part p {
+        font-size: 0.4em;
+    }
+    #label_header {
+        font-size: 0.6em;
+    }
+    .im {
+        width: 150px;
+        height: 160px;
+    
+    }
+    .im p,.die p{
+        font-size: 0.8em;
+    }
+    
+    .die {
+        width: 150px;
+        height: 180px;
+    
+
+    }
+    .heavy_desc #front{
+        font-size: 0.8em;
+    }
+    #frout_text{
+        font-size: 0.5em;
+    }
+    .heavy_img img {
+        width: 100%;
+        height: 100px;
+    }
+    .heavy_img #heavy{
+        font-size: 0.5em;
+    }
+    .heading_part #Edge_h,.heading_part #edge_b{
+        font-size: 0.5em;
+    }
+    .h_img{
+        width: 150px;
+        height: 160px;
+    }
+    .h_img p {
+        font-size: 0.6em;
+    }
+    .h_img_1 {
+      
+        width: 200px;
+        height: 200px;
+ 
+    
+    }
+    .h_series_img_part_1 {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    
+    }
+    .h_img_1 p {
+
+        font-size: 0.7em;
+    
+    }
+    /* Hydrolic component*/
+    .h_s_tag p{
+        font-size: 0.6em; 
+    }
+    .h_im_1 p,#d_img_part{
+        font-size: 0.3em;
+        
+    }
+    #d_img_part{
+        transform: translate(5%, -25%);
+    }
+    /* hydrolic Part */
+    #jj{
+        font-size: 0.4rem;
+    }
+    /* STD_COmponents */
+    .item_div p{
+        font-size: 0.5rem;
+    }
+    /* Acceseiec */
+    .tag_2 p{
+        font-size: 0.4em;
+    }
+    .desc_of_machine {
+        width: 200px;
+        margin: 5% 0% 16% 0%;
+    }
+    .desc_of_machine ul li{
+        font-size: 0.8rem;
+    }
+    #label_of_machine{
+        font-size: 0.6rem;
+    }
+
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
     #cnc_label {
         font-size: 0.8rem;
     }
@@ -1432,1238 +2604,16 @@
 
 
     }
-
-
-}
-
-
-@media screen and (max-width:2500px) {}
-
-@media screen and (max-width:1920px) {}
-
-@media screen and (max-width:1366px) {}
-
-@media screen and (max-width:1199px) {}
-
-@media screen and (min-width: 1366px) {}
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width:912px) {
-
-   
-
-
-
-}
-
-@media screen and (max-width:833px) {}
-
-
-@media screen and (max-width:768px) {
-
-    .products {
-        flex-direction: column;
+    .desc_of_machine {
+        width: 170px;
     }
-
-    .label {
-        width: 60%;
-
-
-    }
-
-    .label_img {
-        margin-top: 3%;
-        width: 80%;
-        height: 300px;
-        background-color: white;
-
-    }
-
-    .products {
-        transform: translateX(7%);
-    }
-
-
-    .label_img img {
-        width: 80%;
-        height: 100%;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: translateX(10%);
-
-    }
-
-    .products {
-        padding: 1% 5% 3% 10%;
-    }
-
-}
-
-@media screen and (max-width:600px) {}
-
-@media screen and (max-width: 575px) {}
-
-@media screen and (max-width:540px) {}
-
-
-
-@media screen and (max-width: 480px) {
-    .label_img {
-
-        height: 250px;
-
-
-    }
-
-    .product_desc ul li {
-
-        font-size: 0.8rem;
-
-
-
-    }
-
-}
-
-
-@media screen and (max-width: 430px) {
-    .label_img {
-
-        height: 225px;
-
-
-    }
-
-    .product_desc ul li {
-
-        font-size: 0.9rem;
-        width: 250px;
-
-
-
-    }
-
-}
-
-@media screen and (max-width: 390px) {
-    .label_img {
-
-        height: 225px;
-
-
-    }
-
-    .product_desc ul li {
-
+    .desc_of_machine ul li{
         font-size: 0.7rem;
-        line-height: 1.5;
-
-
-
     }
-
-    .label p {
-        font-size: 16px;
-    }
-
-}
-
-@media screen and (max-width: 376px) {}
-
-@media screen and (max-width: 344px) {
-
-    .label p {
-
-        font-size: 16px;
-
-    }
-
-    .label_img {
-
-        height: 180px;
-
-
-    }
-
-    .product_desc ul li {
-
-        font-size: 0.6rem;
-        line-height: 1.5;
-        width: 200px;
-
-
-
-    }
-
-
-}
-
-@media screen and (max-width: 336px) {}
-
-@media screen and (max-width: 294px) {
-    .label_img {
-
-        height: 150px;
-
-
-    }
-
-    .label p {
-
-        font-size: 14px;
-
-    }
-}
-
-@media screen and (max-width: 256px) {
-    .label_img {
-
-        height: 130px;
-
-
-    }
-
-    .label p {
-
-        font-size: 12px;
-
-    }
-
-    .product_desc ul li {
-
-        font-size: 0.5rem;
-        line-height: 1.5;
-        width: 150px;
-
-
-
-    }
-}
-
-/* cybelic */
-.cybelic_main_part {
-    margin-top: 12%;
-
-}
-
-/* step */
-.step_main_container {
-    margin-top: 12%;
-
-}
-
-@media screen and (max-width:2500px) {}
-
-@media screen and (max-width:1920px) {}
-
-@media screen and (max-width:1366px) {}
-
-@media screen and (max-width:1199px) {}
-
-@media screen and (min-width: 1366px) {}
-
-@media screen and (max-width: 1024px) {
-
-    .de_text p {
-        font-size: 1.5em;
-    }
-
-    .tag_name p {
-        font-size: 1.4em;
-    }
-
-}
-
-@media screen and (max-width:912px) {
-
-
-    .de_text p {
-        font-size: 1.4em;
-    }
-
-    .tag_name p {
-        font-size: 1.2em;
-    }
-
-    .im-1 p {
-        font-size: 0.9em
-    }
-
-}
-
-@media screen and (max-width:833px) {
-
-    .tag_name p {
-        font-size: 1.1em;
-    }
-
-    .im-1 p {
-        font-size: 0.8em
-    }
-
-}
-
-
-@media screen and (max-width:768px) {
-
-    .img_pa {
-        flex-direction: column;
-        margin-top: 2%;
-        gap: 10px;
-    }
-
-    .img_container img {
-        height: 40%;
-        width: 40%;
-    }
-
-    .img_container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .tag_name p {
-        font-size: 1.0em;
-    }
-
-    .im-1 p {
-        font-size: 0.8em
-    }
-}
-
-@media screen and (max-width:600px) {
-    .tag_name p {
-        font-size: 1.0em;
-    }
-
-    .im-1 p {
-        font-size: 0.7em
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .tag_name p {
-        font-size: 0.8em;
-    }
-
-    .im-1 p {
-        font-size: 0.6em
-    }
-
-
-}
-
-@media screen and (max-width:540px) {
-
-    .tag_name p {
-        font-size: 0.7em;
-    }
-
-    .im-1 p {
-        font-size: 0.6em
-    }
-}
-
-
-
-@media screen and (max-width: 480px) {}
-
-
-@media screen and (max-width: 430px) {
-    .tag_name p {
-        font-size: 0.6em;
-    }
-
-    .im-1 p {
-        font-size: 0.6em
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .will_imgs {
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 2%;
-    }
-
-    .im-1 img {
-        height: 40%;
-        width: 40%;
-    }
-
-    .im-1 {
-        flex-direction: row;
-        gap: 4%;
-
-    }
-
-    .tag_name p {
-        font-size: 0.55em;
-    }
-
-    .im-1 p {
-        font-size: 0.7em;
-        max-width: 45%;
-        text-align: center;
-        margin-top: 7%;
-
-    }
-
-}
-
-@media screen and (max-width: 376px) {
-
-    .tag_name p {
-        font-size: 0.5em;
-    }
-
-    .im-1 p {
-        font-size: 0.6em;
-        max-width: 45%;
-        text-align: center;
-
-
-    }
-
-}
-
-@media screen and (max-width:2500px) {}
-
-@media screen and (max-width:1920px) {}
-
-@media screen and (max-width:1366px) {}
-
-@media screen and (max-width:1199px) {}
-
-@media screen and (min-width: 1366px) {}
-
-@media screen and (max-width: 1024px) {
-    .edge p {
-        font-size: 1.5em;
-
-    }
-
-}
-
-@media screen and (max-width:912px) {
-
-    .edge p {
-        font-size: 1.4em;
-
-    }
-
-    .text_part p {
-        font-size: 1.0em;
-        line-height: 1.2em;
-        word-spacing: 0.10em;
-    }
-
-    #label_header {
-        font-size: 1.4em
-    }
-
-
-
-}
-
-@media screen and (max-width:833px) {
-    .edge p {
-        font-size: 1.3em;
-
-    }
-
-    .im p {
-        font-size: 0.9em;
-    }
-
-    .die p {
-        font-size: 0.9em;
-    }
-
-    .text_part p {
-        font-size: 0.9em;
-    }
-
-}
-
-
-@media screen and (max-width:768px) {
-    .edge p {
-        font-size: 1.2em;
-
-    }
-
-    .im p {
-        font-size: 0.8em;
-    }
-
-    .die p {
-        font-size: 0.8em;
-    }
-
-    #label_header {
-        font-size: 1.3em
-    }
-
-    .text_part p {
-        font-size: 0.8em;
-    }
-
-
-
-}
-
-@media screen and (max-width:600px) {
-    .edge p {
-        font-size: 1.1em;
-
-    }
-
-    #label_header {
-        font-size: 1.0em
-    }
-
-    .die_div {
-        margin-top: 1%;
-    }
-
-    .text_part p {
-        font-size: 0.7em;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .edge p {
-        font-size: 1.0em;
-
-    }
-
-    .text_part p {
-        font-size: 0.6em;
-    }
-
-    .im {
-        width: 200px;
-        height: 200px;
-
-
-    }
-
-    .punch_part {
-        margin-top: 1%;
-    }
-
-    .die {
-        width: 150px;
-        height: 150px;
-    }
-
-
-
-}
-
-@media screen and (max-width:540px) {
-    .edge p {
-        font-size: 0.9em;
-
-    }
-
-    #label_header {
-        font-size: 0.9em
-    }
-
-    .im {
-        width: 180px;
-        height: 180px;
-
-
-    }
-
-    .die {
-        width: 130px;
-        height: 130px;
-    }
-
-    .im p {
-        font-size: 0.5em;
-    }
-
-    .die p {
-        font-size: 0.5em;
-    }
-}
-
-
-
-@media screen and (max-width: 480px) {
-    .edge p {
-        font-size: 0.8em;
-
-    }
-
-    #label_header {
-        font-size: 0.8em
-    }
-
-    .text_part p {
-        font-size: 0.5em;
-    }
-
-
-}
-
-
-@media screen and (max-width: 430px) {
-    .edge p {
-        font-size: 0.7em;
-
-    }
-
-    #label_header {
-        font-size: 0.7em
-    }
-
-    .text_part p {
-        font-size: 0.6em;
-    }
-
-    .im p {
-        font-size: 0.5em;
-    }
-
-    .die p {
-        font-size: 0.5em;
-    }
-}
-
-@media screen and (max-width: 390px) {
-
-    .text_part p {
-        font-size: 0.5em;
-    }
-
-    #label_header {
-        font-size: 0.6em
-    }
-
-    .im {
-        width: 140px;
-        height: 140px;
-
-
-    }
-
-    .die {
-        width: 110px;
-        height: 110px;
-    }
-
-    .im p {
-        font-size: 0.4em;
-    }
-
-    .die p {
-        font-size: 0.4em;
-    }
-}
-
-@media screen and (max-width: 376px) {
-
-    .text_part p {
-        font-size: 0.4em;
-    }
-
-    #label_header {
-        font-size: 0.5em
-    }
-
-    .im {
-        width: 130px;
-        height: 130px;
-
-
-    }
-
-    .die {
-        width: 100px;
-        height: 100px;
-    }
-
-    .im p {
-        font-size: 0.35em;
-    }
-
-    .die p {
-        font-size: 0.35em;
-    }
-
-
-}
-
-@media screen and (max-width: 344px) {}
-
-@media screen and (max-width: 336px) {}
-
-@media screen and (max-width: 294px) {}
-
-@media screen and (max-width: 256px) {}
-
-
-@media screen and (max-width:2500px) {}
-
-@media screen and (max-width:1920px) {}
-
-@media screen and (max-width:1366px) {}
-
-@media screen and (max-width:1199px) {}
-
-@media screen and (min-width: 1366px) {}
-
-/* @media screen and (max-width: 1024px){
-    .edge p{
-        font-size: 1.4em; 
-    
-    }
-   
-    
-} */
-
-/* @media screen and (max-width:912px){
-  
-    .heavy_img img{
-        width: 100%;
-        height: 80%;   
-    }
-     #front{
-        font-size: 1.5em; 
-    }
-     #frout_text{
-        font-size: 0.95em; 
-    }
-    
-   
-} */
-/* @media screen and (max-width:833px){
-    #front{
-        font-size: 1.5em; 
-    }
-    #frout_text{
-        font-size: 0.85em; 
-    }
-    .heading_part_1 #Edge_h{
-        font-size: 1.5em; 
-    
-    }
-    .heading_part_1 #edge_b{
-        font-size: 1.5em; 
-    }
-} */
-
-
-/* @media screen and (max-width:768px){
- 
-     #front{
-        font-size: 1.4em; 
-    }
-     #frout_text{
-        font-size: 0.8em; 
-    }
-    .heading_part_1 #Edge_h{
-        font-size: 1.4em; 
-    
-    }
-    .heading_part_1 #edge_b{
-        font-size: 1.4em; 
-    }
-   
-
-} */
-/* @media screen and (max-width:600px){
-     #front{
-        font-size: 1.3em;
-    }
-     #frout_text{
-        font-size: 0.7em; 
-    }
-    .heading_part_1 #Edge_h{
-        font-size: 1.3em; 
-    
-    }
-    .heading_part_1 #edge_b{
-        font-size: 1.3em; 
-    }
-} */
-
-@media screen and (max-width: 575px) {}
-
-@media screen and (max-width:540px) {}
-
-
-
-@media screen and (max-width: 480px) {}
-
-
-@media screen and (max-width: 430px) {}
-
-@media screen and (max-width: 390px) {}
-
-@media screen and (max-width: 376px) {}
-
-@media screen and (max-width: 344px) {}
-
-@media screen and (max-width: 336px) {}
-
-@media screen and (max-width: 294px) {}
-
-@media screen and (max-width: 256px) {}
-
-
-@media screen and (max-width:2500px) {}
-
-@media screen and (max-width:1920px) {}
-
-@media screen and (max-width:1366px) {}
-
-@media screen and (max-width:1199px) {}
-
-@media screen and (min-width: 1366px) {}
-
-@media screen and (max-width: 1024px) {
-    .hydraulic_c p {
-
-
-        font-size: 1.5em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 1.3em;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.9em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.9em
-    }
-
-    #jj {
-
+    #label_of_machine{
         font-size: 0.7rem;
-
     }
 
 
 }
 
-@media screen and (max-width:912px) {
-    .hydraulic_c p {
-
-
-        font-size: 1.4em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 1.2em;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.8em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.8em
-    }
-
-    #jj {
-
-        font-size: 0.6rem;
-
-    }
-
-
-
-
-}
-
-@media screen and (max-width:833px) {
-
-    .hydraulic_c p {
-
-
-        font-size: 1.3em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 1.1em;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.7em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.7em
-    }
-
-    #jj {
-
-        font-size: 0.6rem;
-
-    }
-
-}
-
-
-@media screen and (max-width:768px) {
-
-    .hydraulic_c p {
-
-
-        font-size: 1.2em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 1.0em;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.6em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.6em
-    }
-
-    #jj {
-
-        font-size: 0.5rem;
-        line-height: 0.8rem;
-
-    }
-
-}
-
-@media screen and (max-width:600px) {
-    .hydraulic_c p {
-
-
-        font-size: 1.1em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 0.85em;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.5em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.6em
-    }
-
-    #jj {
-
-        font-size: 0.4rem;
-        line-height: 0.6rem;
-
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .h_images {
-        flex-direction: column;
-        gap: 5px;
-        margin-top: 2%;
-    }
-
-    .hydraulic_c p {
-
-
-        font-size: 1.0em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 0.85em;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.9em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.9em
-    }
-
-    #jj {
-
-        font-size: 0.8rem;
-        line-height: 1.0rem;
-        margin-top: 1%;
-
-    }
-
-    .hydro_part {
-        flex-direction: column;
-        transform: translateX(10%);
-        gap: 20px;
-        padding-bottom: 3%;
-
-    }
-
-}
-
-@media screen and (max-width:540px) {
-    .h_images {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .hydraulic_c p {
-
-
-        font-size: 0.9em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 0.8em;
-        padding: 3%;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.9em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.9em
-    }
-
-
-}
-
-
-
-@media screen and (max-width: 480px) {
-
-    .hydraulic_c p {
-
-
-        font-size: 0.85em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 0.75em;
-        padding: 3%;
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.8em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.8em
-    }
-
-}
-
-
-@media screen and (max-width: 430px) {
-    .hydraulic_c p {
-
-
-        font-size: 0.80em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 0.7em;
-
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.7em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.7em
-    }
-
-    #jj {
-
-        font-size: 0.7rem;
-        line-height: 1.0rem;
-
-
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .hydraulic_c p {
-
-
-        font-size: 0.70em;
-
-
-    }
-
-    .h_s_tag p {
-        font-size: 0.6em;
-
-
-
-    }
-
-    .h_im_1 p {
-
-        font-size: 0.6em;
-
-    }
-
-    #d_img_part {
-        font-size: 0.7em
-    }
-
-    #jj {
-
-        font-size: 0.6rem;
-        line-height: 1.0rem;
-
-
-    }
-
-}
-
-
-@media screen and (max-width:2500px) {}
-
-@media screen and (max-width:1920px) {}
-
-@media screen and (max-width:1366px) {}
-
-@media screen and (max-width:1199px) {}
-
-@media screen and (min-width: 1366px) {}
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width:912px) {}
-
-@media screen and (max-width:833px) {}
-
-
-@media screen and (max-width:768px) {
-    .item_div p {
-        font-size: 0.8rem;
-    }
-
-    .hydraulic_c p {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width:600px) {}
-
-@media screen and (max-width: 575px) {}
-
-@media screen and (max-width:540px) {}
-
-
-
-@media screen and (max-width: 480px) {}
-
-
-@media screen and (max-width: 430px) {}
-
-@media screen and (max-width: 390px) {}
-
-@media screen and (max-width: 376px) {}
-
-@media screen and (max-width: 344px) {}
-
-
-
-@media screen and (max-width: 336px) {}
-
-@media screen and (max-width: 294px) {}
-
-@media screen and (max-width: 256px) {}
-
-
-@media screen and (max-width:768px) {
-    .accessories_label p {
-        font-size: 1rem;
-    }
-
-    .tag_2 p {
-        font-size: 0.8rem;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .accessories_label p {
-        font-size: 0.8rem;
-    }
-
-    .tag_2 p {
-        font-size: 0.4rem;
-    }
-}

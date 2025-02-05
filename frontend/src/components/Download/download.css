@@ -276,7 +276,7 @@
 
 }
 
-@media screen and (max-width: 387px){
+@media screen and (max-width: 400px){
     
   #Download_tag{
     font-size: 0.8rem;
@@ -285,7 +285,7 @@
 
   }
   .Down_part{
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
   }
   

@@ -1,10 +1,10 @@
 import React from 'react'
 import './CNC_controller.css'
 
-import ps8 from './Imges/8ps.png';
-import ps12 from './Imges/12ps.png'
-import ps15 from './Imges/15ps.png'
-import mx24 from './Imges/24mx.png'
+import ps8 from './Imges/ps8.png';
+import ps12 from './Imges/ps12.png'
+import ps15 from './Imges/ps15.png'
+import mx24 from './Imges/mx24.png'
 
 const Cybelic = () => {
   return (
@@ -15,17 +15,17 @@ const Cybelic = () => {
               {/* CYBELEC part */}
               <div className="delem_main_div">
                
-                  <div className="products">
-                    <div className="p_1">
-                      <div className="label">
-                        <p>DA- 53 T</p>
-                      </div>
+                  <div className="machine_mega_div">
+                    <div className="machine_two_pair">
+                     
+                        <p id='label_of_machine'>DA- 53 T</p>
+                  
       
-                      <div className="label_img">
-                        <img src={ps8} alt="" />
-                      </div>
+                     
+                        <img id='img_of_machine' src={ps8} alt="" />
+                    
       
-                      <div className="product_desc">
+                      <div className="desc_of_machine">
                         <ul>
                           <li>"Hot-key" touch navigation</li>
                           <li>"10.1" high resolution colour TFT</li>
@@ -39,15 +39,15 @@ const Cybelic = () => {
                         </ul>
                       </div>
                     </div>
-                    <div className="p_2">
-                      <div className="label">
-                        <p>DA- 58 T</p>
-                      </div>
-                      <div className="label_img">
-                        <img src={ps12} alt="" />
-                      </div>
+                    <div className="machine_two_pair" id='da_58' >
+                      
+                        <p id='label_of_machine'>DA- 58 T</p>
+                      
+                   
+                        <img id='img_of_machine' src={ps12} alt="" />
+                      
       
-                      <div className="product_desc">
+                      <div className="desc_of_machine">
                         <ul>
                           <li>2D graphical touch screen programming</li>
                           <li>15" high resolution colour TFT</li>
@@ -62,17 +62,17 @@ const Cybelic = () => {
                   </div>
       
                   {/* 8.2 part */}
-                  <div className="products">
-                    <div className="p_1">
-                      <div className="label">
-                        <p>DA- 66 T</p>
-                      </div>
+                  <div className="machine_mega_div">
+                    <div className="machine_two_pair">
+                      
+                        <p id='label_of_machine'>DA- 66 T</p>
+                  
       
-                      <div className="label_img">
-                        <img src={ps15} alt="" />
-                      </div>
+                   
+                        <img  id='img_of_machine' src={ps15} alt="" />
+                    
       
-                      <div className="product_desc">
+                      <div className="desc_of_machine">
                         <ul>
                           <li>2D graphical touch screen programming mode</li>
                           <li>17" high resolution colour TFT</li>
@@ -84,15 +84,15 @@ const Cybelic = () => {
                         </ul>
                       </div>
                     </div>
-                    <div className="p_2">
-                      <div className="label">
-                        <p>DA- 69 T</p>
-                      </div>
-                      <div className="label_img">
-                        <img src={mx24} alt="" />
-                      </div>
+                    <div className="machine_two_pair" id='da_69'>
+                      
+                        <p id='label_of_machine'>DA- 69 T</p>
+                 
+                      
+                        <img id='img_of_machine' src={mx24} alt="" />
+                   
       
-                      <div className="product_desc">
+                      <div className="desc_of_machine">
                         <ul>
                           <li>3D and 2D graphical touch screen programming mode</li>
                           <li>3D visualisation in simulation and production</li>

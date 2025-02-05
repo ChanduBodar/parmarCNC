@@ -61,7 +61,7 @@ const Standard_Components = () => {
                 <img src={weel_holder_1} alt="Wila Tool Holder 1" />
                 <p>Wila style hydraulic/Pneumatic/Manual with anti deflection system</p>
               </div>
-              <div className="im-1">
+              <div className="im-1" id='img_2_will_tool'>
                 <img src={weel_holder_2} alt="Wila Tool Holder 2" />
                 <p>Wila style hydraulic/Pneumatic/Manual die hold</p>
               </div>
