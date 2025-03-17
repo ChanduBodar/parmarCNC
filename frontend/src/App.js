@@ -2,7 +2,7 @@
 import './App.css';
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate,useLocation  } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';  
 import HomePage from './components/Home/Home';
 import CompanyPage from './components/Company/Company';
@@ -25,23 +25,47 @@ import Delem from './components/Products/CNC_Controller/Delem';
 import Cybelic from './components/Products/CNC_Controller/Cybelic';
 import Step from './components/Products/CNC_Controller/Step';
 import Standard_Components from './components/Products/CNC_Controller/Standard_Components';
+import Login from "./components/Authentication/Login";
+import Signup from "./components/Authentication/Signup";
+const isAuthenticated = () => {
+  return localStorage.getItem("auth") === "true"; // Check if user is logged in
+};
 
+const Layout = ({ children }) => {
+  const location = useLocation();
+  const isAuthPage = location.pathname === "/login" || location.pathname === "/signup";
+
+  return (
+    <>
+      {!isAuthPage && <Navbar />} {/* Hide Navbar on login/signup pages */}
+      {children}
+      {!isAuthPage && <Footer />} {/* Hide Footer on login/signup pages */}
+    </>
+  );
+};
 
 function App() {
   return (
     <div className='container'>
        <Router>
-    
-      <Navbar />
+       <Layout>
+     
       
       
       <div>
         <ScrollTotop/>
         <Routes>
+
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
           
-           <Route path="/" element={<HomePage />} />
-           <Route path="/company" element={<CompanyPage />} />
-           <Route path="/products" element={<ProductsPage />}/>
+        <Route path="/" element={isAuthenticated() ? <HomePage /> : <Navigate to="/login" />} />
+        <Route path="/company" element={isAuthenticated() ? <CompanyPage /> : <Navigate to="/login" />} />
+        <Route path="/products" element={isAuthenticated() ? <ProductsPage /> : <Navigate to="/login" />} />
+        <Route path="/event" element={isAuthenticated() ? <EventPage /> : <Navigate to="/login" />} />
+        <Route path="/download" element={isAuthenticated() ? <DownloadPage /> : <Navigate to="/login" />} />
+        <Route path="/videos" element={isAuthenticated() ? <VideosPage /> : <Navigate to="/login" />} />
+        <Route path="/contact" element={isAuthenticated() ? <ContactPage /> : <Navigate to="/login" />} />
            <Route path="/cnc_press" element={<CNC_press/>} />
           <Route path="/edge_series" element={<Edge_series/>} />
           <Route path="/delem" element={<Delem/>} />
@@ -53,18 +77,17 @@ function App() {
           <Route path="/Synchro_hydrelic" element={<Snchro_hydrlic_press_break/>} /> 
           <Route path="/Shering_machine" element={<Shering/>} />
           <Route path="/hydrolic_sharing_machine" element={<Hydrolic_Sharing/>} />
-          <Route path="/event" element={<EventPage />} />
-          <Route path="/download" element={<DownloadPage />} />
-          <Route path="/videos" element={<VideosPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+         
+          
+          
          
       
         </Routes>
       </div>
 
-      <Footer/>
+      
       <BToT/>
-
+      </Layout>
     </Router>
     </div>
    

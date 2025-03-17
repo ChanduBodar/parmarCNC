@@ -3,7 +3,7 @@
 export const heroData = {
     title: "WELCOME TO",
     subtitle: "PARMAR CNC MACHINES (INDIA) LLP",
-    heroImage: require("../Images/Home_welcome_image.jpg")
+    heroImage: require("../Images/parmar 1.webp")
   };
   
   export const textContent1 = `
