@@ -1,0 +1,435 @@
+:root {
+    --color: #A5C847;
+}
+
+
+
+.border {
+    height: 100%;
+    width: 100%;
+    margin-left: 1%;
+
+}
+
+.border img {
+    height: 100%;
+    width: 98%;
+
+}
+/* Part 3 - Enhanced with animations */
+.Hyralic_3 {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    justify-content: center;
+    width: 98%;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.Hyralic_3_img_1, 
+.Hyralic_3_img_2 {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards;
+}
+
+.Hyralic_3_img_1 {
+    animation-delay: 0.2s;
+}
+
+.Hyralic_3_img_2 {
+    animation-delay: 0.4s;
+}
+
+.Hyralic_3_img_1 img {
+    height: 50%;
+    width: 85%;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.Hyralic_3_img_1:hover img {
+    transform: scale(1.02);
+}
+
+.Hyralic_3_img_2 img {
+    height: 50%;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.Hyralic_3_img_2:hover img {
+    transform: scale(1.02);
+}
+
+.hyralic_last_img {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards 0.6s;
+}
+
+.hyralic_last_img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.f_part {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.f_part p {
+    padding: 5% 0;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+#hydrolic_img {
+    height: 100%;
+    width: 90%;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.hyralic_last_img:hover #hydrolic_img {
+    transform: scale(1.05);
+}
+
+.cyb_part {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cyb_part p {
+    padding: 5% 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Part 5 - Enhanced with animations and better layout */
+.part_5 {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: space-around;
+    background-color: #4D4F48;
+    color: white;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transform: scale(0.95);
+    opacity: 0;
+    animation: scaleIn 0.5s forwards 0.8s;
+}
+
+.part_5:hover {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    transform: scale(1);
+}
+
+.part_5_1, 
+.part_5_3 {
+    flex: 1;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.part_5_1:hover, 
+.part_5_3:hover {
+    transform: translateY(-5px);
+}
+
+.second_label_data {
+    flex: 1;
+    padding: 1rem;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+
+.second_label_data:hover {
+    transform: translateY(-5px);
+}
+
+.first_label {
+    margin-bottom: 1.5rem;
+}
+
+.first_label p {
+    font-weight: 600;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 1.3em;
+    color: var(--primary-color);
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    display: inline-block;
+}
+
+.first_label_data ul, 
+.second_label_data ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.first_label_data ul li, 
+.second_label_data ul li {
+    max-width: 100%;
+    font-size: 1.0rem;
+    word-spacing: 0.1rem;
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.5;
+}
+
+.first_label_data ul li:before, 
+.second_label_data ul li:before {
+    content: "•";
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+    .Hyralic_3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .Hyralic_3_img_1, 
+    .Hyralic_3_img_2 {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .hyralic_last_img {
+        width: 80%;
+        margin-top: 1rem;
+    }
+    
+    .part_5 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .second_label_data {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Hyralic_3_img_1 img, 
+    .Hyralic_3_img_2 img {
+        width: 100%;
+    }
+    
+    .first_label p {
+        font-size: 1.5em;
+    }
+    
+    .first_label_data ul li, 
+    .second_label_data ul li {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hyralic_3_img_1, 
+    .Hyralic_3_img_2 {
+        width: 95%;
+    }
+    
+    .hyralic_last_img {
+        width: 95%;
+    }
+    
+    .first_label p {
+        font-size: 1.2em;
+    }
+    
+    .first_label_data ul li, 
+    .second_label_data ul li {
+        font-size: 0.8rem;
+    }
+}
+
+/* Special styles specifically for the hydraulic press image */
+#hydraulic_press_brake_page .img_and_data .hy_img_part {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: none;
+    transition: all 0.5s ease;
+    animation: fadeInRight 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    position: relative;
+    padding: 0;
+    background: transparent;
+}
+
+/* Add a simple background to ensure image visibility */
+#hydraulic_press_brake_page .img_and_data {
+    background: transparent;
+}
+
+/* Target only this specific image */
+#hydraulic_press_brake_page .img_and_data .hy_img_part .hydraulic-press-no-bg {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    object-fit: contain;
+    max-height: 450px;
+    filter: drop-shadow(0px 8px 15px rgba(0,0,0,0.2));
+}
+
+#hydraulic_press_brake_page .img_and_data .hy_img_part:hover {
+    transform: translateY(-5px);
+}
+
+#hydraulic_press_brake_page .img_and_data .hy_img_part:hover .hydraulic-press-no-bg {
+    transform: scale(1.03);
+    filter: drop-shadow(0px 12px 20px rgba(0,0,0,0.25));
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive adjustments for img_and_data */
+@media screen and (min-width: 1200px) {
+    #hydraulic_press_brake_page .img_and_data {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+        background: transparent;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .Datapart_main_part {
+        width: 48%;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .hy_img_part {
+        width: 48%;
+    }
+}
+
+/* Medium devices */
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    #hydraulic_press_brake_page .img_and_data {
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+        background: transparent;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .Datapart_main_part {
+        width: 52%;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .hy_img_part {
+        width: 43%;
+        margin-left: 2rem;
+    }
+}
+
+/* Small devices */
+@media screen and (max-width: 767px) {
+    #hydraulic_press_brake_page .img_and_data {
+        flex-direction: column;
+        padding: 1.5rem;
+        background: transparent;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .Datapart_main_part {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .hy_img_part {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding: 0;
+        animation: fadeInUp 1s ease;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .hy_img_part .hydraulic-press-no-bg {
+        max-height: 380px;
+    }
+}
+
+/* Ensure the image is properly displayed on very small screens */
+@media screen and (max-width: 480px) {
+    #hydraulic_press_brake_page .img_and_data .hy_img_part {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #hydraulic_press_brake_page .img_and_data .hy_img_part .hydraulic-press-no-bg {
+        max-height: 320px;
+    }
+}

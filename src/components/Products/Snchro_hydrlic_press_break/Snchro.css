@@ -1,0 +1,37 @@
+#snchro_img{
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.5s ease;
+    transform: translateX(15%);
+}
+#snchro_img:hover {
+    transform: scale(1.02);
+}
+.img_and_data_1{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    background: var(--light-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+.img_and_data_1:hover{
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+.img_and_data_1 img {
+    width: 30%;
+    height: auto;
+    border-radius: 4px;
+    animation: float 3s ease-in-out infinite;
+  }
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  

@@ -1,0 +1,398 @@
+:root {
+    --primary-color: #A5C847;
+    --secondary-color: #4D4F48;
+    --text-light: #FFFFFF;
+    --text-dark: #333333;
+    --animation-duration: 0.3s;
+  }
+  
+  /* Base Styles */
+  .main_div {
+    margin-top: 9.5%;
+    margin-bottom: 2%;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Technical Specification Section */
+  
+  .Tech_images {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 10%;
+    gap: 20px;
+    animation: fadeInUp var(--animation-duration) ease-out;
+  }
+  
+  .Tech_images img {
+    width: 40%;
+    height: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .Tech_images img:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Standard Components Section */
+  .std_com {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    justify-content: space-around;
+    padding: 3% 2%;
+    margin: 1%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp var(--animation-duration) ease-out;
+  }
+  
+  .std_com_1, .std_com_2 {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px 0;
+  }
+  
+  .std_label {
+    margin-bottom: 15px;
+  }
+  
+  .std_label p {
+    color: var(--primary-color);
+    font-size: 1.45rem;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .std_label p::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+  }
+  
+  .std_label_data, .std_label_data_2 {
+    padding-left: 20px;
+  }
+  
+  .std_label_data ul, .std_label_data_2 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .std_label_data ul li, .std_label_data_2 ul li {
+    color: var(--text-light);
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.4;
+    transition: all 0.2s ease;
+  }
+  
+  .std_label_data ul li:hover, .std_label_data_2 ul li:hover {
+    transform: translateX(5px);
+  }
+  
+  .std_label_data ul li::before, .std_label_data_2 ul li::before {
+    content: '•';
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+  }
+  
+  /* Shearing Controller Section */
+  #shearing_label, #excellence_pabel {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--text-light);
+    padding: 0.7%;
+    font-size: 1.4rem;
+    margin: 1%;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn var(--animation-duration) ease-out;
+  }
+  
+  .sharig_images {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    width: 98%;
+    margin: 1% auto;
+    padding: 2% 0;
+    border-radius: 8px;
+    animation: fadeInUp var(--animation-duration) ease-out;
+  }
+  
+  .image_div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 2% 3%;
+    align-items: center;
+  }
+  
+  .im_label {
+    position: relative;
+    flex: 1;
+    min-width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .im_label:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .i_sharing {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  
+  .im_label:hover .i_sharing {
+    transform: scale(1.05);
+  }
+  
+  .d_label {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .d_label p {
+    color: var(--text-light);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .shering_data {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .shering_data ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shering_data ul li {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.5;
+    transition: all 0.2s ease;
+  }
+  
+  .shering_data ul li:hover {
+    color: var(--primary-color);
+    transform: translateX(5px);
+  }
+  
+  .shering_data ul li::before {
+    content: '→';
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Excellence Section */
+  .ex_img {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 98%;
+    margin: 1% auto;
+    padding: 3% 2%;
+    border-radius: 8px;
+    /* animation: fadeInUp var(--animation-duration) ease-out; */
+  }
+  
+  .ex_img_1 {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+  }
+  
+  /* .ex_img_1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  } */
+  
+  .ex_img_1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  
+  .ex_img_1:hover {
+    transform: scale(1.05);
+  }
+  
+  .ex_label {
+    background-color: var(--primary-color);
+    padding: 12px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .ex_img_1:hover .ex_label {
+    /* background-color: darken(var(--primary-color), 10%); */
+  }
+  
+  .ex_label p {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  /* Animations */
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 1200px) {
+    .img_and_data {
+      flex-direction: column;
+    }
+    
+    .img_and_data img {
+      width: 80%;
+      margin-top: 20px;
+    }
+    
+    .Tech_images {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .Tech_images img {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .std_com {
+      flex-direction: column;
+      padding: 5% 3%;
+    }
+    
+    .std_com_1, .std_com_2 {
+      margin-bottom: 30px;
+    }
+    
+    .image_div {
+      flex-direction: column;
+    }
+    
+    .im_label {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #datapart_data, .shering_data ul li, .std_label_data ul li, .std_label_data_2 ul li {
+      font-size: 0.9rem;
+    }
+    
+    .std_label p, #shearing_label, #excellence_pabel, .d_label p, .ex_label p {
+      font-size: 1.1rem;
+    }
+    
+    .main_div {
+      margin-top: 15%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #datapart_data, .shering_data ul li, .std_label_data ul li, .std_label_data_2 ul li {
+      font-size: 0.8rem;
+    }
+    
+    .std_label p, #shearing_label, #excellence_pabel, .d_label p, .ex_label p {
+      font-size: 1rem;
+    }
+    
+    .img_and_data img {
+      width: 100%;
+    }
+    
+    .Tech_images img {
+      width: 100%;
+    }
+    
+    .main_div {
+      margin-top: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    #datapart_data, .shering_data ul li, .std_label_data ul li, .std_label_data_2 ul li {
+      font-size: 0.7rem;
+    }
+    
+    .std_label p, #shearing_label, #excellence_pabel, .d_label p, .ex_label p {
+      font-size: 0.9rem;
+    }
+    
+    .im_label, .ex_img_1 {
+      min-width: 100%;
+    }
+  }

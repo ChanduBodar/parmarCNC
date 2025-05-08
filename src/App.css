@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+:root{
+  --primary-color:#A5C847;
+  --secondary-color:#4D4F48;
+}
+ .container{
+  overflow: hidden;
+
+ }
+  
+@font-face {
+    font-family: 'Exo-2';
+    src: url('./font_styles/Exo2-VariableFont_wght.ttf')
+   
+  }
+  
+  body {
+    font-family: 'Exo-2';
+    
+  }
+  
+  code {
+    font-family: 'Exo-2';
+  }
+  :root{
+    --color:#A5C847;
+}

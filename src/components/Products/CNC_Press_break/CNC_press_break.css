@@ -1,0 +1,472 @@
+:root {
+    --background-dark: #5F5F5FE5;
+    --button-color: #4D4F48;
+    --text-white: #fff;
+    --transition-standard: 0.4s ease;
+    --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cnc_press {
+    overflow-x: hidden;
+    margin-top: 9.5%;
+}
+
+/* Part_1 */
+.machine_main_div {
+    position: relative;
+    display: block;
+    margin: 1% 0;
+    overflow: hidden;
+}
+
+.machine_main_div img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.8s ease;
+}
+
+.machine_main_div:hover img {
+    transform: scale(1.03);
+}
+
+.btn_and_img_div {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    opacity: 0;
+    animation: fadeIn 0.8s forwards 0.5s;
+}
+
+#main_machine_label {
+    padding: 2%;
+    font-weight: 600;
+    font-size: 1.4rem;
+    word-spacing: 0.2em;
+    color: var(--text-white);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: var(--button-color);
+
+    border-radius: 3px;
+    box-shadow: var(--box-shadow);
+    transition: all var(--transition-standard);
+    background-color: #4D4F48;
+
+
+}
+
+#machine_img {
+    height: 50%;
+    width: 45%;
+}
+
+#machine_img_5 {
+    height: 50%;
+    width: 30%;
+    height: auto;
+    display: block;
+    transition: transform 0.8s ease, filter 0.5s ease;
+    filter: brightness(0.9);
+    transform-origin: center;
+}
+
+#machine_img_5:hover img {
+    transform: scale(var(--hover-scale));
+    filter: brightness(0.85);
+}
+
+/* part-2 */
+:root {
+    --background-dark: #5F5F5FE5;
+    --button-color: #4D4F48;
+    --text-white: #fff;
+    --transition-standard: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    --hover-scale: 1.03;
+    --color-highlight: #4D4F48;
+    --text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cnc_press {
+    overflow-x: hidden;
+    margin-top: 9.5%;
+    perspective: 1000px;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Machine Main Div Styles */
+.machine_main_div_2 {
+    position: relative;
+    display: block;
+    margin: 1% 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    transition: all var(--transition-standard);
+}
+
+.machine_main_div_2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.machine_main_div_2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.8s ease, filter 0.5s ease;
+    filter: brightness(0.9);
+    transform-origin: center;
+
+}
+
+.machine_main_div_2:hover img {
+    transform: scale(var(--hover-scale));
+    filter: brightness(0.85);
+}
+
+/* Button and Image Div */
+.btn_and_img_div_2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    opacity: 0;
+    animation: fadeIn 0.8s forwards 0.5s;
+    will-change: transform, opacity;
+
+
+}
+
+/* Labels and Buttons */
+#main_machine_label_2,
+#machine_label_2 {
+    padding: 3%;
+    font-weight: 600;
+    font-size: 1.4rem;
+    word-spacing: 0.2em;
+    color: var(--text-white);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: var(--button-color);
+    border-radius: 3px;
+    box-shadow: var(--box-shadow);
+    transition: all var(--transition-standard);
+    text-shadow: var(--text-shadow);
+    /* backdrop-filter: blur(4px); */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    width: 110%;
+}
+
+#main_machine_label_2:hover,
+#machine_label_2:hover {
+    background-color: #3a3c36;
+    transform: translateY(-3px);
+}
+
+/* Machine Image */
+#machine_img,
+#part_3_img,
+#part_4_img,
+#part_5_img {
+    transition: all var(--transition-standard);
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.3));
+    transform-origin: center;
+}
+
+#machine_img:hover,
+#part_3_img:hover,
+#part_4_img:hover,
+#part_5_img:hover {
+    animation: pulse 1.5s infinite;
+    transform: scale(1.05);
+}
+
+/* View Button */
+#view_2 {
+    background-color: var(--color);
+    color: white;
+    border: none;
+    padding: 2%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+    width: 30%;
+    transform: translate(130%, 150%);
+    border-radius: 8px;
+    transition: all var(--transition-standard);
+    box-shadow: var(--box-shadow);
+    text-shadow: var(--text-shadow);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#view_2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(255, 255, 255, 0.3) 50%,
+            rgba(255, 255, 255, 0.15) 100%);
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+    z-index: -1;
+    border-radius: 8px;
+}
+
+#view_2:hover {
+    background-color: var(--color);
+    transform: translate(130%, 150%) scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+#view_2:hover::after {
+    transform: translateX(100%);
+}
+
+/* Optional: Add a pulse animation on hover */
+@keyframes buttonPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+#view_2:active {
+    animation: buttonPulse 0.5s;
+    transform: translate(130%, 150%) scale(0.98);
+}
+
+/* Machine Description */
+.machine_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-40%);
+    transition: all var(--transition-standard);
+}
+
+/* Part-specific adjustments */
+#part_3_div,
+#part_5_div {
+    transition: transform var(--transition-standard);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    #main_machine_label {
+        font-size: 1.8rem;
+    }
+
+    #machine_label {
+        font-size: 1.4rem;
+    }
+
+    #view {
+        font-size: 1.4rem;
+    }
+
+    #part_3_div {
+        transform: translateX(-3.7%);
+    }
+
+    #part_5_div {
+        transform: translateX(-4%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #main_machine_label_2,
+    #machine_label_2 {
+
+        font-size: 1.0rem;
+        padding: 3%;
+
+    }
+    .cnc_press {
+        overflow-x: hidden;
+        margin-top: 12%;
+    }
+
+    /* View Button */
+    #view_2 {
+
+        transform: translate(130%, 80%);
+        font-size: 1.0rem;
+
+
+    }
+
+}
+
+/* Continue with all your existing media queries... */
+/* Added smooth transitions for all responsive changes */
+@media screen and (max-width: 480px) {
+    #main_machine_label {
+        font-size: 0.8rem;
+    }
+    #main_machine_label_2,
+    #machine_label_2 {
+
+        font-size: 0.6rem;
+        padding: 3%;
+
+    }
+
+    /* View Button */
+    #view_2 {
+
+        transform: translate(130%, 40%);
+        font-size: 0.8rem;
+
+
+    }
+
+
+}
+@media screen and (max-width: 420px) {
+    #main_machine_label {
+        font-size: 0.7rem;
+    }
+    #main_machine_label_2,
+    #machine_label_2 {
+
+        font-size: 0.5rem;
+        padding: 3%;
+
+    }
+
+    /* View Button */
+    #view_2 {
+
+        transform: translate(130%, 40%);
+        font-size: 0.7rem;
+
+
+    }
+
+
+}
+
+/* Performance optimizations */
+img {
+    will-change: transform;
+}
+
+.btn_and_img_div {
+    will-change: transform, opacity;
+}
+
+/* Enhanced hover effects */
+.machine_main_div:hover .btn_and_img_div {
+    transform: translateY(-5px);
+}
+
+/* Loading animation */
+@keyframes shimmer {
+    0% {
+        background-position: -468px 0
+    }
+
+    100% {
+        background-position: 468px 0
+    }
+}
+
+.machine_main_div img {
+    background: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-size: 800px 104px;
+    animation: shimmer 1.5s infinite linear;
+}
+
+/* Remove shimmer after load */
+.machine_main_div img.loaded {
+    animation: none;
+    background: none;
+}

@@ -1,0 +1,1600 @@
+/**
+ * Parmar CNC - Home Page Styles
+ * Version: 1.0
+ */
+
+/* ==========================================================================
+   1. Imports & Variables
+   ========================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+:root {
+  /* Brand Colors */
+    --primary-color: #a3c64a;      /* Parmar green */
+  --primary-dark: #8bab3e;
+  --primary-light: #b4d35f;
+  --primary-glow: rgba(163, 198, 74, 0.4);
+    
+    /* Neutral Colors */
+  --secondary-color: #333333;
+  --secondary-dark: #222222;
+  --secondary-light: #555555;
+  --text-dark: #222222;
+  --text-light: #ffffff;
+  --bg-light: #f8f8f8;
+  --bg-dark: #111111;
+    
+    /* Gradients & Accents */
+  --bg-gradient: linear-gradient(135deg, #111111 0%, #333333 100%);
+  --accent-blue: #3e8bab;
+  --accent-orange: #e8a87c;
+
+    /* Shadows & Effects */
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 8px 16px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+  --shadow-hover: 0 16px 32px rgba(163, 198, 74, 0.3);
+  --shadow-primary: 0 8px 16px rgba(163, 198, 74, 0.25);
+
+    /* Transitions */
+  --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* ==========================================================================
+   2. Base Styles & Reset
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* ==========================================================================
+   3. Utility Classes
+   ========================================================================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.highlight {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   4. Button Styles
+   ========================================================================== */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-primary);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: var(--transition);
+  z-index: -1;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+  transition: 0.7s;
+}
+
+/* ==========================================================================
+   5. Hero Section
+   ========================================================================== */
+/* 5.1 Hero Container */
+.hero_box {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-dark);
+}
+
+/* 5.2 Hero Slides */
+.hero_slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    opacity: 1;
+    visibility: visible;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+    transition: transform 0.6s cubic-bezier(0.45, 0, 0.55, 1);
+    will-change: transform;
+  background-color: #000 !important;
+}
+
+.hero_slide:not(.active) {
+  transform: translateX(100%);
+}
+
+.hero_slide.active {
+  transform: translateX(0);
+  z-index: 2;
+}
+
+.hero_slide.slide-out {
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.hero_content {
+  flex: 0 0 45%;
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.6s cubic-bezier(0.45, 0, 0.55, 1);
+  transition-delay: 0.3s;
+}
+
+.hero_slide.active .hero_content {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero_image {
+  flex: 0 0 55%;
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.6s cubic-bezier(0.45, 0, 0.55, 1);
+  transition-delay: 0.4s;
+  
+}
+
+.hero_slide.active .hero_image {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* First slide specific enhancements */
+.hero_slide:first-child {
+  padding: 0;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--bg-dark);
+  height: 100vh;
+  width: 100%;
+}
+
+.hero_slide:first-child .hero_content {
+  flex: 0 0 50%;
+  text-align: left;
+  padding-left: 8%;
+  z-index: 2;
+  max-width: 650px;
+  animation: fadeInLeft 1.2s ease-out forwards;
+}
+
+.hero_slide:first-child .hero_image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards 0.5s;
+}
+
+.hero_slide:first-child .hero_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.9) contrast(1.05);
+  transition: transform 0.8s ease-out;
+}
+
+.hero_slide.active .hero_image img {
+  transform: scale(1);
+}
+
+/* Lighter overlay for better image visibility */
+.hero_slide:first-child::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.3) 100%);
+  z-index: 1;
+}
+
+/* Enhanced text styles for first slide */
+.hero_slide:first-child .hero_text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Reduced text boldness for better image visibility */
+.hero_slide:first-child .hero_text h1 {
+  font-size: clamp(2rem, 4vw, 3.8rem);
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.1;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+  position: relative;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.hero_slide:first-child .hero_text h1::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+
+  animation: lineExpand 1s ease-out forwards 0.5s;
+  transform-origin: left;
+}
+
+.hero_slide:first-child .hero_text h3 {
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  font-weight: 300;
+  color: var(--primary-light);
+  opacity: 0.95;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+  animation: fadeInUp 0.8s ease-out forwards 0.2s;
+  max-width: 90%;
+}
+
+.hero_slide:first-child .hero_button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  padding: clamp(12px, 2vw, 18px) clamp(24px, 3vw, 32px);
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-primary);
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.8s ease-out forwards 0.4s;
+  z-index: 10;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.hero_slide:first-child .hero_button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: var(--transition);
+  z-index: -1;
+}
+
+.hero_slide:first-child .hero_button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.hero_slide:first-child .hero_button:hover::before {
+  left: 100%;
+  transition: 0.7s;
+}
+
+/* Add scroll indicator for better UX */
+.scroll-indicator {
+  display: none;
+}
+
+/* Second slide specific styles */
+.hero_slide:nth-child(2) {
+  background-color: #000 !important;
+}
+
+.hero_slide:nth-child(2) .hero_content {
+  flex: 0 0 45%;
+  z-index: 2;
+  text-align: left;
+  position: relative;
+  padding-right: 40px;
+}
+
+.hero_slide:nth-child(2) .hero_text h1 {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero_slide:nth-child(2) .hero_text h3 {
+  color: var(--primary-light) !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Other slides keep original layout */
+.hero_slide:not(:first-child) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+.hero_slide:not(:first-child) .hero_image {
+  flex: 0 0 55%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero_slide:not(:first-child) .hero_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: var(--text-light);
+}
+
+.hero_text h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: var(--text-light);
+  line-height: 1.1;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out forwards;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero_text h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-light);
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out forwards 0.2s;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero_button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  padding: 18px 36px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out forwards 0.4s;
+  box-shadow: var(--shadow-primary);
+  z-index: 10;
+}
+
+.hero_button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* Enhanced navigation controls */
+.hero_navigation {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 10;
+}
+
+.hero_dots {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.hero_dot {
+  width: 30px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.hero_dot.active {
+  background: var(--primary-color);
+  width: 45px;
+  animation: dotPulse 2s infinite;
+}
+
+@keyframes dotPulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Navigation arrows - hide only on mobile */
+@media screen and (max-width: 726px) {
+    .hero_arrow {
+        display: none !important;
+    }
+}
+
+/* Keep navigation arrows visible for larger screens */
+.hero_arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.hero_arrow:hover {
+  background: var(--primary-color);
+  color: white;
+    transform: scale(1.1);
+}
+
+.hero_prev {
+  transform: rotate(180deg);
+}
+
+.hero_prev:hover {
+  transform: rotate(180deg) translateY(3px);
+}
+
+/* Two Name Container */
+.two_name_container {
+  margin: 8% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 8%;
+  position: relative;
+}
+
+.two_name_container::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 100px);
+  background: linear-gradient(135deg, var(--bg-light) 0%, white 50%, var(--bg-light) 100%);
+  z-index: -1;
+  transform: skewY(-3deg);
+}
+
+.two_name_container img {
+  width: 48%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition-bounce);
+  transform: translateY(0) rotate(0);
+  filter: saturate(0.9);
+}
+
+.two_name_container img:hover {
+  /* transform: translateY(-15px) rotate(-1deg); */
+  box-shadow: var(--shadow-hover);
+  filter: saturate(1.1);
+  transform: scale(1.02);
+}
+
+.two_name_container img:nth-child(2):hover {
+  /* transform: translateY(-15px) rotate(1deg); */
+  transform: scale(1.02);
+}
+
+/* Text Container */
+.text_container {
+  margin: 8% 12%;
+  padding: 60px;
+  background-color: var(--bg-light);
+  border-radius: 16px;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.text_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--primary-color), var(--primary-light));
+  z-index: -1;
+}
+
+.text_container::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200px;
+  height: 200px;
+  background-color: var(--primary-glow);
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.text_container p {
+  font-size: 1.3rem;
+  text-align: justify;
+  word-spacing: 0.2rem;
+  line-height: 1.9;
+  font-weight: 400;
+  color: var(--text-dark);
+  position: relative;
+}
+
+.text_container p::first-letter {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  float: left;
+  line-height: 1;
+  padding-right: 10px;
+}
+
+/* Stats Section */
+.stats-section {
+  padding: 8% 0;
+  background-color: var(--bg-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.stats-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../Images/pattern.svg") repeat;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.stat-item {
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-item:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-hover);
+}
+
+.stat-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.stat-number::after {
+  content: "+";
+  font-size: 1.8rem;
+  position: absolute;
+  top: 5px;
+  right: -20px;
+}
+
+.stat-title {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 8% 0;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--bg-light) 0%, white 100%);
+  z-index: 0;
+  transform: skewY(-3deg);
+}
+
+.testimonials-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonials-title::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: var(--primary-color);
+}
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.testimonials-container::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial-card {
+  flex: 0 0 350px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-hover);
+}
+
+.testimonial-quote {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.testimonial-quote::before {
+  content: '"';
+  position: absolute;
+  top: -20px;
+  left: 0;
+  font-size: 4rem;
+  color: var(--primary-light);
+  opacity: 0.5;
+  font-family: Georgia, serif;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--text-dark);
+  font-size: 1.2rem;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.author-title {
+  font-size: 0.9rem;
+  color: var(--secondary-light);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes lineExpand {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Overlap Image Section Styles */
+.over_lap_class_1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.overlap_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slide-up-fade-in 0.8s ease-out forwards;
+    animation-delay: calc(0.3s * var(--order, 1));
+    width: 100%;
+    max-width: 600px;
+}
+
+.side_of_text {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 5% 38%;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .overlap_1 {
+    padding: 5% 10%;
+  }
+}
+
+@keyframes slide-up-fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#home_product_img {
+    height: 60%;
+    width: 50%;
+    transform: translateX(60%);
+    transition: transform 0.5s ease, filter 0.5s ease;
+    filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.3));
+}
+
+.overlap_1:hover img {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
+.side_of_text p {
+    font-size: 2rem;
+    word-spacing: 0.3rem;
+    color: white;
+    margin-bottom: 3%;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    text-align: center;
+}
+
+.side_of_text:hover p {
+    transform: scale(1.03);
+}
+
+#learn_more_btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 5% 12%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+#learn_more_btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.4s ease;
+}
+
+#learn_more_btn:hover {
+    background-color: #b8dc4f;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#learn_more_btn:hover::before {
+    left: 100%;
+}
+
+/* First Carousel Mobile Text Fix */
+@media screen and (max-width: 766px) {
+  .hero_slide:first-child .hero_content {
+        margin-top: 80px;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero_slide:first-child .hero_content {
+        margin-top: 70px;
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .hero_slide:first-child .hero_content {
+        margin-top: 60px;
+        padding: 1rem;
+    }
+}
+
+/* Portrait phones */
+@media screen and (max-width: 380px) {
+  .hero_slide:first-child {
+    height: 55vh;
+  }
+
+  .hero_slide:first-child .hero_text h1 {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+  }
+
+  .hero_slide:first-child .hero_text h3 {
+    font-size: clamp(0.85rem, 2.5vw, 1rem);
+  }
+
+  .hero_slide:first-child .hero_image img {
+    object-position: center;
+  }
+
+  .hero_text h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero_text h3 {
+    font-size: 0.8rem;
+  }
+
+  .hero_button {
+    padding: 7px 12px;
+    font-size: 0.7rem;
+    min-width: 100px;
+    max-width: 50%;
+    letter-spacing: 0.4px;
+  }
+
+  .text_container p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero_text h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero_text h3 {
+    font-size: 0.8rem;
+  }
+
+  .hero_button {
+    padding: 8px 16px;
+    font-size: 0.75rem;
+  }
+
+  .text_container p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero_text {
+    top: 30%;
+    left: 5%;
+    padding-left: 10px;
+    line-height: 1.2;
+  }
+
+  .hero_text h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .hero_text h3 {
+    font-size: 0.8rem;
+  }
+
+  .hero_button {
+    padding: 6px 14px;
+    font-size: 0.7rem;
+  }
+
+  .text_container {
+    padding: 15px;
+  }
+
+  .text_container p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+}
+
+/* Handle different aspect ratios */
+@media screen and (max-aspect-ratio: 16 / 9) {
+  .hero_slide:first-child .hero_image img {
+    object-position: center;
+  }
+}
+
+/* Handle very tall screens */
+@media screen and (min-aspect-ratio: 2 / 1) {
+  .hero_slide:first-child {
+    height: 100vh;
+  }
+
+  .hero_slide:first-child .hero_image img {
+    object-position: center;
+  }
+}
+
+/* ==========================================================================
+   6. Responsive Design
+   ========================================================================== */
+/* 6.1 Tablet Devices (768px - 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero_slide:first-child {
+    height: 100vh;
+  }
+
+  .hero_slide:first-child .hero_image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Fix for 2nd and 3rd carousel slides - prevent titles from going into navbar */
+  .hero_slide:nth-child(2) .hero_content,
+  .hero_slide:nth-child(3) .hero_content {
+    margin-top: 80px;
+    padding-top: 20px;
+  }
+  
+  .hero_slide:nth-child(2) .hero_text h1,
+  .hero_slide:nth-child(3) .hero_text h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+  }
+  
+  .hero_slide:nth-child(2) .hero_text h3,
+  .hero_slide:nth-child(3) .hero_text h3 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+  }
+  
+  .hero_slide:nth-child(2) .hero_image,
+  .hero_slide:nth-child(3) .hero_image {
+    max-height: 80vh;
+    display: flex;
+    align-items: center;
+  }
+
+  /* ... existing tablet styles ... */
+}
+
+/* 6.2 Mobile Devices (up to 767px) */
+@media screen and (max-width: 767px) {
+    .hero_section {
+        height: auto;
+    }
+
+    .hero_slide {
+        height: 100vh;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    /* ... existing mobile styles ... */
+}
+
+/* 6.3 Small Mobile Devices (up to 480px) */
+@media screen and (max-width: 480px) {
+    .hero_text h1 {
+        font-size: 1.8rem;
+    }
+
+    /* ... existing small mobile styles ... */
+}
+
+/* 6.4 Extra Small Mobile Devices (up to 360px) */
+@media screen and (max-width: 360px) {
+    .hero_text h1 {
+        font-size: 1.5rem;
+    }
+
+    /* ... existing extra small mobile styles ... */
+}
+
+/* ==========================================================================
+   7. Animations
+   ========================================================================== */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ... existing animations ... */
+
+/* ==========================================================================
+   8. Print Styles
+   ========================================================================== */
+@media print {
+    .hero_navigation,
+  .hero_button {
+        display: none;
+    }
+}
+
+/* ... existing code ... */
+
+/* Mobile styles for hero section (320px to 766px) */
+@media screen and (max-width: 766px) {
+    .hero_section {
+        height: 100vh;
+        width: 100%;
+    }
+
+    /* First carousel slide */
+  .hero_slide:first-child {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero_slide:first-child .hero_image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .hero_slide:first-child .hero_image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero_slide:first-child::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+    }
+
+    .hero_slide:first-child .hero_content {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    .hero_slide:first-child .hero_text {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Second and third carousel slides */
+    .hero_slide:not(:first-child) {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .hero_slide:not(:first-child) .hero_content {
+        width: 50%;
+        order: 1;
+        padding-right: 1rem;
+        text-align: left;
+    }
+
+    .hero_slide:not(:first-child) .hero_image {
+        width: 50%;
+        order: 2;
+        height: auto;
+    }
+
+    .hero_slide:not(:first-child) .hero_image img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* Common styles for all slides */
+  .hero_text h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        color: white;
+  }
+
+  .hero_text h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+  }
+
+  .hero_button {
+        
+    font-size: 0.9rem;
+        display: inline-block;
+    }
+
+    /* Hide navigation arrows */
+    .hero_nav_button {
+        display: none;
+    }
+
+    /* Adjust dots navigation */
+    .hero_dots {
+        bottom: 20px;
+        width: 100%;
+        justify-content: center;
+        z-index: 10;
+    }
+
+    .hero_dot {
+        width: 8px;
+        height: 8px;
+        margin: 0 5px;
+        border-radius: 50%;
+    }
+}
+
+/* Hero slide image fixes */
+.hero_slide .hero_image {
+    outline: none;
+    border: none;
+}
+
+.hero_slide .hero_image img {
+    outline: none;
+    border: none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Second slide specific fix */
+.hero_slide:nth-child(2) .hero_image {
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+.hero_slide:nth-child(2) .hero_image img {
+    outline: none;
+    border: none;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/* Remove dotted lines and outlines from all carousel elements */
+.hero_slide,
+.hero_slide *,
+.hero_image,
+.hero_image img,
+.hero_content {
+    outline: none !important;
+    border: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.hero_slide:focus,
+.hero_slide:active,
+.hero_image:focus,
+.hero_image:active,
+.hero_image img:focus,
+.hero_image img:active {
+    outline: none !important;
+    border: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Specific fix for second slide */
+.hero_slide:nth-child(2),
+.hero_slide:nth-child(2) .hero_image,
+.hero_slide:nth-child(2) img {
+    outline: none !important;
+    border: none !important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Aggressive fix for second slide dotted line */
+.hero_slide:nth-child(2) {
+    outline: 0 !important;
+    border: 0 !important;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+.hero_slide:nth-child(2) * {
+    outline: 0 !important;
+    border: 0 !important;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+.hero_slide:nth-child(2) .hero_image {
+    outline: 0 !important;
+    border: 0 !important;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    position: relative;
+}
+
+.hero_slide:nth-child(2) .hero_image img {
+    outline: 0 !important;
+    border: 0 !important;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-user-drag: none !important;
+    -khtml-user-drag: none !important;
+    -moz-user-drag: none !important;
+    -o-user-drag: none !important;
+    user-drag: none !important;
+    pointer-events: none !important;
+}
+
+/* Remove any focus styles */
+.hero_slide:nth-child(2):focus,
+.hero_slide:nth-child(2):active,
+.hero_slide:nth-child(2):focus-within,
+.hero_slide:nth-child(2) *:focus,
+.hero_slide:nth-child(2) *:active {
+    outline: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+/* First slide explore button specific styles - for all devices */
+#first_slide_explore_btn {
+  position: relative;
+  z-index: 20;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  padding: 18px 36px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-primary);
+  display: inline-block; /* Ensure it's always visible */
+}
+
+#first_slide_explore_btn:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* Mobile styles for first slide explore button */
+@media screen and (max-width: 767px) {
+  #first_slide_explore_btn {
+    padding: 15px 30px;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 220px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+  }
+  
+  #first_slide_explore_btn:hover {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #first_slide_explore_btn {
+    bottom: 70px;
+    min-width: 180px;
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #first_slide_explore_btn {
+    bottom: 60px;
+    min-width: 160px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #first_slide_explore_btn {
+    bottom: 50px;
+    min-width: 140px;
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Third carousel slide specific styles if needed */
+.hero_slide:nth-child(3) {
+  background-color: #000 !important;
+}
+
+/* Mobile font size fix for first slide heading */
+@media screen and (max-width: 767px) {
+  .hero_slide:first-child .hero_text h1 {
+    font-size: 2.2rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+  }
+
+  .hero_slide:first-child .hero_text h3 {
+    font-size: 1.3rem !important;
+    line-height: 1.3 !important;
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero_slide:first-child .hero_text h1 {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero_slide:first-child .hero_text h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  .overlap_1 {
+    padding: 5% 10px 5% 10px !important;
+  }
+}
